@@ -34,7 +34,10 @@ void setup(){
   while(!Serial3);
 }
 
+//
 // Converts speed between 0 - 32 to 8 bit value
+//
+
 byte speedToByte(float Speed){
   // 0000 0000 =  0 km/t
   // 1111 1111 = 32 km/t
@@ -52,6 +55,10 @@ void printPORTF(byte byteInput){
   PORTF = byteInput;
 }
 
+//
+// Recieves radio message and updates state
+//
+
 void radio() {
   if (millis() >= radio_timer+50){
     radio_timer = millis();
@@ -68,7 +75,11 @@ void radio() {
   }
 }
 
-void printByte(byte toPrint){
+// 
+// Prints any arbitrary byte ending with a newline
+//
+
+void printByte(byte toPrint, boolean newline = true){
   Serial.print("B");
   for (int i = 0 ; i < 8 ; i ++){
     if (toPrint >> (7-i) & B00000001 > 0){
@@ -77,7 +88,9 @@ void printByte(byte toPrint){
       Serial.print("0");
     }
   }
-  Serial.print("\n");
+  if (newline){
+    Serial.print("\n");
+  }
 }
 
 // 
@@ -95,6 +108,10 @@ void emergencyBrakeSim(boolean reset = false){
     emergency = LOW;  
   } 
 }
+
+//
+// Prints info for debugging (uncomment printing def)
+//
 
 void printInfo(){
   Serial.println("\n");
