@@ -3,14 +3,16 @@
 const int parPin[8] = {A0,A1,A2,A3,A4,A5,A6,A7};
 const int ledPin = 8;
 const int ledBuiltIn = 13;
+const int emergencyPin = 2;
 
 int state = 0;                    // State message recieved from wireless module
 unsigned long radio_timer = 0;    // Previous radio check
 unsigned long lastMessage = 0;    // 0 Passive, 1 drive mode, 2 break mode
-byte testSpeed = 0;               // Variable to hold test speed
+float testSpeed = 0;               // Variable to hold test speed
 
 const float targetTestSpeed = 30;
 boolean connection = 0;
+boolean emergency = 0;
 
 #define printing
 
@@ -23,36 +25,13 @@ void setup(){
   pinMode(ledPin , OUTPUT);
   pinMode(ledBuiltIn , OUTPUT);
 
+  pinMode(emergencyPin,OUTPUT);
+
   // Init Serial3 for radio module
-  //Serial3.begin(9600);
+  Serial1.begin(9600);
   Serial.begin(115200);
-  //while(!Serial3);
-}
-
-void loop (){
- // radio();
-  switch (state){
-    case 0 :
-      connection = true;
-    case 1 :
-      int y;
-    case 2 :
-      testSpeed = 0;
-    case 3 : 
-      testSpeed = targetTestSpeed;
-    case 4 :
-      int z;
-    case 5:
-      connection = false;
-  }
-
-  // For manual byte speeds use LUT
-  // https://docs.google.com/spreadsheets/d/1tjVbEJDQM86xEJ1ZML0fflwT5099Dv2hnQkCQ6XT2BE/edit#gid=0
-  // printPORTF(insert_speed_from_lut_here);
-
-  // For automatic speed to byte rounding
-  printPORTF(speedToByte(targetTestSpeed));
-
+  while(!Serial);
+  while(!Serial3);
 }
 
 // Converts speed between 0 - 32 to 8 bit value
@@ -76,11 +55,11 @@ void printPORTF(byte byteInput){
 void radio() {
   if (millis() >= radio_timer+50){
     radio_timer = millis();
-    while (Serial3.available()>0) {
+    while (Serial1.available()>0) {
       digitalWrite(13, HIGH);
-      state = Serial3.read() - 48;         // Janky convertion from ASCI to decimal
+      state = Serial1.read() - 48;         // Janky convertion from ASCI to decimal
       lastMessage = millis();
-      digitalWrite(pin_led , HIGH);
+      digitalWrite(ledPin , HIGH);
     }
     if (lastMessage + 100 < millis()) { //Trouble. No radio connection.
       state = 5;                        //Car will stop
@@ -88,7 +67,6 @@ void radio() {
     }
   }
 }
-
 
 void printByte(byte toPrint){
   Serial.print("B");
@@ -100,4 +78,88 @@ void printByte(byte toPrint){
     }
   }
   Serial.print("\n");
+}
+
+// 
+// Main program loop
+//
+
+void emergencyBrakeSim(boolean reset = false){
+
+  // Logical LOW = emergency
+  if (reset == false){
+    digitalWrite(emergencyPin, LOW);
+    emergency = HIGH;  
+  } else {
+    digitalWrite(emergencyPin, HIGH); 
+    emergency = LOW;  
+  } 
+}
+
+void printInfo(){
+  Serial.println("\n");
+  Serial.print("Conn  : ");
+  if (connection) {
+     Serial.println("True");
+  } else {
+    Serial.println("False");
+  }
+
+    Serial.print("Emerg : ");
+  if (emergency) {
+     Serial.println("True");
+  } else {
+    Serial.println("False");
+  }
+  
+  Serial.print("State : "); Serial.println(state);
+  Serial.print("Speed : "); Serial.println(testSpeed);
+  Serial.print("Byte  : "); printByte(speedToByte(testSpeed));
+}
+
+// 
+// Main program loop
+//
+
+void loop (){
+  radio();
+  switch (state){
+    case 0 : // Connected
+      connection = true;
+      break;
+    case 1 : // Reset test
+      emergencyBrakeSim(true);
+      testSpeed = 0;
+      break;
+    case 2 : // Set target speed
+      testSpeed = targetTestSpeed;
+      break;
+    case 3 : // Reset sped
+      testSpeed = 0;
+      break;
+    case 4 : // Emergency brake
+      emergencyBrakeSim();
+      break;
+    //case 5:
+      //int y;
+  }
+
+  if (state != 5){
+    connection = true;
+  } else {
+    connection = false;
+  }
+
+  // For manual byte speeds use LUT
+  // https://docs.google.com/spreadsheets/d/1tjVbEJDQM86xEJ1ZML0fflwT5099Dv2hnQkCQ6XT2BE/edit#gid=0
+  // printPORTF(insert_speed_from_lut_here);
+
+  // For automatic speed to byte rounding
+  printPORTF(speedToByte(testSpeed));
+
+  #ifdef printing
+  printInfo();
+  #endif
+
+  //delay(250);
 }
