@@ -36,7 +36,8 @@ entity hastighedsbestemmerTop is
 	sensor_back			: in std_logic;
 	
 	speed_front 		: out std_logic_vector(7 downto 0);
-	speed_back			: out std_logic_vector(7 downto 0));
+	speed_back			: out std_logic_vector(7 downto 0)
+	);
 	
 end hastighedsbestemmerTop;
 

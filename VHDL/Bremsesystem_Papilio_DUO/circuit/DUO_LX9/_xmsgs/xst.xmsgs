@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 91: &lt;<arg fmt="%s" index="1">clk</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 102: &lt;<arg fmt="%s" index="1">clk</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 111: &lt;<arg fmt="%s" index="1">clk</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 119: &lt;<arg fmt="%s" index="1">clk</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="old" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 38: Unit &lt;<arg fmt="%s" index="1">motorstyringbehavioral</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

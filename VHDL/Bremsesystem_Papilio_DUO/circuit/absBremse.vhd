@@ -29,7 +29,7 @@ use IEEE.NUMERIC_STD.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity absBrems is
+entity absBremse is
 	port(
 		clk	:	in	std_logic;
 		noedbrems	:	in	std_logic;
@@ -37,9 +37,9 @@ entity absBrems is
 		baghjulHastighed	:	in	std_logic_vector(7 downto 0);
 		motorkraft	:	out	std_logic_vector(7 downto 0)
 	);
-end absBrems;
+end absBremse;
 
-architecture Behavioral of absBrems is
+architecture Behavioral of absBremse is
 	COMPONENT absSpeed
 		PORT(
 			backSpeed : IN std_logic_vector(7 downto 0);          
