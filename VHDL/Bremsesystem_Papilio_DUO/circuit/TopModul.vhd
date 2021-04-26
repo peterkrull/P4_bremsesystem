@@ -28,8 +28,8 @@ end bremsesystemTopModul;
 -- here all submodules will be instantiated
 architecture topmodule of bremsesystemTopModul is
     --signal alarm : std_logic ;
-    signal emergStop: std_logic ; 
-    --signal rotSens : std_logic_vector(1 downto 0) ;
+    signal emerg_stop: std_logic ; 
+    signal rotSens : std_logic_vector(1 downto 0) ;
     signal wantedSpeed : unsigned (7 downto 0);
     signal 
 
