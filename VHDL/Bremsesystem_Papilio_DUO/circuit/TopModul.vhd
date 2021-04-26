@@ -5,35 +5,51 @@ entity bremsesystemTopModul is
 	port(
 
         -- rotationssensorer
-        rotsens1 : in std_logic; -- Sensor 1
-        rotsens2 : in std_logic; -- Sensor 2
+        rotsens_front : in std_logic; -- Sensor 1
+        rotsens_rear : in std_logic; -- Sensor 2
 
         -- Afstandssensor
-		distSCL	:	inout	std_logic; -- SCL
-        distSDA	:	inout	std_logic; -- SDA
+		dist_SCL	:	inout	std_logic; -- SCL
+        dist_SDA	:	inout	std_logic; -- SDA
         
         -- Teststyring
-        speedPin(7 downto 0) : out std_logic_vector(7 downto 0); -- speed Pins
+        test_speed(7 downto 0) : out std_logic_vector(7 downto 0); -- speed Pins
 
         -- motor PWM output
-        motorPwm : out std_logic;   -- PWM output
-        motorDir : out std_logic;   -- Motor direction
+        motor_PWM : out std_logic;   -- PWM output
+        motor_select : out std_logic;   -- Motor direction
 
         -- Alarm bit
-        alarmBit : out std_logic    -- alarm pin
+        alarm_bit : out std_logic    -- alarm pin
 
 	);
 end bremsesystemTopModul;
 
 -- here all submodules will be instantiated
 architecture topmodule of bremsesystemTopModul is
-    --signal alarm : std_logic ;
-    signal emerg_stop: std_logic ; 
-    signal rotSens : std_logic_vector(1 downto 0) ;
-    signal wantedSpeed : unsigned (7 downto 0);
-    signal 
 
+    -- Internal signals
+    signal emerg_stop: std_logic; 
+    signal rear_speed : std_logic_vector(7 downto 0) ;
 
-
+    -- Motorstyring
+    entity work./src/motorstyring/motorstyring port map (
+        rotsens_front => rotsens_front,
+        rotsens_rear => rotsens_rear,
+        emerg_stop => emerg_stop,
+        test_speed => test_speed,
+        rear_speed => rear_speed,
+        motor_PWM => motor_PWM,
+        motor_select => motor_select
+    );
+    
+    -- Detektionssystem
+    entity work./src/detektionssystem/detektionssystem port map (
+        dist_SCL => x,
+        dist_SDA => x,
+        alarm_bit => x,
+        rear_speed => x,
+        emerg_stop => x
+    );
 
 end topmodule;
