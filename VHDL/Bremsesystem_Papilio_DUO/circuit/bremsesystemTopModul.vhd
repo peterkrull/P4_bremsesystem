@@ -1,1 +1,0 @@
--- Dette modul skal sammenbinde alle de resterende blokke, samt mappe porte fra de individuelle moduler til output pins på den tilgængelige hardware

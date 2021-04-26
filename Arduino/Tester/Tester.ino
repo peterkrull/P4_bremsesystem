@@ -58,13 +58,11 @@ void setup() {
   #endif
 }
 
-
-
 void loop() {
   // put your main code here, to run repeatedly:
   radio();
-  Serial.print("kicker"); Serial.println(pwm_kicker);
-  Serial.print("STATE"); Serial.println(state);
+  //Serial.print("kicker"); Serial.println(pwm_kicker);
+  //Serial.print("STATE"); Serial.println(state);
   if (state == 1) {}
   else if (state == 2){
      drive_script_v1();
@@ -76,7 +74,6 @@ void loop() {
     Serial.print("STOPPED");
     #endif
   } else if (state == 4){
-    Serial.println("*** STATE 4 ENTERED ***");
     stop_script();
     state = 3;
   }
@@ -90,7 +87,7 @@ void radio() {
       int serialval = Serial1.available();
       state = Serial1.read() - 48;         //Convert from ASCI to decimal (old)
       #ifdef printing
-      Serial.print(state);
+      //Serial.print(state);
       #endif
       lastMessage = millis();
       digitalWrite(pin_led , HIGH);
@@ -151,7 +148,6 @@ void pwm_out_v2(float duty){
   }
 }
 
-
 void scriptlet(unsigned long timeunder, float wanted, boolean linear, boolean stopping = false){
     boolean stopped = 0;
     unsigned long start_timer = millis();
@@ -172,16 +168,16 @@ void scriptlet(unsigned long timeunder, float wanted, boolean linear, boolean st
 
 // Main test script
 void drive_script_v1(){
-  time_factor = 0.4; // Slower accel
+  time_factor = 0.35; // Slower accel
   test_speed = 1;
-  scriptlet(50,0,false,false); // 100 ms off-time
-  scriptlet(3000,test_speed,true, false); // 3 seconds of accel
+  scriptlet(50,0,false,false); // 50 ms off-time
+  scriptlet(4000,test_speed,true, false); // 3 seconds of accel
   time_factor = 2; // Faster brake
   test_speed = 1;
-  scriptlet(50,0,false,false); // 100 ms off-time
+  scriptlet(10,0,false,false); // 5 ms off-time
   digitalWrite(pin_reverse, HIGH);
-  scriptlet(50,0,false,false); // 100 ms off-time
-  scriptlet(2000,-test_speed,true, true); // Brake for 3 seconds or until stopped - last param = stopping
+  scriptlet(15,0,false,false); // 15 ms off-time
+  scriptlet(2000,-test_speed,false, true); // Brake for 2 seconds or until stopped - last param = stopping
   scriptlet(250,0,false,false); // Force stop-state
   digitalWrite(pin_reverse, LOW);
 }
