@@ -6,8 +6,10 @@ unsigned long prev_hi = 0;
 unsigned long filter_prev = 0;
 const float pwm_kicker = 1000000/(float)freq;
 
+
 unsigned long lastMessage = 0;    //0 Stand still, 1 drive mode, 2 break mode
 
+const int pin_status_LED[3] = {49,47,45};
 const int pin_stopped = A0;
 const int pin_drive = 51;
 const int pin_reverse = 53;
@@ -39,6 +41,12 @@ void setup() {
   Serial.println("Serial initiated");
   #endif
 
+  // Status LED setup
+  for (int i = 0; i < 3; i++){
+    pinMode(pin_status_LED[i],OUTPUT);
+    digitalWrite(pin_status_LED[i],LOW);  
+  }
+  
   // LED setup
   pinMode(pin_led,OUTPUT);
   digitalWrite(pin_drive,LOW);
@@ -61,19 +69,18 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   radio();
-  //Serial.print("kicker"); Serial.println(pwm_kicker);
-  //Serial.print("STATE"); Serial.println(state);
-  if (state == 1) {}
-  else if (state == 2){
+
+  if (state == 1) {} // Nothing
+  else if (state == 2){ // Run test script
      drive_script_v1();
      state = 3;
-  } else if (state == 3) {
+  } else if (state == 3) { // Disable fets
     digitalWrite(pin_drive,LOW);
     digitalWrite(pin_reverse,LOW);
     #ifdef printing
     Serial.print("STOPPED");
     #endif
-  } else if (state == 4){
+  } else if (state == 4){ // Run brake sequence
     stop_script();
     state = 3;
   }
@@ -166,18 +173,28 @@ void scriptlet(unsigned long timeunder, float wanted, boolean linear, boolean st
   }
 }
 
+void status_led(boolean input_val){
+  for (int i = 0; i < 3; i++){
+    digitalWrite(pin_status_LED[i],input_val);  
+  }
+}
+
 // Main test script
 void drive_script_v1(){
+  status_led(LOW);
   time_factor = 0.35; // Slower accel
   test_speed = 1;
   scriptlet(50,0,false,false); // 50 ms off-time
   scriptlet(4000,test_speed,true, false); // 3 seconds of accel
+  status_led(HIGH);
   time_factor = 2; // Faster brake
   test_speed = 1;
   scriptlet(10,0,false,false); // 5 ms off-time
   digitalWrite(pin_reverse, HIGH);
   scriptlet(15,0,false,false); // 15 ms off-time
+  status_led(LOW);
   scriptlet(2000,-test_speed,false, true); // Brake for 2 seconds or until stopped - last param = stopping
+  status_led(HIGH);
   scriptlet(250,0,false,false); // Force stop-state
   digitalWrite(pin_reverse, LOW);
 }
