@@ -1,63 +1,23 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date:    11:26:04 04/23/2021 
--- Design Name: 
--- Module Name:    Controlmodule - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
---
--- Dependencies: 
---
--- Revision: 
--- Revision 0.01 - File Created
--- Additional Comments: 
---
-----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx primitives in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity Controlmodule is
 	port(
-	clk 	: in std_logic;
-	speed	: in std_logic_vector(7 downto 0);
-	--dataOut_test 	: in std_logic_vector(15 downto 0);
-	--error_test		: in std_logic;
-	--ready_test		: in std_logic;
-	error_test			: out std_logic; 
-	sda	: inout std_logic:='1';
-	scl	: out std_logic:='1';
-	alarm	: out std_logic:='0';
-	break : out std_logic:='1');
-	
+		clk 	: in std_logic;
+		speed	: in std_logic_vector(7 downto 0);		-- Hastighed
+		break : out std_logic:='1';						-- Noedbrems
+		alarm	: out std_logic:='0';						-- Alarm
+		data 	: in std_logic_vector(15 downto 0);		-- Afstand
+		error : in std_logic; 								-- Error
+		startComparison : in std_logic ; 				-- Ready
+		i2cStart : out std_logic:='0'						-- Trigger
+	);
 end Controlmodule;
 
 architecture Behavioral of Controlmodule is
 
-	COMPONENT I2CV2
-	PORT(
-		clk : IN std_logic;						--FPGA'ens clk
-		trigger : IN std_logic;    
-		SDA : INOUT std_logic;      
-		SCL : OUT std_logic;
-		ready : OUT std_logic;
-		dataOut : OUT std_logic_vector(15 downto 0);
-		error_out : OUT std_logic
-		);
-	END COMPONENT;
-	
+	-- Distance calculator
 	COMPONENT distancecalculator
 	PORT(
 		speed : IN std_logic_vector(7 downto 0);          
@@ -74,11 +34,11 @@ architecture Behavioral of Controlmodule is
 	
 	--clk for starting i2c module
 	signal clkCount :unsigned(16 downto 0):="00000000000000000";
-	signal i2cStart :std_logic:='0';
+	signal i2cStart_sig :std_logic:='0';
 	
 	--Handling of I2C module
-	signal startComparison 		: std_logic;
-	signal error					: std_logic;
+	--signal startComparison 		: std_logic;
+	signal error_test					: std_logic;
 	signal distanceToWall_std	: std_logic_vector(15 downto 0);
 	signal distanceToWall		: unsigned(9 downto 0);
 	
@@ -93,7 +53,7 @@ architecture Behavioral of Controlmodule is
 --	signal standStill	: std_logic;
 --	signal outputLatch: std_logic:='0';
 
--- Edge detection v0.1
+	-- Edge detection v0.1
 	signal break_pipe : std_logic:='1';
 	signal alarm_pipe	: std_logic:='0';
 	
@@ -124,21 +84,12 @@ begin
 				clkCount <= clkCount +1;
 			else
 				clkCount <= (others =>'0');
-				i2cStart <= not i2cStart;
+				i2cStart_sig <= not i2cStart_sig;
 			end if;
 		end if;
 	end process;
+	i2cStart <= i2cStart_sig;
 	
-	-- i2c module
-	Inst_I2CV2: I2CV2 PORT MAP(
-		clk => clk,							--FPGA clk
-		trigger => i2cStart,			--Start modulet hver 4 ms
-		SCL => scl,
-		ready => startComparison,							--Rising edge == ny måling klar
-		SDA => sda,
-		dataOut => distanceToWall_std,
-		error_out => error						--Low if error 
-	);
 	distanceToWall <= unsigned(distanceToWall_std(9 downto 0));			--Not all data used since it will be zerors
 	--distanceToWall <= unsigned(dataOut_test(9 downto 0));	--For test
 	--startComparison <= ready_test;									--For test
