@@ -58,18 +58,17 @@ architecture motorstyringBehavioral of motorstyring is
 
     component absBremse port (
 		clk	:	in	std_logic;
-		noedbrems	:	in	std_logic;
-		forhjulHastighed	:	in	std_logic_vector(7 downto 0)	:= "01111111";
-		baghjulHastighed	:	in	std_logic_vector(7 downto 0);
-		motorkraft	:	out	std_logic_vector(7 downto 0)
+		frontSpeed	:	in	std_logic_vector(7 downto 0);
+		rearSpeed	:	in	std_logic_vector(7 downto 0);
+		engPower	:	out	std_logic_vector(7 downto 0)
     );
     end component;
 
     component Accelerator port (
 		clk	:	in	std_logic;
 		oensketHastighed	:	in	std_logic_vector(7 downto 0);
-		ForhjulHastighed	:	in	std_logic_vector(7 downto 0):= "01111111";
-		motorkraft	: out std_logic_vector(7 downto 0) := "00000000"
+		ForhjulHastighed	:	in	std_logic_vector(7 downto 0);
+		motorkraft	: out std_logic_vector(7 downto 0)
     );
     end component;
 
@@ -80,7 +79,7 @@ architecture motorstyringBehavioral of motorstyring is
 		noedbrems				:	in 	std_logic:='1'; -- hvis ndbremse
 		Accelerator_speed 	: 	IN 	std_logic_vector(7 downto 0); -- Accerlator speed
 		ABS_speed            : 	IN 	std_logic_vector(7 downto 0);
-		oensketHastighed		:	in		std_logic_vector(7 downto 0) :="00000000"
+		oensketHastighed		:	in		std_logic_vector(7 downto 0)
     );
     end component;
 
@@ -100,10 +99,9 @@ begin
     -- ABS bremse
     ent_absBremse: absBremse port map ( 
         clk => clk,
-        forhjulHastighed => front_speed_sig, 
-        baghjulHastighed => rear_speed_sig,
-        motorkraft => brake_power_sig,
-        noedbrems => emerg_stop
+        frontSpeed => front_speed_sig, 
+        rearSpeed => rear_speed_sig,
+        engPower => brake_power_sig,
     );
 
     -- Accelerator

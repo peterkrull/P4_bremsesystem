@@ -29,62 +29,33 @@ use IEEE.NUMERIC_STD.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity absBremse is
+entity absBrems is
 	port(
 		clk	:	in	std_logic;
-		noedbrems	:	in	std_logic;
-		forhjulHastighed	:	in	std_logic_vector(7 downto 0)	:= "01111111";
-		baghjulHastighed	:	in	std_logic_vector(7 downto 0);
-		motorkraft	:	out	std_logic_vector(7 downto 0)
+		frontSpeed	:	in	std_logic_vector(7 downto 0);
+		rearSpeed	:	in	std_logic_vector(7 downto 0);
+		engPower	:	out	std_logic_vector(7 downto 0)
 	);
-end absBremse;
+end absBrems;
 
-architecture Behavioral of absBremse is
-	COMPONENT absSpeed
-		PORT(
-			backSpeed : IN std_logic_vector(7 downto 0);          
-			frontSpeed : OUT std_logic_vector(7 downto 0)
-			);
-	END COMPONENT;
+architecture Behavioral of absBrems is
+	signal speedABS		:	std_logic_vector(15 downto 0)	:= (others => '0');
+	signal engPowerCopy	:	std_logic_vector(7 downto 0):= (others => '0');
 
+begin	
 
-	signal state	:	std_logic:= '0';
-	signal clkCounterEkstra	:	std_logic_vector(14 downto 0):= (others => '0');
-	signal motorkraftCopy	:	std_logic_vector(7 downto 0):= (others => '0');
-	signal oensketHastighed	:	std_logic_vector(7 downto 0):= (others => '0');
-begin
-		absSpeed1: absSpeed PORT MAP(
-		frontSpeed => oensketHastighed,
-		backSpeed => baghjulHastighed
-	);
-
+	speedABS <= std_logic_vector(unsigned(rearSpeed) * 83 / 100);
 
 process(clk) begin
 	if(clk'event and clk = '1') then
-		if(noedbrems = '0') then
-			if(forhjulHastighed > oensketHastighed) then
-				state <= '1';
-			end if;
-			if(clkCounterEkstra = "110000110101000" and state = '0')then
-				if(forhjulHastighed < oensketHastighed and motorkraftCopy < "11111111") then
-				motorkraftCopy <= std_logic_vector(unsigned(motorkraftCopy) + "00000001");
-				elsif(forhjulHastighed > oensketHastighed and motorkraftCopy > "00000000") then
-				motorkraftCopy <= std_logic_vector(unsigned(motorkraftCopy) - "00000001");
-				end if;
-				clkCounterEkstra <= (others => '0');
-			else
-			if(state = '1')then
-				if(forhjulHastighed < oensketHastighed and motorkraftCopy < "11111111") then
-				motorkraftCopy <= std_logic_vector(unsigned(motorkraftCopy) + "00000001");
-				elsif(forhjulHastighed > oensketHastighed and motorkraftCopy > "00000000") then
-				motorkraftCopy <= std_logic_vector(unsigned(motorkraftCopy) - "00000001");
-				end if;
-			end if;
-			clkCounterEkstra <= std_logic_vector(unsigned(clkCounterEkstra) + "1");
-			end if;
+		if(frontSpeed > speedABS and engPowerCopy < "11111111" and rearSpeed > "00101000") then
+		engPowerCopy <= std_logic_vector(unsigned(engPowerCopy) + "00000001");
+		elsif(frontSpeed < speedABS and engPowerCopy > "00000000" and rearSpeed > "00101000") then
+		engPowerCopy <= std_logic_vector(unsigned(engPowerCopy) - "00000001");
 		end if;
 	end if;
 end process;
 
-	motorkraft <= motorkraftCopy;
+	engPower <= engPowerCopy;
+	
 end Behavioral;
