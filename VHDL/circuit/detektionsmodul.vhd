@@ -6,8 +6,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity detektionsmodul is
 	port(
 
+		clk : in std_logic; -- system clock
+
         -- Hastighed af platform
-        speed : in std_logic;
+        speed : in std_logic_vector(7 downto 0);
 
         -- Afstandssensor
 		dist_SCL	:	inout	std_logic; -- SCL
@@ -66,25 +68,25 @@ begin
     -- I2C master module
     ent_I2CV2: I2CV2 port map (
         clk => clk,
-        trigger =>,
+        trigger => trigger,
         SCL => dist_SCL,
-        ready => ,
+        ready => ready,
         SDA => dist_SDA,
-        dataOut =>,
-        errorVector_out =>,
-        error_out =>
+        dataOut => data,
+        errorVector_out => error_vector,
+        error_out => error
     );
 
     -- Kontrolmodul
     ent_Controlmodule: Controlmodule port map ( 
         	clk => clk,
-			speed =>,
-			break =>,
-			alarm	=>,
-			data =>,
-			error =>,
-			startComparison=>,
-			i2cStart=>
+			speed => speed,
+			break => emerg_stop,
+			alarm	=>alarm_bit,
+			data => data,
+			error => error,
+			startComparison=> ready,
+			i2cStart=> trigger
     );
 
 end detektionsmodulBehavioral;
