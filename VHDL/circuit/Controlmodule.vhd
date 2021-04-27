@@ -103,9 +103,8 @@ architecture Behavioral of Controlmodule is
 	signal standStill		: std_logic;
 	signal outputLatch	: std_logic:='0';
 	--For testing:
-	signal speed		: std_logic_vector(7 downto 0):="11111111";
-	
-	
+	--signal speed		: std_logic_vector(7 downto 0):="11111111";
+
 begin
 
 	--Calculating the breaking distance and alarm distance
