@@ -8,6 +8,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity TopModul is
 	port(
 
+		clk				: in std_logic; -- system clock
+
         -- rotationssensorer
         rotsens_front : in std_logic; -- Sensor 1
         rotsens_rear : in std_logic; -- Sensor 2
@@ -17,7 +19,7 @@ entity TopModul is
         dist_SDA	:	inout	std_logic; -- SDA
         
         -- Teststyring
-        test_speed : out std_logic_vector(7 downto 0); -- speed Pins
+        test_speed : in std_logic_vector(7 downto 0); -- speed Pins
 
         -- motor PWM output
         motor_PWM : out std_logic;   -- PWM output
@@ -37,6 +39,7 @@ architecture topmodule of TopModul is
     signal rear_speed_sig : std_logic_vector(7 downto 0) ;
 
     component motorstyring port(
+			clk				: in std_logic; -- system clock
         rotsens_front   : in std_logic; -- Sensor 1
         rotsens_rear    : in std_logic; -- Sensor 2
         emerg_stop      : in std_logic;
@@ -48,7 +51,8 @@ architecture topmodule of TopModul is
     end component;
 
     component detektionsmodul port (
-        speed       : in std_logic;
+			clk : in std_logic; -- system clock
+        speed       : in std_logic_vector(7 downto 0);
         dist_SCL	: inout	std_logic; -- SCL
         dist_SDA	: inout	std_logic; -- SDA
         emerg_stop  : out std_logic;
@@ -60,22 +64,24 @@ begin
 
     -- Motorstyring
     ent_motorstyring: motorstyring port map (
+	 clk => clk,
         rotsens_front => rotsens_front,
         rotsens_rear => rotsens_rear,
         emerg_stop => emerg_stop_sig,
         test_speed => test_speed,
-        rear_speed_sig => rear_speed,
+        rear_speed => rear_speed_sig,
         motor_PWM => motor_PWM,
         motor_select => motor_select
     );
     
     -- Detektionssystem
     ent_detektionsmodul: detektionsmodul port map (
-        dist_SCL => x,
-        dist_SDA => x,
-        alarm_bit => x,
-        rear_speed_sig => x,
-        emerg_stop => x
+		clk => clk,
+        dist_SCL => dist_SCL,
+        dist_SDA => dist_SDA,
+        alarm_bit => alarm_bit,
+        speed => rear_speed_sig,
+        emerg_stop => emerg_stop_sig
     );
 
 end topmodule;
