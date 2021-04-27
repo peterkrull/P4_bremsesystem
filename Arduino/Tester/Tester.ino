@@ -187,10 +187,10 @@ void drive_script_v1(){
   time_factor = 0.5; // Slower accel
   test_speed = 0.1;
   scriptlet(50,0,false,false); // 50 ms off-time
-  scriptlet(3000,test_speed,true, false); // 3 seconds of accel
+  scriptlet(4000,test_speed,true, false); // 3 seconds of accel
   status_led(HIGH);
   time_factor = 2; // Faster brake
-  test_speed = 0.1;
+  test_speed = 1;
   scriptlet(10,0,false,false); // 10 ms off-time
   digitalWrite(pin_reverse, HIGH);
   scriptlet(15,0,false,false); // 15 ms off-time

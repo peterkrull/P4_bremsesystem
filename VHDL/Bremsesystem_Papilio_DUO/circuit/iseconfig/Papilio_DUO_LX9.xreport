@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2021-04-26T13:47:00</DateModified>
+  <DateModified>2021-04-26T14:51:57</DateModified>
   <ModuleName>TopModul</ModuleName>
-  <SummaryTimeStamp>2021-04-26T13:46:39</SummaryTimeStamp>
+  <SummaryTimeStamp>2021-04-26T14:10:20</SummaryTimeStamp>
   <SavedFilePath>C:/Users/peter/Documents/GitHub/P4/P4_bremsesystem/VHDL/Bremsesystem_Papilio_DUO/circuit/iseconfig/Papilio_DUO_LX9.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/peter/Documents/GitHub/P4/P4_bremsesystem/VHDL/Bremsesystem_Papilio_DUO/circuit/DUO_LX9</ImplementationReportsDirectory>
   <DateInitialized>2021-04-26T13:46:59</DateInitialized>

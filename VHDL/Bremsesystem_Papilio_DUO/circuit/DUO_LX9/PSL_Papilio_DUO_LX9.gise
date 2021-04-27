@@ -83,50 +83,10 @@
     <transform xil_pn:end_ts="1619434524" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1619434524">
       <status xil_pn:value="SuccessfullyRun"/>
     </transform>
-    <transform xil_pn:end_ts="1619438094" xil_pn:in_ck="-7590478064695714787" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7495701865947371370" xil_pn:start_ts="1619438092">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Papilio_DUO_LX9.vhf"/>
-    </transform>
-    <transform xil_pn:end_ts="1619438094" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-177400738699019712" xil_pn:start_ts="1619438094">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1619438094" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1619438094">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1619438094" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7694716587954235860" xil_pn:start_ts="1619438094">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1619438094" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745955965653" xil_pn:start_ts="1619438094">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1619438094" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1423096265024997814" xil_pn:start_ts="1619438094">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1619438819" xil_pn:in_ck="-5036490767564800443" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-424961303621796494" xil_pn:start_ts="1619438814">
-      <status xil_pn:value="FailedRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <outfile xil_pn:name="Motorbeskyttelse.ngr"/>
-      <outfile xil_pn:name="TopModul.lso"/>
-      <outfile xil_pn:name="TopModul.prj"/>
-      <outfile xil_pn:name="TopModul.syr"/>
-      <outfile xil_pn:name="TopModul.xst"/>
-      <outfile xil_pn:name="TopModul_xst.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
-    </transform>
     <transform xil_pn:end_ts="1619438100" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-3698154521618809656" xil_pn:start_ts="1619438100">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
   </transforms>
 
