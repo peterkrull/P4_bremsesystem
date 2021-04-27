@@ -71,8 +71,8 @@ begin
 						if(bitCounter = "111") then 
 							doneOutBuf <= '1';
 						end if;
-					-- when others => is not needed
-					-- null;
+					when others =>
+						 null;
 				end case;
 			end if;
 		end if;

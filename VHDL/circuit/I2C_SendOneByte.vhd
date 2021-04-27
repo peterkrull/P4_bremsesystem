@@ -79,8 +79,8 @@ begin
 						else 
 							clkCount <= "00";
 						end if;
-					-- when others => is not needed
-					--	null;
+					when others =>
+						null;
 				end case;
 				
 			
