@@ -32,7 +32,7 @@ use IEEE.NUMERIC_STD.ALL;
 entity Controlmodule is
 	port(
 	clk 	: in std_logic;
-	--speed	: in std_logic_vector(7 downto 0);
+	speed	: in std_logic_vector(7 downto 0);
 	--dataOut_test 	: in std_logic_vector(15 downto 0);
 	--error_test		: in std_logic;
 	--ready_test		: in std_logic;
