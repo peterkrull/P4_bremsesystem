@@ -49,8 +49,15 @@ architecture detektionsmodulBehavioral of detektionsmodul is
     );
     end component;
 
-    component kontrolmodul port(
-        
+    component Controlmodule port(
+			clk 	: in std_logic;
+			speed	: in std_logic_vector(7 downto 0);		-- Hastighed
+			break : out std_logic:='1';						-- Noedbrems
+			alarm	: out std_logic:='0';						-- Alarm
+			data 	: in std_logic_vector(15 downto 0);		-- Afstand
+			error : out std_logic; 								-- Error
+			startComparison : in std_logic ; 				-- Ready
+			i2cStart : out std_logic:='0'						-- Trigger
     );
     end component;
 
@@ -58,12 +65,26 @@ begin
 
     -- I2C master module
     ent_I2CV2: I2CV2 port map (
-        -- mappy
+        clk => clk,
+        trigger =>,
+        SCL => dist_SCL,
+        ready => ,
+        SDA => dist_SDA,
+        dataOut =>,
+        errorVector_out =>,
+        error_out =>
     );
 
     -- Kontrolmodul
-    ent_kontrolmodul: kontrolmodul port map ( 
-        -- mappy
+    ent_Controlmodule: Controlmodule port map ( 
+        	clk => clk,
+			speed =>,
+			break =>,
+			alarm	=>,
+			data =>,
+			error =>,
+			startComparison=>,
+			i2cStart=>
     );
 
 end detektionsmodulBehavioral;
