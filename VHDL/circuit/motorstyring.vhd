@@ -13,7 +13,9 @@ use IEEE.STD_LOGIC_1164.ALL;
 -- external ports to be used by hardware
 entity motorstyring is
 	port(
-
+	
+			clk				: in std_logic; -- system clock
+			
         -- rotationssensorer
         rotsens_front : in std_logic; -- Sensor 1
         rotsens_rear : in std_logic; -- Sensor 2
@@ -56,7 +58,7 @@ architecture motorstyringBehavioral of motorstyring is
     );
     end component;
 
-    component absBremse port (
+    component absBrems port (
 		clk	:	in	std_logic;
 		frontSpeed	:	in	std_logic_vector(7 downto 0);
 		rearSpeed	:	in	std_logic_vector(7 downto 0);
@@ -97,7 +99,7 @@ begin
     rear_speed <= rear_speed_sig;
 
     -- ABS bremse
-    ent_absBremse: absBremse port map ( 
+    ent_absBrems: absBrems port map ( 
         clk => clk,
         frontSpeed => front_speed_sig, 
         rearSpeed => rear_speed_sig,
