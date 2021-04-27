@@ -47,7 +47,7 @@ architecture topmodule of TopModul is
     );
     end component;
 
-    component detektionssystem port (
+    component detektionsmodul port (
         speed       : in std_logic;
         dist_SCL	: inout	std_logic; -- SCL
         dist_SDA	: inout	std_logic; -- SDA
@@ -70,7 +70,7 @@ begin
     );
     
     -- Detektionssystem
-    ent_detektionssystem: detektionssystem port map (
+    ent_detektionsmodul: detektionsmodul port map (
         dist_SCL => x,
         dist_SDA => x,
         alarm_bit => x,

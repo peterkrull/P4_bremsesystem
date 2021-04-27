@@ -101,7 +101,7 @@ begin
         clk => clk,
         frontSpeed => front_speed_sig, 
         rearSpeed => rear_speed_sig,
-        engPower => brake_power_sig,
+        engPower => brake_power_sig
     );
 
     -- Accelerator

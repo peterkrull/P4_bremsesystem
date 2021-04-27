@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.18 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.18 secs
  
 --> Reading design: TopModul.prj
 
@@ -105,47 +105,48 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\timeCounter.vhd" into library work
+Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\timeCounter.vhd" into library work
 Parsing entity <timeCounter>.
 Parsing architecture <Behavioral> of entity <timecounter>.
-Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\ringbuffer.vhd" into library work
+Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\ringbuffer.vhd" into library work
 Parsing entity <ringbuffer>.
 Parsing architecture <Behavioral> of entity <ringbuffer>.
-Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\PWMGenerator.vhd" into library work
+Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\PWMGenerator.vhd" into library work
 Parsing entity <PWMGenerator>.
 Parsing architecture <Behavioral> of entity <pwmgenerator>.
-Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\division.vhd" into library work
+Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\division.vhd" into library work
 Parsing entity <division>.
 Parsing architecture <Behavioral> of entity <division>.
-Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\absSpeed.vhd" into library work
-Parsing entity <absSpeed>.
-Parsing architecture <Behavioral> of entity <absspeed>.
-Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\Motorbeskyttelse.vhd" into library work
+Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\Motorbeskyttelse.vhd" into library work
 Parsing entity <Motorbeskyttelse>.
 Parsing architecture <Behavioral> of entity <motorbeskyttelse>.
-Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\hastighedsbestemmerTop.vhd" into library work
+Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\hastighedsbestemmerTop.vhd" into library work
 Parsing entity <hastighedsbestemmerTop>.
 Parsing architecture <Behavioral> of entity <hastighedsbestemmertop>.
-Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\Accelerator.vhd" into library work
+Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\Accelerator.vhd" into library work
 Parsing entity <Accelerator>.
 Parsing architecture <Behavioral> of entity <accelerator>.
-Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\absBremse.vhd" into library work
+Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\absBremse.vhd" into library work
 Parsing entity <absBremse>.
 Parsing architecture <Behavioral> of entity <absbremse>.
-Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" into library work
+Parsing VHDL file "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" into library work
 Parsing entity <motorstyring>.
 Parsing architecture <motorstyringBehavioral> of entity <motorstyring>.
-ERROR:HDLCompiler:69 - "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 91: <clk> is not declared.
-ERROR:HDLCompiler:69 - "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 102: <clk> is not declared.
-ERROR:HDLCompiler:69 - "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 111: <clk> is not declared.
-ERROR:HDLCompiler:69 - "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 119: <clk> is not declared.
-ERROR:HDLCompiler:854 - "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 38: Unit <motorstyringbehavioral> ignored due to previous errors.
-VHDL file C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd ignored due to errors
+ERROR:HDLCompiler:69 - "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 90: <clk> is not declared.
+ERROR:HDLCompiler:806 - "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 105: Syntax error near ")".
+ERROR:HDLCompiler:432 - "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 100: Formal <clk> has no actual or default value.
+INFO:HDLCompiler:1408 - "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 60. clk is declared here
+INFO:HDLCompiler:1408 - "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 61. frontspeed is declared here
+INFO:HDLCompiler:1408 - "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 62. rearspeed is declared here
+ERROR:HDLCompiler:69 - "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 109: <clk> is not declared.
+ERROR:HDLCompiler:69 - "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 117: <clk> is not declared.
+ERROR:HDLCompiler:854 - "C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 38: Unit <motorstyringbehavioral> ignored due to previous errors.
+VHDL file C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd ignored due to errors
 --> 
 
 Total memory usage is 4465304 kilobytes
 
-Number of errors   :    5 (   0 filtered)
+Number of errors   :    6 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

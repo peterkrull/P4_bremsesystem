@@ -5,19 +5,22 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 91: &lt;<arg fmt="%s" index="1">clk</arg>&gt; is not declared.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 90: &lt;<arg fmt="%s" index="1">clk</arg>&gt; is not declared.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 102: &lt;<arg fmt="%s" index="1">clk</arg>&gt; is not declared.
+<msg type="error" file="HDLCompiler" num="806" delta="new" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 105: Syntax error near &quot;<arg fmt="%s" index="1">)</arg>&quot;.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 111: &lt;<arg fmt="%s" index="1">clk</arg>&gt; is not declared.
+<msg type="error" file="HDLCompiler" num="432" delta="new" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 100: Formal &lt;<arg fmt="%s" index="1">clk</arg>&gt; has no actual or default value.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="69" delta="new" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 119: &lt;<arg fmt="%s" index="1">clk</arg>&gt; is not declared.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 109: &lt;<arg fmt="%s" index="1">clk</arg>&gt; is not declared.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="854" delta="old" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\Bremsesystem_Papilio_DUO\circuit\motorstyring.vhd" Line 38: Unit &lt;<arg fmt="%s" index="1">motorstyringbehavioral</arg>&gt; ignored due to previous errors.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 117: &lt;<arg fmt="%s" index="1">clk</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="old" >"C:\Users\peter\Documents\GitHub\P4\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" Line 38: Unit &lt;<arg fmt="%s" index="1">motorstyringbehavioral</arg>&gt; ignored due to previous errors.
 </msg>
 
 </messages>
