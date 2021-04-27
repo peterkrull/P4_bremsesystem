@@ -57,7 +57,7 @@ architecture detektionsmodulBehavioral of detektionsmodul is
 			break : out std_logic:='1';						-- Noedbrems
 			alarm	: out std_logic:='0';						-- Alarm
 			data 	: in std_logic_vector(15 downto 0);		-- Afstand
-			error : out std_logic; 								-- Error
+			error : in std_logic; 								-- Error
 			startComparison : in std_logic ; 				-- Ready
 			i2cStart : out std_logic:='0'						-- Trigger
     );
