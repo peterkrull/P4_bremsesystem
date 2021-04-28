@@ -34,8 +34,8 @@ entity Accelerator is
 	port(
 		clk	:	in	std_logic;
 		oensketHastighed	:	in	std_logic_vector(7 downto 0);
-		ForhjulHastighed	:	in	std_logic_vector(7 downto 0):= "01111111";
-		motorkraft	: out std_logic_vector(7 downto 0) := "00000000"
+		ForhjulHastighed	:	in	std_logic_vector(7 downto 0);
+		motorkraft	: out std_logic_vector(7 downto 0)
 	);
 end Accelerator;
 
