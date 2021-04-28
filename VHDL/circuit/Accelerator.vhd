@@ -34,7 +34,7 @@ entity Accelerator is
 	port(
 		clk	:	in	std_logic;
 		oensketHastighed	:	in	std_logic_vector(7 downto 0);
-		ForhjulHastighed	:	in	std_logic_vector(7 downto 0);
+		baghjulHastighed	:	in	std_logic_vector(7 downto 0);
 		motorkraft	: out std_logic_vector(7 downto 0)
 	);
 end Accelerator;
@@ -47,9 +47,9 @@ begin
 		if(clk'event and clk = '1') then
 		clkCounter <= std_logic_vector(unsigned(clkCounter) + "000000000000000001");
 			if(clkCounter = "111101000010010000") then
-				if(oensketHastighed < ForhjulHastighed and motorkraftCopy > "00000000")then
+				if(oensketHastighed < baghjulHastighed and motorkraftCopy > "00000000")then
 					motorkraftCopy <= std_logic_vector(unsigned(motorkraftCopy) - "00000001");
-				elsif(oensketHastighed > ForhjulHastighed and motorkraftCopy < "11111111") then
+				elsif(oensketHastighed > baghjulHastighed and motorkraftCopy < "11111111") then
 					motorkraftCopy <= std_logic_vector(unsigned(motorkraftCopy) + "00000001");
 				end if;
 				clkCounter <= "000000000000000000";
