@@ -1,9 +1,9 @@
 // Parallel output pins
 // Also known as PORTF
 const int parPin[8] = {A0,A1,A2,A3,A4,A5,A6,A7};
-const int ledPin = 8;
+const int ledPin[3] = {53,51,49};
 const int ledBuiltIn = 13;
-const int emergencyPin = A8;
+const int emergencyPin = 8;
 
 int state = 0;                    // State message recieved from wireless module
 unsigned long radio_timer = 0;    // Previous radio check
@@ -22,7 +22,12 @@ void setup(){
   for (int i = 0; i < 8; i++){
     pinMode(parPin[i], OUTPUT);
   }
-  pinMode(ledPin , OUTPUT);
+  for (int i = 0; i < 3; i++){
+    pinMode(ledPin[i], OUTPUT);
+  }
+
+  status_led(false);
+  
   pinMode(ledBuiltIn , OUTPUT);
 
   pinMode(emergencyPin,OUTPUT);
@@ -54,6 +59,13 @@ byte speedToByte(float Speed){
 
 void printPORTF(byte byteInput){
   PORTF = byteInput;
+}
+
+
+void status_led(boolean input_val){
+  for (int i = 0; i < 3; i++){
+    digitalWrite(ledPin[i],input_val);  
+  }
 }
 
 //
@@ -148,6 +160,7 @@ void loop (){
     case 1 : // Reset test
       emergencyBrakeSim(true);
       testSpeed = 0;
+      status_led(false);
       break;
     case 2 : // Set target speed
       testSpeed = targetTestSpeed;
@@ -157,6 +170,8 @@ void loop (){
       break;
     case 4 : // Emergency brake
       emergencyBrakeSim();
+      delay(25);
+      status_led(true);
       break;
     //case 5:
       //int y;
