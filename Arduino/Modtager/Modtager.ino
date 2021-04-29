@@ -3,7 +3,7 @@
 const int parPin[8] = {A0,A1,A2,A3,A4,A5,A6,A7};
 const int ledPin = 8;
 const int ledBuiltIn = 13;
-const int emergencyPin = 2;
+const int emergencyPin = A8;
 
 int state = 0;                    // State message recieved from wireless module
 unsigned long radio_timer = 0;    // Previous radio check
@@ -26,12 +26,13 @@ void setup(){
   pinMode(ledBuiltIn , OUTPUT);
 
   pinMode(emergencyPin,OUTPUT);
+  digitalWrite(emergencyPin,LOW);
 
   // Init Serial3 for radio module
   Serial1.begin(9600);
   Serial.begin(115200);
   while(!Serial);
-  while(!Serial3);
+  while(!Serial1);
 }
 
 //
@@ -161,10 +162,16 @@ void loop (){
       //int y;
   }
 
+  // Check for lost state
   if (state != 5){
     connection = true;
   } else {
     connection = false;
+  }
+
+  // If connection is lost, disable motors
+  if (connection == false){
+    testSpeed = 0;
   }
 
   // For manual byte speeds use LUT
@@ -178,5 +185,6 @@ void loop (){
   printInfo();
   #endif
 
-  //delay(250);
+  delay(250);
+  
 }
