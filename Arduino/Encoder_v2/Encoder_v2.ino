@@ -43,8 +43,6 @@ void setup() {
   #ifdef printing
   Serial.begin(115200);
   #endif
-
-  //Serial.begin(115200);
   
   // encoder pins
   pinMode(sens_driv_pin , INPUT);
@@ -155,7 +153,7 @@ void loop(){
       if (digitalRead(braking_pin_in) == invert_braking_in){
         sprintf(str_buf, "F %u", delta_time_driv);
       } else {
-        sprintf(str_buf, "F %u\tB ", delta_time_driv);
+        sprintf(str_buf, "F %u\tB", delta_time_driv);
       }
       myFile.println(str_buf);
       #ifdef printing
