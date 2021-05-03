@@ -72,7 +72,7 @@ void setup() {
   #endif
   
 
-  myFile = SD.open("test_100.txt", FILE_WRITE);
+  myFile = SD.open("test.txt", FILE_WRITE);
   myFile.println("\n# first line of test");
   #ifdef printing
   Serial.println("\n# first line of test");
@@ -134,6 +134,8 @@ void loop(){
       #ifdef printing
       Serial.println(str_buf);
       #endif
+
+      roll_diff_found = false;
     }
   }
 
@@ -159,6 +161,8 @@ void loop(){
       #ifdef printing
       Serial.println(str_buf);
       #endif
+
+      driv_diff_found = false;
     }
   }
 
@@ -174,7 +178,7 @@ void sd_init(){
     #ifdef printing
     Serial.println("Opening SD card");
     #endif
-    myFile = SD.open("test_100.txt", FILE_WRITE);
+    myFile = SD.open("test.txt", FILE_WRITE);
     myFile.println("\n# first line of test");
     sd_closed = false;
     first_print = true;
