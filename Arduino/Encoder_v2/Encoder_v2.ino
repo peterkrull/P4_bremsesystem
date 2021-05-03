@@ -2,7 +2,7 @@
 #include <SD.h>
 File myFile;  
 
-//#define printing
+#define printing
 
 // Invert behaviour of braking input
 boolean invert_braking_in = false;
@@ -13,9 +13,9 @@ const unsigned long stop_time_delay = 500000;   // half second
 
 // Pin assignments
 const int sens_driv_pin = 4;
-const int sens_roll_pin = 6;
-const int braking_pin_in = 12;
-const int braking_pin_out = 11;
+const int sens_roll_pin = 5;
+const int braking_pin_in = 3;
+const int braking_pin_out = 9;
 const int led_int_pin = 13;
 
 // previous and current states for delta calc
@@ -37,6 +37,11 @@ boolean driving = false;
 boolean first_print = false;
 boolean sd_closed = true;
 boolean stop_time_noted = false;
+
+int test_counter = 0;
+char file_str_buf[16];
+String cache = "cache.txt";
+
 
 void setup() {
 
@@ -69,12 +74,16 @@ void setup() {
   Serial.println("initialization done.");
   #endif
   
-
+  /*
   myFile = SD.open("test.txt", FILE_WRITE);
   myFile.println("\n# first line of test");
   #ifdef printing
   Serial.println("\n# first line of test");
   #endif
+  */
+
+  sd_get_counter();
+  Serial.print("CNTR0 ");Serial.println(test_counter);
 }
 
 void loop(){
@@ -123,9 +132,9 @@ void loop(){
     // if driving, print rear data to SD
     if (driving){
       if (digitalRead(braking_pin_in) == invert_braking_in){
-        sprintf(str_buf, "R %u", delta_time_roll);
+        sprintf(str_buf, "R\t%u\tD", delta_time_roll);
       } else {
-        sprintf(str_buf, "R %u\tB", delta_time_roll);
+        sprintf(str_buf, "R\t%u\tB", delta_time_roll);
       }
       
       myFile.println(str_buf);
@@ -151,9 +160,9 @@ void loop(){
     // if driving print front data to SD
     if (driving){
       if (digitalRead(braking_pin_in) == invert_braking_in){
-        sprintf(str_buf, "F %u", delta_time_driv);
+        sprintf(str_buf, "F\t%u\tD", delta_time_driv); 
       } else {
-        sprintf(str_buf, "F %u\tB", delta_time_driv);
+        sprintf(str_buf, "F\t%u\tB", delta_time_driv);
       }
       myFile.println(str_buf);
       #ifdef printing
@@ -176,8 +185,11 @@ void sd_init(){
     #ifdef printing
     Serial.println("Opening SD card");
     #endif
-    myFile = SD.open("test.txt", FILE_WRITE);
-    myFile.println("\n# first line of test");
+
+    sprintf(file_str_buf, "file_%i.txt", test_counter);
+
+    myFile = SD.open(file_str_buf, FILE_WRITE);
+    myFile.println("#\t0\t#");
     sd_closed = false;
     first_print = true;
   }
@@ -189,9 +201,34 @@ void sd_close(){
     #ifdef printing
     Serial.println("Closing SD card");
     #endif
-    myFile.println("X last line of test");
+    //myFile.println("X last line of test");
     myFile.close();
+    test_counter++;
+    Serial.print("CNTR1 ");Serial.println(test_counter);
+    sd_set_counter();
+    Serial.print("CNTR2 ");Serial.println(test_counter);
     sd_closed = true;
     first_print = false;
   }
+}
+
+// Get test counter from SD card
+void sd_get_counter(){
+  myFile = SD.open(cache);
+  String temp_num = "";
+  while (myFile.available()) {
+    temp_num += (char)myFile.read();
+  }
+  test_counter = temp_num.toInt();
+  Serial.print("CNTR3 ");Serial.println(temp_num);
+  Serial.print("CNTR4 ");Serial.println(test_counter);
+  myFile.close();
+}
+
+// Write test counter to SD card
+void sd_set_counter(){
+  SD.remove(cache);
+  myFile = SD.open(cache, FILE_WRITE);
+  myFile.println(test_counter);
+  myFile.close();
 }
