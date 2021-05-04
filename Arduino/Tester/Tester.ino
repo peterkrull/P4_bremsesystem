@@ -8,24 +8,24 @@ const float pwm_kicker = 1000000/(float)freq;
 
 unsigned long lastMessage = 0;    //0 Stand still, 1 drive mode, 2 break mode
 
-const int pin_status_LED[3] = {49,47,45};
+const int pin_status_LED[3] = {49,51,53};
 const int pin_stopped = A0;
-const int pin_drive = 51;
-const int pin_reverse = 53;
+const int pin_drive = 50;
+const int pin_reverse = 52;
 const int pin_led = 13;
 const int pin_pot = A1;
 
 // Amplifies linear filter speed
 float time_factor = 1; // lower = slower     &     higher = faster
-float test_speed = 1; // lower = slower     &     higher = faster
+float test_speed = 0.1; // lower = slower     &     higher = faster
 
 int hightime;
 
-unsigned long radio_timer=0;
+unsigned long radio_timer = 0;
 
 float current_duty;
 
-//#define printing
+#define printing
 
 void setup() {
   // put your setup code here, to run once:  
@@ -40,16 +40,6 @@ void setup() {
   Serial.println("Serial initiated");
   #endif
 
-  // Status LED setup
-  for (int i = 0; i < 3; i++){
-    pinMode(pin_status_LED[i],OUTPUT);
-    digitalWrite(pin_status_LED[i],LOW);  
-  }
-
-  // LED setup
-  pinMode(pin_led,OUTPUT);
-  digitalWrite(pin_drive,LOW);
-
   // Drive setup
   pinMode(pin_drive,OUTPUT);
   digitalWrite(pin_drive,LOW);
@@ -57,6 +47,24 @@ void setup() {
   // Reverse setup
   pinMode(pin_reverse,OUTPUT);
   digitalWrite(pin_reverse,LOW);
+
+  // Status LED setup
+  for (int i = 0; i < 3; i++){
+    pinMode(pin_status_LED[i],OUTPUT);
+    digitalWrite(pin_status_LED[i],HIGH);  
+  }
+
+  // Blinky
+  delay(250);
+  status_led(LOW);
+  delay(250);
+  status_led(HIGH);
+  delay(250);
+  status_led(LOW);
+
+  // LED setup
+  pinMode(pin_led,OUTPUT);
+  digitalWrite(pin_drive,LOW);
 
   // Stopped trigger input
   pinMode(pin_stopped,INPUT);
@@ -168,7 +176,7 @@ void scriptlet(unsigned long timeunder, float wanted, boolean linear, boolean st
     unsigned long start_timer = millis();
     while (millis() < timeunder + start_timer && state != 3 && state != 5 && stopped == 0){
       if (stopping == true ){
-        stopped = digitalRead(pin_stopped);
+        stopped = !digitalRead(pin_stopped);
       }
     //delay(2);  
     current_duty = lin_filter(wanted, linear);
@@ -185,17 +193,17 @@ void scriptlet(unsigned long timeunder, float wanted, boolean linear, boolean st
 void drive_script_v1(){
   status_led(LOW);
   time_factor = 0.5; // Slower accel
-  test_speed = 0.1;
+  test_speed = 1;
   scriptlet(50,0,false,false); // 50 ms off-time
   scriptlet(4000,test_speed,true, false); // 3 seconds of accel
   status_led(HIGH);
   time_factor = 2; // Faster brake
-  test_speed = 1;
+  test_speed = 0.8;
   scriptlet(10,0,false,false); // 10 ms off-time
   digitalWrite(pin_reverse, HIGH);
   scriptlet(15,0,false,false); // 15 ms off-time
   status_led(LOW);
-  scriptlet(2000,-test_speed,true, true); // Brake for 2 seconds or until stopped - last param = stopping
+  scriptlet(1500,-test_speed,false, true); // Brake for 1.5 seconds or until stopped - stop sensor
   status_led(HIGH);
   scriptlet(250,0,false,false); // Force stop-state
   digitalWrite(pin_reverse, LOW);
@@ -205,7 +213,7 @@ void drive_script_v1(){
 
 void stop_script(){
   time_factor = 1;
-  test_speed = 1;
+  test_speed = 0.1;
   scriptlet(50,0,false,false); // 100 ms off-time
   digitalWrite(pin_reverse, HIGH);
   scriptlet(50,0,false,false); // 100 ms off-time
