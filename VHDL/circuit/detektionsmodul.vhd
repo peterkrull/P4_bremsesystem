@@ -32,7 +32,6 @@ architecture detektionsmodulBehavioral of detektionsmodul is
 
     signal distance : std_logic_vector (15 downto 0);
     signal error : std_logic;
-    signal error_vector : std_logic_vector (2 downto 0);
     signal data : std_logic_vector(15 downto 0) := x"0000";
     signal ready : std_logic;
     signal trigger : std_logic;
@@ -46,7 +45,6 @@ architecture detektionsmodulBehavioral of detektionsmodul is
         ready           : out std_logic:= '0';
         SDA 		    : inout std_logic:= '1';
         dataOut         : out std_logic_vector(15 downto 0) := x"0000";
-        errorVector_out : out std_logic_vector(2 downto 0);
         error_out       : out std_logic := '1'
     );
     end component;
@@ -54,12 +52,12 @@ architecture detektionsmodulBehavioral of detektionsmodul is
     component Controlmodule port(
 			clk 	: in std_logic;
 			speed	: in std_logic_vector(7 downto 0);		-- Hastighed
-			break : out std_logic:='1';						-- Noedbrems
+			brake : out std_logic:='1';						-- Noedbrems
 			alarm	: out std_logic:='0';						-- Alarm
-			data 	: in std_logic_vector(15 downto 0);		-- Afstand
-			error : in std_logic; 								-- Error
-			startComparison : in std_logic ; 				-- Ready
-			i2cStart : out std_logic:='0'						-- Trigger
+			i2cData 	: in std_logic_vector(9 downto 0);		-- Afstand
+			i2cError : in std_logic; 								-- Error
+			i2cReady : in std_logic ; 				-- Ready
+			i2cTrigger : out std_logic:='0'						-- Trigger
     );
     end component;
 
@@ -73,7 +71,6 @@ begin
         ready => ready,
         SDA => dist_SDA,
         dataOut => data,
-        errorVector_out => error_vector,
         error_out => error
     );
 
@@ -81,12 +78,12 @@ begin
     ent_Controlmodule: Controlmodule port map ( 
         	clk => clk,
 			speed => speed,
-			break => emerg_stop,
+			brake => emerg_stop,
 			alarm	=>alarm_bit,
-			data => data,
-			error => error,
-			startComparison=> ready,
-			i2cStart=> trigger
+			i2cData => data(9 downto 0),
+			i2cError => error,
+			i2cReady=> ready,
+			i2cTrigger=> trigger
     );
 
 end detektionsmodulBehavioral;
