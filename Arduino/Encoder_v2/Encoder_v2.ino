@@ -121,15 +121,12 @@ void loop(){
     // Identify long delta times;
     if (delta_time_roll > slow_time * 1.2 && stop_time_noted == false && driving){ // time higher, drives slower 1.2
       // define time to stop logging data.
-      Serial.println("Test1");
       stop_timer = micros() + stop_time_delay;
       stop_time_noted = true;
       
-    } else if (delta_time_roll < slow_time * 0.8 && driving == false) { // time lower, drives faster 0.8
+    } else if (delta_time_roll < slow_time * 0.8) { // time lower, drives faster 0.8
       driving = true; 
       sd_init();
-    } else {
-      stop_timer = micros() + 1e6; 
     }
 
     // if driving, print rear data to SD
@@ -153,8 +150,6 @@ void loop(){
   if (micros() > stop_timer && stop_time_noted && driving){
     stop_time_noted = false;
     driving = false;
-    Serial.println(stop_timer);
-    Serial.println(micros());
     sd_close();
   }
 
@@ -178,15 +173,9 @@ void loop(){
     }
   }
 
-  // print wether car has stopped has been noted
-  if ( delta_time_roll > slow_time * 0.7 ) {
-    digitalWrite(braking_pin_out,true);
-    digitalWrite(led_int_pin,true);
-  } else if ( delta_time_roll < slow_time * 0.5 ) {
-    digitalWrite(braking_pin_out,false);
-    digitalWrite(led_int_pin,false);
-  }
-
+  // print wether stop_State has been noted
+  digitalWrite(braking_pin_out,stop_time_noted);
+  digitalWrite(led_int_pin,stop_time_noted);
   
 }
 
