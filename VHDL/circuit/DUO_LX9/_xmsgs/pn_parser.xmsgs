@@ -8,7 +8,11 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<<<<<<< Updated upstream
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/ise/vmShared/VHDL/circuit/motorstyring.vhd&quot; into library work</arg>
+=======
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/peter/Documents/GitHub/P4/P4_bremsesystem/VHDL/circuit/distancecalculator.vhd&quot; into library work</arg>
+>>>>>>> Stashed changes
 </msg>
 
 </messages>

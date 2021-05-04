@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!--This is an ISE project configuration file.-->
 <!--It holds project specific layout data for the projectmgr plugin.-->
 <!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
@@ -7,23 +7,28 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Controlmodule - Behavioral C:|Users|peter|Documents|GitHub|P4|P4_bremsesystem|VHDL|circuit|Controlmodule.vhd/Inst_I2CV2 - I2CV2 - Behavioral</ClosedNode>
          <ClosedNode>/I2CV2 - Behavioral C:|Users|peter|Documents|GitHub|P4|P4_bremsesystem|VHDL|Bremsesystem_Papilio_DUO|circuit|I2CV2.vhd</ClosedNode>
          <ClosedNode>/Papilio_DUO_LX9 C:|Users|peter|Documents|GitHub|P4|P4_bremsesystem|VHDL|Bremsesystem_Papilio_DUO|circuit|Papilio_DUO_LX9.sch</ClosedNode>
          <ClosedNode>/TopModul - topmodule C:|Users|peter|Documents|GitHub|P4|P4_bremsesystem|VHDL|Bremsesystem_Papilio_DUO|circuit|TopModul.vhd/ent_detektionssystem - detektionssystem - detektionsmodulBehavioral</ClosedNode>
          <ClosedNode>/TopModul - topmodule C:|Users|peter|Documents|GitHub|P4|P4_bremsesystem|VHDL|Bremsesystem_Papilio_DUO|circuit|TopModul.vhd/ent_motorstyring - motorstyring - motorstyringBehavioral</ClosedNode>
          <ClosedNode>/TopModul - topmodule C:|Users|peter|Documents|GitHub|P4|P4_bremsesystem|VHDL|Bremsesystem_Papilio_DUO|circuit|TopModul.vhd/ent_motorstyring - motorstyring - motorstyringBehavioral/ent_Motorbeskyttelse - Motorbeskyttelse - Behavioral</ClosedNode>
          <ClosedNode>/TopModul - topmodule C:|Users|peter|Documents|GitHub|P4|P4_bremsesystem|VHDL|Bremsesystem_Papilio_DUO|circuit|TopModul.vhd/ent_motorstyring - motorstyring - motorstyringBehavioral/ent_hastighedsbestemmerTop - hastighedsbestemmerTop - Behavioral</ClosedNode>
+         <ClosedNode>/TopModul - topmodule C:|Users|peter|Documents|GitHub|P4|P4_bremsesystem|VHDL|circuit|TopModul.vhd/ent_detektionsmodul - detektionsmodul - detektionsmodulBehavioral/ent_I2CV2 - I2CV2 - Behavioral</ClosedNode>
+         <ClosedNode>/TopModul - topmodule C:|Users|peter|Documents|GitHub|P4|P4_bremsesystem|VHDL|circuit|TopModul.vhd/ent_motorstyring - motorstyring - motorstyringBehavioral/ent_Motorbeskyttelse - Motorbeskyttelse - Behavioral</ClosedNode>
+         <ClosedNode>/TopModul - topmodule C:|Users|peter|Documents|GitHub|P4|P4_bremsesystem|VHDL|circuit|TopModul.vhd/ent_motorstyring - motorstyring - motorstyringBehavioral/ent_hastighedsbestemmerTop - hastighedsbestemmerTop - Behavioral</ClosedNode>
          <ClosedNode>/absBrems - Behavioral C:|Users|peter|Documents|GitHub|P4|P4_bremsesystem|VHDL|Bremsesystem_Papilio_DUO|circuit|absBremse.vhd</ClosedNode>
+         <ClosedNode>/detektionsmodul - detektionsmodulBehavioral C:|Users|peter|Documents|GitHub|P4|P4_bremsesystem|VHDL|circuit|detektionsmodul.vhd/ent_I2CV2 - I2CV2 - Behavioral</ClosedNode>
          <ClosedNode>/hastighedsbestemmerToptest00 - behavior C:|Users|peter|Documents|GitHub|P4|P4_bremsesystem|VHDL|Bremsesystem_Papilio_DUO|circuit|hastighedsbestemmerToptest00.vhd/uut - hastighedsbestemmerTop - Behavioral</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>TopModul - topmodule (C:/Users/peter/Documents/GitHub/P4/P4_bremsesystem/VHDL/Bremsesystem_Papilio_DUO/circuit/TopModul.vhd)</SelectedItem>
+         <SelectedItem>ent_motorstyring - motorstyring - motorstyringBehavioral (C:/Users/peter/Documents/GitHub/P4/P4_bremsesystem/VHDL/circuit/motorstyring.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000249000000020000000000000000000000000200000064ffffffff000000810000000300000002000002490000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000289000000020000000000000000000000000200000064ffffffff000000810000000300000002000002890000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>TopModul - topmodule (C:/Users/peter/Documents/GitHub/P4/P4_bremsesystem/VHDL/Bremsesystem_Papilio_DUO/circuit/TopModul.vhd)</CurrentItem>
+      <CurrentItem>ent_motorstyring - motorstyring - motorstyringBehavioral (C:/Users/peter/Documents/GitHub/P4/P4_bremsesystem/VHDL/circuit/motorstyring.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
       <ClosedNodes>
@@ -35,13 +40,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -50,7 +55,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000003a3000000040101000100000000000000000000000064ffffffff0000008100000000000000040000008100000001000000000000009d00000001000000000000006600000001000000000000021f0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000021d000000040101000100000000000000000000000064ffffffff0000008100000000000000040000008100000001000000000000009d0000000100000000000000660000000100000000000000990000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Papilio_DUO_LX9.sch</CurrentItem>
    </ItemView>
@@ -62,7 +67,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000f8000000010001000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>DesignLab</CurrentItem>
    </ItemView>
@@ -90,13 +95,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Synthesize - XST</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000021d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000021d0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000dc000000010000000100000000000000000000000064ffffffff000000810000000000000001000000dc0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Synthesize - XST</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
