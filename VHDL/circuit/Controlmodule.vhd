@@ -65,7 +65,7 @@ begin
 
 
 	initiateBraking <= '1' when (brakeLength >= i2cData and i2cError = '1' and speed /= x"00") else '0';
-	enableAEBS <= '1' when speed >= x"27" else '0';
+	enableAEBS <= '1' when speed >= x"27" and speed <= x"F0" else '0';
 	--enableAEBS <= '1';
 	process(clk) begin
 		if(clk'event and clk = '1') then
