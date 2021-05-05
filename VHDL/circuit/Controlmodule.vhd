@@ -32,7 +32,7 @@ architecture Behavioral of Controlmodule is
 	signal brakeLength 	 	: std_logic_vector(9 downto 0);
 	signal triggerBuf 		: std_logic := '1';
 	--signal distanceToObject : std_logic_vector(9 downto 0);
-	signal brakeDistanceOut : std_logic_vector(9 downto 0);
+	signal brakeDistanceOut : std_logic_vector(8 downto 0);
 	signal brakingMode 		: std_logic := '0';
 	signal initiateBraking  : std_logic := '0';
 	signal enableAEBS 		: std_logic := '0';

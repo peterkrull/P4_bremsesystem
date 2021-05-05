@@ -1,21 +1,18 @@
-Release 14.7 - xst P.20131013 (lin64)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> 
-Parameter TMPDIR set to xst/projnav.tmp
+--> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
  
---> 
-Parameter xsthdpdir set to xst
+--> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
  
---> 
-Reading design: TopModul.prj
+--> Reading design: TopModul.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -108,70 +105,70 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/timeCounter.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\timeCounter.vhd" into library work
 Parsing entity <timeCounter>.
 Parsing architecture <Behavioral> of entity <timecounter>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/ringbuffer.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\ringbuffer.vhd" into library work
 Parsing entity <ringbuffer>.
 Parsing architecture <Behavioral> of entity <ringbuffer>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/PWMGenerator.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\PWMGenerator.vhd" into library work
 Parsing entity <PWMGenerator>.
 Parsing architecture <Behavioral> of entity <pwmgenerator>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/I2C_sendStart.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendStart.vhd" into library work
 Parsing entity <I2C_sendStart>.
 Parsing architecture <Behavioral> of entity <i2c_sendstart>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/I2C_sendRestart.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendRestart.vhd" into library work
 Parsing entity <I2C_sendRestart>.
 Parsing architecture <Behavioral> of entity <i2c_sendrestart>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/I2C_SendOneByte.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_SendOneByte.vhd" into library work
 Parsing entity <I2C_SendOneByte>.
 Parsing architecture <Behavioral> of entity <i2c_sendonebyte>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/I2C_sendNotAckStop.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendNotAckStop.vhd" into library work
 Parsing entity <I2C_sendNotAckStop>.
 Parsing architecture <Behavioral> of entity <i2c_sendnotackstop>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/I2C_sendAcknowledge.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendAcknowledge.vhd" into library work
 Parsing entity <I2C_sendAcknowledge>.
 Parsing architecture <Behavioral> of entity <i2c_sendacknowledge>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/I2C_recieveAcknowledge.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_recieveAcknowledge.vhd" into library work
 Parsing entity <I2C_recieveAcknowledge>.
 Parsing architecture <Behavioral> of entity <i2c_recieveacknowledge>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/I2C-recieveByte.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C-recieveByte.vhd" into library work
 Parsing entity <I2C_recieveByte>.
 Parsing architecture <Behavioral> of entity <i2c_recievebyte>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/division.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd" into library work
 Parsing entity <division>.
 Parsing architecture <Behavioral> of entity <division>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/distancecalculator.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd" into library work
 Parsing entity <distancecalculator>.
 Parsing architecture <Behavioral> of entity <distancecalculator>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/Motorbeskyttelse.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Motorbeskyttelse.vhd" into library work
 Parsing entity <Motorbeskyttelse>.
 Parsing architecture <Behavioral> of entity <motorbeskyttelse>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/I2CV2.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd" into library work
 Parsing entity <I2CV2>.
 Parsing architecture <Behavioral> of entity <i2cv2>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/hastighedsbestemmerTop.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\hastighedsbestemmerTop.vhd" into library work
 Parsing entity <hastighedsbestemmerTop>.
 Parsing architecture <Behavioral> of entity <hastighedsbestemmertop>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/Controlmodule.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Controlmodule.vhd" into library work
 Parsing entity <Controlmodule>.
 Parsing architecture <Behavioral> of entity <controlmodule>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/Accelerator.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Accelerator.vhd" into library work
 Parsing entity <Accelerator>.
 Parsing architecture <Behavioral> of entity <accelerator>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/absBremse.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\absBremse.vhd" into library work
 Parsing entity <absBrems>.
 Parsing architecture <Behavioral> of entity <absbrems>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/motorstyring.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" into library work
 Parsing entity <motorstyring>.
 Parsing architecture <motorstyringBehavioral> of entity <motorstyring>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/detektionsmodul.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\detektionsmodul.vhd" into library work
 Parsing entity <detektionsmodul>.
 Parsing architecture <detektionsmodulBehavioral> of entity <detektionsmodul>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/TopModul.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\TopModul.vhd" into library work
 Parsing entity <TopModul>.
 Parsing architecture <topmodule> of entity <topmodul>.
-Parsing VHDL file "/home/ise/vmShared/VHDL/circuit/DUO_LX9/Papilio_DUO_LX9.vhf" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\DUO_LX9\Papilio_DUO_LX9.vhf" into library work
 Parsing entity <Papilio_DUO_LX9>.
 Parsing architecture <BEHAVIORAL> of entity <papilio_duo_lx9>.
 
@@ -190,10 +187,10 @@ Elaborating entity <timeCounter> (architecture <Behavioral>) from library <work>
 Elaborating entity <ringbuffer> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <division> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/ise/vmShared/VHDL/circuit/division.vhd" Line 55: Using initial value "1111111111111111" for nomi since it is never assigned
-WARNING:HDLCompiler:92 - "/home/ise/vmShared/VHDL/circuit/division.vhd" Line 83: start_falling should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/ise/vmShared/VHDL/circuit/division.vhd" Line 84: nomi should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/ise/vmShared/VHDL/circuit/division.vhd" Line 98: start_falling should be on the sensitivity list of the process
+WARNING:HDLCompiler:871 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd" Line 55: Using initial value "1111111111111111" for nomi since it is never assigned
+WARNING:HDLCompiler:92 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd" Line 83: start_falling should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd" Line 84: nomi should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd" Line 98: start_falling should be on the sensitivity list of the process
 
 Elaborating entity <absBrems> (architecture <Behavioral>) from library <work>.
 
@@ -212,12 +209,12 @@ Elaborating entity <I2C_sendStart> (architecture <Behavioral>) from library <wor
 Elaborating entity <I2C_sendRestart> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <I2C_SendOneByte> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/ise/vmShared/VHDL/circuit/I2C_SendOneByte.vhd" Line 82. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_SendOneByte.vhd" Line 82. Case statement is complete. others clause is never selected
 
 Elaborating entity <I2C_recieveAcknowledge> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <I2C_recieveByte> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/ise/vmShared/VHDL/circuit/I2C-recieveByte.vhd" Line 74. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C-recieveByte.vhd" Line 74. Case statement is complete. others clause is never selected
 
 Elaborating entity <I2C_sendAcknowledge> (architecture <Behavioral>) from library <work>.
 
@@ -226,35 +223,30 @@ Elaborating entity <I2C_sendNotAckStop> (architecture <Behavioral>) from library
 Elaborating entity <Controlmodule> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <distancecalculator> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/ise/vmShared/VHDL/circuit/distancecalculator.vhd" Line 46: Using initial value "110111110001011111" for k1 since it is never assigned
-WARNING:HDLCompiler:871 - "/home/ise/vmShared/VHDL/circuit/distancecalculator.vhd" Line 50: Using initial value "000000000010000011" for k2 since it is never assigned
-WARNING:HDLCompiler:871 - "/home/ise/vmShared/VHDL/circuit/distancecalculator.vhd" Line 57: Using initial value "000001100110011001" for engineswitchtime since it is never assigned
-WARNING:HDLCompiler:871 - "/home/ise/vmShared/VHDL/circuit/distancecalculator.vhd" Line 60: Using initial value "010011001100110011" for alarmtime since it is never assigned
-WARNING:HDLCompiler:1127 - "/home/ise/vmShared/VHDL/circuit/Controlmodule.vhd" Line 97: Assignment to error_test ignored, since the identifier is never used
-WARNING:HDLCompiler:92 - "/home/ise/vmShared/VHDL/circuit/Controlmodule.vhd" Line 103: error should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/ise/vmShared/VHDL/circuit/Controlmodule.vhd" Line 147: outputlatch should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/ise/vmShared/VHDL/circuit/Controlmodule.vhd" Line 148: break_int should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/ise/vmShared/VHDL/circuit/Controlmodule.vhd" Line 149: alarm_int should be on the sensitivity list of the process
-WARNING:HDLCompiler:634 - "/home/ise/vmShared/VHDL/circuit/Controlmodule.vhd" Line 42: Net <distanceToWall_std[9]> does not have a driver.
+WARNING:HDLCompiler:871 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd" Line 46: Using initial value "110111110001011111" for k1 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd" Line 50: Using initial value "000000000010000011" for k2 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd" Line 57: Using initial value "000001100110011001" for engineswitchtime since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd" Line 60: Using initial value "010011001100110011" for alarmtime since it is never assigned
+WARNING:HDLCompiler:634 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Controlmodule.vhd" Line 32: Net <brakeLength[9]> does not have a driver.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <TopModul>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/TopModul.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\TopModul.vhd".
     Summary:
 	no macro.
 Unit <TopModul> synthesized.
 
 Synthesizing Unit <motorstyring>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/motorstyring.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\motorstyring.vhd".
     Summary:
 	no macro.
 Unit <motorstyring> synthesized.
 
 Synthesizing Unit <hastighedsbestemmerTop>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/hastighedsbestemmerTop.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\hastighedsbestemmerTop.vhd".
     Found 1-bit register for signal <bufClock>.
     Found 32-bit register for signal <slowDownClock>.
     Found 32-bit adder for signal <slowDownClock[31]_GND_5_o_add_1_OUT> created at line 142.
@@ -266,7 +258,7 @@ Synthesizing Unit <hastighedsbestemmerTop>.
 Unit <hastighedsbestemmerTop> synthesized.
 
 Synthesizing Unit <timeCounter>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/timeCounter.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\timeCounter.vhd".
     Found 1-bit register for signal <sensor_falling>.
     Found 1-bit register for signal <sensor_pipe>.
     Found 17-bit register for signal <timePassed_int>.
@@ -280,7 +272,7 @@ Synthesizing Unit <timeCounter>.
 Unit <timeCounter> synthesized.
 
 Synthesizing Unit <ringbuffer>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/ringbuffer.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\ringbuffer.vhd".
     Found 17-bit register for signal <buf_file<2>>.
     Found 17-bit register for signal <buf_file<1>>.
     Found 17-bit register for signal <buf_file<0>>.
@@ -296,7 +288,7 @@ Synthesizing Unit <ringbuffer>.
 Unit <ringbuffer> synthesized.
 
 Synthesizing Unit <division>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/division.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd".
     Found 5-bit register for signal <Count>.
     Found 32-bit register for signal <Q>.
     Found 1-bit register for signal <Start_pipe>.
@@ -311,7 +303,7 @@ Synthesizing Unit <division>.
 Unit <division> synthesized.
 
 Synthesizing Unit <absBrems>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/absBremse.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\absBremse.vhd".
     Found 8-bit register for signal <engPowerCopy>.
     Found 8-bit adder for signal <engPowerCopy[7]_GND_13_o_add_5_OUT> created at line 53.
     Found 8-bit subtractor for signal <GND_13_o_GND_13_o_sub_9_OUT<7:0>> created at line 55.
@@ -369,7 +361,7 @@ Synthesizing Unit <div_16u_7u>.
 Unit <div_16u_7u> synthesized.
 
 Synthesizing Unit <Accelerator>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/Accelerator.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Accelerator.vhd".
     Found 8-bit register for signal <motorkraftCopy>.
     Found 18-bit register for signal <clkCounter>.
     Found 18-bit adder for signal <clkCounter[17]_GND_16_o_add_0_OUT> created at line 48.
@@ -386,7 +378,7 @@ Synthesizing Unit <Accelerator>.
 Unit <Accelerator> synthesized.
 
 Synthesizing Unit <Motorbeskyttelse>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/Motorbeskyttelse.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Motorbeskyttelse.vhd".
     Found 1-bit register for signal <retning_buffer>.
     Found 32-bit register for signal <counter>.
     Found 1-bit register for signal <enableABS>.
@@ -398,7 +390,7 @@ Synthesizing Unit <Motorbeskyttelse>.
 Unit <Motorbeskyttelse> synthesized.
 
 Synthesizing Unit <PWMGenerator>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/PWMGenerator.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\PWMGenerator.vhd".
     Found 1-bit register for signal <PWM_out>.
     Found 8-bit register for signal <clkCountReact>.
     Found 11-bit register for signal <clkCount>.
@@ -412,18 +404,18 @@ Synthesizing Unit <PWMGenerator>.
 Unit <PWMGenerator> synthesized.
 
 Synthesizing Unit <detektionsmodul>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/detektionsmodul.vhd".
-INFO:Xst:3210 - "/home/ise/vmShared/VHDL/circuit/detektionsmodul.vhd" line 69: Output port <errorVector_out> of the instance <ent_I2CV2> is unconnected or connected to loadless signal.
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\detektionsmodul.vhd".
+INFO:Xst:3210 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\detektionsmodul.vhd" line 67: Output port <errorVector_out> of the instance <ent_I2CV2> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <detektionsmodul> synthesized.
 
 Synthesizing Unit <I2CV2>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/I2CV2.vhd".
-INFO:Xst:3210 - "/home/ise/vmShared/VHDL/circuit/I2CV2.vhd" line 286: Output port <clkstep_out> of the instance <recieveByte0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/vmShared/VHDL/circuit/I2CV2.vhd" line 286: Output port <bitCounter_out> of the instance <recieveByte0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/vmShared/VHDL/circuit/I2CV2.vhd" line 315: Output port <clkstep_out> of the instance <recieveByte1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/vmShared/VHDL/circuit/I2CV2.vhd" line 315: Output port <bitCounter_out> of the instance <recieveByte1> is unconnected or connected to loadless signal.
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd".
+INFO:Xst:3210 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd" line 286: Output port <clkstep_out> of the instance <recieveByte0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd" line 286: Output port <bitCounter_out> of the instance <recieveByte0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd" line 315: Output port <clkstep_out> of the instance <recieveByte1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd" line 315: Output port <bitCounter_out> of the instance <recieveByte1> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <isTriggered>.
     Found 1-bit register for signal <triggerGoneFromHighToLow>.
     Found 1-bit register for signal <resetBuffer>.
@@ -444,7 +436,7 @@ INFO:Xst:3210 - "/home/ise/vmShared/VHDL/circuit/I2CV2.vhd" line 315: Output por
 Unit <I2CV2> synthesized.
 
 Synthesizing Unit <I2C_sendStart>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/I2C_sendStart.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendStart.vhd".
     Found 1-bit register for signal <clk_out>.
     Found 1-bit register for signal <done_outBuffer>.
     Found 1-bit register for signal <triggerBuf>.
@@ -453,7 +445,7 @@ Synthesizing Unit <I2C_sendStart>.
 Unit <I2C_sendStart> synthesized.
 
 Synthesizing Unit <I2C_sendRestart>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/I2C_sendRestart.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendRestart.vhd".
     Found 2-bit register for signal <clkCount>.
     Found 1-bit register for signal <done_outBuffer>.
     Found 1-bit register for signal <triggerBuf>.
@@ -465,7 +457,7 @@ Synthesizing Unit <I2C_sendRestart>.
 Unit <I2C_sendRestart> synthesized.
 
 Synthesizing Unit <I2C_SendOneByte>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/I2C_SendOneByte.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_SendOneByte.vhd".
     Found 3-bit register for signal <bitCount>.
     Found 1-bit register for signal <enableSDA>.
     Found 2-bit register for signal <clkCount>.
@@ -495,7 +487,7 @@ Synthesizing Unit <I2C_SendOneByte>.
 Unit <I2C_SendOneByte> synthesized.
 
 Synthesizing Unit <I2C_recieveAcknowledge>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/I2C_recieveAcknowledge.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_recieveAcknowledge.vhd".
     Found 1-bit register for signal <clk_out>.
     Found 1-bit register for signal <isListening>.
     Found 1-bit register for signal <error>.
@@ -506,7 +498,7 @@ Synthesizing Unit <I2C_recieveAcknowledge>.
 Unit <I2C_recieveAcknowledge> synthesized.
 
 Synthesizing Unit <I2C_recieveByte>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/I2C-recieveByte.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C-recieveByte.vhd".
     Found 8-bit register for signal <dataBuffer>.
     Found 3-bit register for signal <bitCounter>.
     Found 1-bit register for signal <doneOutBuf>.
@@ -533,7 +525,7 @@ Synthesizing Unit <I2C_recieveByte>.
 Unit <I2C_recieveByte> synthesized.
 
 Synthesizing Unit <I2C_sendAcknowledge>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/I2C_sendAcknowledge.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendAcknowledge.vhd".
     Found 1-bit register for signal <clkCount>.
     Found 1-bit register for signal <done_outBuffer>.
     Found 1-bit register for signal <triggerBuf>.
@@ -542,7 +534,7 @@ Synthesizing Unit <I2C_sendAcknowledge>.
 Unit <I2C_sendAcknowledge> synthesized.
 
 Synthesizing Unit <I2C_sendNotAckStop>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/I2C_sendNotAckStop.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendNotAckStop.vhd".
     Found 1-bit register for signal <SDA>.
     Found 1-bit register for signal <SCL>.
     Found 1-bit register for signal <doneOutBuffer>.
@@ -556,34 +548,27 @@ Synthesizing Unit <I2C_sendNotAckStop>.
 Unit <I2C_sendNotAckStop> synthesized.
 
 Synthesizing Unit <Controlmodule>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/Controlmodule.vhd".
-WARNING:Xst:647 - Input <data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:653 - Signal <distanceToWall_std<9:0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-    Found 1-bit register for signal <i2cStart_sig>.
-    Found 1-bit register for signal <break_int>.
-    Found 1-bit register for signal <alarm_int>.
-    Found 1-bit register for signal <break_falling>.
-    Found 1-bit register for signal <alarm_rising>.
-    Found 1-bit register for signal <break_pipe>.
-    Found 1-bit register for signal <alarm_pipe>.
-    Found 17-bit register for signal <clkCount>.
-    Found 17-bit adder for signal <clkCount[16]_GND_38_o_add_3_OUT> created at line 1241.
-    Found 10-bit adder for signal <breakingdistance[9]_GND_38_o_add_7_OUT> created at line 1241.
-    Found 10-bit adder for signal <totaldistance[9]_GND_38_o_add_9_OUT> created at line 1241.
-WARNING:Xst:737 - Found 1-bit latch for signal <break>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <alarm>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 17-bit comparator greater for signal <clkCount[16]_GND_38_o_LessThan_3_o> created at line 83
-    Found 10-bit comparator greater for signal <distanceToWall[9]_INV_447_o> created at line 104
-    Found 10-bit comparator lessequal for signal <n0015> created at line 107
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Controlmodule.vhd".
+WARNING:Xst:647 - Input <i2cReady> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Controlmodule.vhd" line 43: Output port <breakdistance_out> of the instance <Inst_distancecalculator> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <brakeLength> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 1-bit register for signal <triggerBuf>.
+    Found 1-bit register for signal <brakeOff>.
+    Found 16-bit register for signal <clkCount>.
+    Found 16-bit adder for signal <clkCount[15]_GND_38_o_add_1_OUT> created at line 1241.
+    Found 16-bit comparator greater for signal <clkCount[15]_PWR_31_o_LessThan_1_o> created at line 52
+    Found 10-bit comparator lessequal for signal <n0008> created at line 64
+    Found 10-bit comparator lessequal for signal <n0013> created at line 67
+    Found 8-bit comparator lessequal for signal <n0019> created at line 68
+    Found 8-bit comparator lessequal for signal <n0021> created at line 68
     Summary:
-	inferred   3 Adder/Subtractor(s).
-	inferred  24 D-type flip-flop(s).
-	inferred   2 Latch(s).
-	inferred   3 Comparator(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+	inferred   5 Comparator(s).
 Unit <Controlmodule> synthesized.
 
 Synthesizing Unit <distancecalculator>.
-    Related source file is "/home/ise/vmShared/VHDL/circuit/distancecalculator.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd".
     Found 10-bit adder for signal <n0038> created at line 84.
     Found 10-bit adder for signal <breakdistance> created at line 1241.
     Found 11-bit adder for signal <n0043> created at line 95.
@@ -608,11 +593,11 @@ Macro Statistics
  18x18-bit multiplier                                  : 1
  18x8-bit multiplier                                   : 2
  8x7-bit multiplier                                    : 1
-# Adders/Subtractors                                   : 54
- 10-bit adder                                          : 4
+# Adders/Subtractors                                   : 52
+ 10-bit adder                                          : 2
  11-bit adder                                          : 4
- 16-bit adder                                          : 9
- 17-bit adder                                          : 4
+ 16-bit adder                                          : 10
+ 17-bit adder                                          : 3
  17-bit subtractor                                     : 2
  18-bit adder                                          : 2
  19-bit adder                                          : 7
@@ -627,25 +612,22 @@ Macro Statistics
  5-bit adder                                           : 2
  8-bit adder                                           : 2
  8-bit addsub                                          : 2
-# Registers                                            : 114
- 1-bit register                                        : 72
+# Registers                                            : 109
+ 1-bit register                                        : 67
  11-bit register                                       : 2
  12-bit register                                       : 1
- 16-bit register                                       : 1
- 17-bit register                                       : 13
+ 16-bit register                                       : 2
+ 17-bit register                                       : 12
  18-bit register                                       : 1
  2-bit register                                        : 3
  3-bit register                                        : 6
  32-bit register                                       : 5
  5-bit register                                        : 2
  8-bit register                                        : 8
-# Latches                                              : 2
- 1-bit latch                                           : 2
-# Comparators                                          : 32
- 10-bit comparator greater                             : 1
- 10-bit comparator lessequal                           : 1
+# Comparators                                          : 34
+ 10-bit comparator lessequal                           : 2
+ 16-bit comparator greater                             : 1
  16-bit comparator lessequal                           : 10
- 17-bit comparator greater                             : 1
  17-bit comparator lessequal                           : 1
  18-bit comparator lessequal                           : 1
  19-bit comparator lessequal                           : 1
@@ -655,6 +637,7 @@ Macro Statistics
  23-bit comparator lessequal                           : 1
  32-bit comparator greater                             : 2
  8-bit comparator greater                              : 10
+ 8-bit comparator lessequal                            : 2
 # Multiplexers                                         : 267
  1-bit 2-to-1 multiplexer                              : 259
  1-bit 8-to-1 multiplexer                              : 3
@@ -675,6 +658,12 @@ Macro Statistics
 WARNING:Xst:1293 - FF/Latch <error_out> has a constant value of 1 in block <ent_I2CV2>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <Q_31> of sequential type is unconnected in block <division_front>.
 WARNING:Xst:2677 - Node <Q_31> of sequential type is unconnected in block <division_back>.
+WARNING:Xst:2677 - Node <dataOut_10> of sequential type is unconnected in block <ent_I2CV2>.
+WARNING:Xst:2677 - Node <dataOut_11> of sequential type is unconnected in block <ent_I2CV2>.
+WARNING:Xst:2677 - Node <dataOut_12> of sequential type is unconnected in block <ent_I2CV2>.
+WARNING:Xst:2677 - Node <dataOut_13> of sequential type is unconnected in block <ent_I2CV2>.
+WARNING:Xst:2677 - Node <dataOut_14> of sequential type is unconnected in block <ent_I2CV2>.
+WARNING:Xst:2677 - Node <dataOut_15> of sequential type is unconnected in block <ent_I2CV2>.
 
 Synthesizing (advanced) Unit <Accelerator>.
 The following registers are absorbed into counter <clkCounter>: 1 register on signal <clkCounter>.
@@ -744,8 +733,8 @@ Macro Statistics
  18x18-bit multiplier                                  : 1
  18x8-bit multiplier                                   : 2
  8x7-bit multiplier                                    : 1
-# Adders/Subtractors                                   : 25
- 10-bit adder                                          : 4
+# Adders/Subtractors                                   : 23
+ 10-bit adder                                          : 2
  11-bit adder                                          : 2
  16-bit adder                                          : 16
  17-bit subtractor                                     : 2
@@ -754,7 +743,8 @@ Macro Statistics
  19-bit / 4-inputs adder tree                          : 2
 # Counters                                             : 23
  11-bit up counter                                     : 2
- 17-bit up counter                                     : 3
+ 16-bit up counter                                     : 1
+ 17-bit up counter                                     : 2
  18-bit up counter                                     : 1
  2-bit up counter                                      : 2
  3-bit down counter                                    : 5
@@ -763,13 +753,12 @@ Macro Statistics
  5-bit up counter                                      : 2
  8-bit up counter                                      : 2
  8-bit updown counter                                  : 2
-# Registers                                            : 366
- Flip-Flops                                            : 366
-# Comparators                                          : 32
- 10-bit comparator greater                             : 1
- 10-bit comparator lessequal                           : 1
+# Registers                                            : 361
+ Flip-Flops                                            : 361
+# Comparators                                          : 34
+ 10-bit comparator lessequal                           : 2
+ 16-bit comparator greater                             : 1
  16-bit comparator lessequal                           : 10
- 17-bit comparator greater                             : 1
  17-bit comparator lessequal                           : 1
  18-bit comparator lessequal                           : 1
  19-bit comparator lessequal                           : 1
@@ -779,6 +768,7 @@ Macro Statistics
  23-bit comparator lessequal                           : 1
  32-bit comparator greater                             : 2
  8-bit comparator greater                              : 10
+ 8-bit comparator lessequal                            : 2
 # Multiplexers                                         : 264
  1-bit 2-to-1 multiplexer                              : 256
  1-bit 8-to-1 multiplexer                              : 3
@@ -817,10 +807,12 @@ Optimizing FSM <ent_detektionsmodul/ent_I2CV2/recieveByte1/FSM_1> on signal <clk
  10    | 10
  11    | 11
 -------------------
-WARNING:Xst:1426 - The value init of the FF/Latch break_int hinder the constant cleaning in the block Controlmodule.
-   You should achieve better results by setting this init to 0.
-WARNING:Xst:1426 - The value init of the FF/Latch alarm_int hinder the constant cleaning in the block Controlmodule.
-   You should achieve better results by setting this init to 1.
+WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_15> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_14> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_13> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_12> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_11> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_10> of sequential type is unconnected in block <TopModul>.
 
 Optimizing unit <TopModul> ...
 
@@ -837,6 +829,10 @@ Optimizing unit <absBrems> ...
 Optimizing unit <div_16u_7u> ...
 
 Optimizing unit <Controlmodule> ...
+WARNING:Xst:1293 - FF/Latch <brakeOff> has a constant value of 1 in block <Controlmodule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <brakeOff> has a constant value of 1 in block <Controlmodule>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <distancecalculator> ...
 
 Optimizing unit <I2C_sendStart> ...
 
@@ -851,42 +847,125 @@ Optimizing unit <I2C_recieveByte> ...
 Optimizing unit <I2C_sendAcknowledge> ...
 
 Optimizing unit <I2C_sendNotAckStop> ...
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_15> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_14> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_13> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_12> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_11> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_10> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_9> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_8> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_7> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_6> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_5> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_4> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_3> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_2> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_1> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/dataOut_0> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:1293 - FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/counter_12> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/enableABS> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/retning_buffer> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/enableAccelerator> has a constant value of 1 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveAcknowledge0/error> of sequential type is unconnected in block <TopModul>.
 WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveAcknowledge1/error> of sequential type is unconnected in block <TopModul>.
 WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveAcknowledge2/error> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte0/dataBuffer_7> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte0/dataBuffer_6> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte0/dataBuffer_5> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte0/dataBuffer_4> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte0/dataBuffer_3> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte0/dataBuffer_2> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte0/dataBuffer_1> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte0/dataBuffer_0> of sequential type is unconnected in block <TopModul>.
 WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_7> of sequential type is unconnected in block <TopModul>.
 WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_6> of sequential type is unconnected in block <TopModul>.
 WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_5> of sequential type is unconnected in block <TopModul>.
 WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_4> of sequential type is unconnected in block <TopModul>.
 WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_3> of sequential type is unconnected in block <TopModul>.
 WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_2> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_1> of sequential type is unconnected in block <TopModul>.
-WARNING:Xst:2677 - Node <ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_0> of sequential type is unconnected in block <TopModul>.
 WARNING:Xst:1898 - Due to constant pushing, FF/Latch <ent_detektionsmodul/ent_I2CV2/sendByte1/enableSDA> is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_7> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_6> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_5> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_4> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_3> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_2> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_1> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_0> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_10> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_9> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_8> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_7> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_6> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_5> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_4> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_3> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_2> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_1> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_0> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_31> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_30> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_29> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_28> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_27> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_26> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_25> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_24> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_23> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_22> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_21> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_20> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_19> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_18> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_17> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_16> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_15> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_14> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_13> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_11> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_10> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_9> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_8> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_7> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_6> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_5> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_4> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_3> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_2> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_1> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/counter_0> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/PWM_out> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Count_4> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Count_3> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Count_2> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Count_1> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Count_0> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_7> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_6> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_5> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_4> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_3> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_2> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_1> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_0> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_30> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_29> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_28> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_27> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_26> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_25> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_24> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_23> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_22> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_21> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_20> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_19> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_18> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_17> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_16> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_15> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_14> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_13> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_12> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_11> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_10> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_9> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_8> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_7> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_6> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_5> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_4> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_3> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_2> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_1> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_0> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Start_falling> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Start_pipe> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_absBrems/engPowerCopy_7> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_absBrems/engPowerCopy_6> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_absBrems/engPowerCopy_5> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_absBrems/engPowerCopy_4> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_absBrems/engPowerCopy_3> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_absBrems/engPowerCopy_2> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_absBrems/engPowerCopy_1> of sequential type is unconnected in block <TopModul>.
+WARNING:Xst:2677 - Node <ent_motorstyring/ent_absBrems/engPowerCopy_0> of sequential type is unconnected in block <TopModul>.
 WARNING:Xst:1293 - FF/Latch <ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_31> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_30> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_29> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
@@ -912,7 +991,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_motorstyring/en
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_9> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_8> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_7> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_detektionsmodul/ent_Controlmodule/clkCount_16> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_detektionsmodul/ent_I2CV2/slowDownClock_31> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_detektionsmodul/ent_I2CV2/slowDownClock_30> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_detektionsmodul/ent_I2CV2/slowDownClock_29> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
@@ -939,40 +1017,16 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_detektionsmodul
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_detektionsmodul/ent_I2CV2/slowDownClock_8> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_detektionsmodul/ent_I2CV2/slowDownClock_7> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <ent_detektionsmodul/ent_I2CV2/slowDownClock_6> has a constant value of 0 in block <TopModul>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_10> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_10> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_0> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_0> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_1> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_1> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_2> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_2> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_3> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_3> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_4> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_4> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_5> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_5> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_6> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_6> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_7> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_7> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_0> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_0> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_1> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_1> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_2> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_2> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_3> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_3> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_4> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_4> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_5> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_5> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_6> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_6> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_7> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_7> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_8> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_8> 
-INFO:Xst:2261 - The FF/Latch <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_9> in Unit <TopModul> is equivalent to the following FF/Latch, which will be removed : <ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_9> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
-WARNING:Xst:1426 - The value init of the FF/Latch ent_detektionsmodul/ent_Controlmodule/alarm_int hinder the constant cleaning in the block TopModul.
-   You should achieve better results by setting this init to 1.
-Found area constraint ratio of 100 (+ 5) on block TopModul, actual ratio is 18.
-WARNING:Xst:1426 - The value init of the FF/Latch ent_detektionsmodul/ent_Controlmodule/break_int hinder the constant cleaning in the block TopModul.
-   You should achieve better results by setting this init to 0.
-FlipFlop ent_detektionsmodul/ent_I2CV2/resetBuffer has been replicated 1 time(s)
-FlipFlop ent_motorstyring/ent_hastighedsbestemmerTop/division_back/Result_5 has been replicated 1 time(s)
+Found area constraint ratio of 100 (+ 5) on block TopModul, actual ratio is 15.
+FlipFlop ent_detektionsmodul/ent_I2CV2/resetBuffer has been replicated 2 time(s)
+FlipFlop ent_detektionsmodul/ent_I2CV2/sendStart0/done_outBuffer has been replicated 1 time(s)
 
 Final Macro Processing ...
 
 Processing Unit <TopModul> :
-INFO:Xst:741 - HDL ADVISOR - A 8-bit shift register was found for signal <ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_15> and currently occupies 8 logic cells (4 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
 INFO:Xst:741 - HDL ADVISOR - A 8-bit shift register was found for signal <ent_motorstyring/ent_hastighedsbestemmerTop/division_back/Q_15> and currently occupies 8 logic cells (4 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
 Unit <TopModul> processed.
 
@@ -980,8 +1034,8 @@ Unit <TopModul> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 521
- Flip-Flops                                            : 521
+# Registers                                            : 446
+ Flip-Flops                                            : 446
 
 =========================================================================
 
@@ -1004,39 +1058,37 @@ Top Level Output File Name         : TopModul.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1443
+# BELS                             : 1164
 #      GND                         : 1
-#      INV                         : 20
-#      LUT1                        : 137
-#      LUT2                        : 189
-#      LUT3                        : 130
-#      LUT4                        : 125
+#      INV                         : 17
+#      LUT1                        : 106
+#      LUT2                        : 155
+#      LUT3                        : 120
+#      LUT4                        : 99
 #      LUT5                        : 60
-#      LUT6                        : 139
-#      MUXCY                       : 337
-#      MUXF7                       : 4
+#      LUT6                        : 106
+#      MUXCY                       : 265
+#      MUXF7                       : 1
 #      VCC                         : 1
-#      XORCY                       : 300
-# FlipFlops/Latches                : 523
-#      FD                          : 96
-#      FD_1                        : 17
-#      FDCE                        : 40
-#      FDE                         : 177
-#      FDPE                        : 32
-#      FDR                         : 109
-#      FDR_1                       : 2
-#      FDRE                        : 36
+#      XORCY                       : 233
+# FlipFlops/Latches                : 446
+#      FD                          : 49
+#      FD_1                        : 20
+#      FDCE                        : 20
+#      FDE                         : 188
+#      FDPE                        : 16
+#      FDR                         : 112
+#      FDRE                        : 29
 #      FDRE_1                      : 2
 #      FDS                         : 4
 #      FDSE                        : 6
-#      LD                          : 2
 # Clock Buffers                    : 5
 #      BUFG                        : 4
 #      BUFGP                       : 1
 # IO Buffers                       : 15
 #      IBUF                        : 10
+#      IOBUF                       : 1
 #      OBUF                        : 4
-#      OBUFT                       : 1
 # DSPs                             : 5
 #      DSP48A1                     : 5
 
@@ -1047,21 +1099,20 @@ Selected Device : 6slx9tqg144-2
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             522  out of  11440     4%  
- Number of Slice LUTs:                  800  out of   5720    13%  
-    Number used as Logic:               800  out of   5720    13%  
+ Number of Slice Registers:             446  out of  11440     3%  
+ Number of Slice LUTs:                  663  out of   5720    11%  
+    Number used as Logic:               663  out of   5720    11%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    963
-   Number with an unused Flip Flop:     441  out of    963    45%  
-   Number with an unused LUT:           163  out of    963    16%  
-   Number of fully used LUT-FF pairs:   359  out of    963    37%  
-   Number of unique control sets:        46
+ Number of LUT Flip Flop pairs used:    788
+   Number with an unused Flip Flop:     342  out of    788    43%  
+   Number with an unused LUT:           125  out of    788    15%  
+   Number of fully used LUT-FF pairs:   321  out of    788    40%  
+   Number of unique control sets:        44
 
 IO Utilization: 
  Number of IOs:                          16
  Number of bonded IOBs:                  16  out of    102    15%  
-    IOB Flip Flops/Latches:               1
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                5  out of     16    31%  
@@ -1085,21 +1136,15 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
-------------------------------------------------------------------------------------------------------+------------------------------------------------------+-------+
-Clock Signal                                                                                          | Clock buffer(FF name)                                | Load  |
-------------------------------------------------------------------------------------------------------+------------------------------------------------------+-------+
-clk                                                                                                   | BUFGP                                                | 220   |
-ent_motorstyring/ent_hastighedsbestemmerTop/timeCounter_back/data_ready                               | BUFG                                                 | 70    |
-ent_motorstyring/ent_hastighedsbestemmerTop/timeCounter_front/data_ready                              | BUFG                                                 | 70    |
-ent_motorstyring/ent_hastighedsbestemmerTop/bufClock                                                  | BUFG                                                 | 76    |
-ent_detektionsmodul/ent_Controlmodule/outputLatch(ent_detektionsmodul/ent_Controlmodule/outputLatch:O)| NONE(*)(ent_detektionsmodul/ent_Controlmodule/alarm) | 2     |
-ent_detektionsmodul/ent_I2CV2/bufClock                                                                | BUFG                                                 | 84    |
-ent_detektionsmodul/ent_I2CV2/isTriggered                                                             | NONE(ent_detektionsmodul/ent_Controlmodule/alarm_int)| 2     |
-------------------------------------------------------------------------------------------------------+------------------------------------------------------+-------+
-(*) This 1 clock signal(s) are generated by combinatorial logic,
-and XST is not able to identify which are the primary clock signals.
-Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
-INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+------------------------------------------------------------------------+------------------------+-------+
+Clock Signal                                                            | Clock buffer(FF name)  | Load  |
+------------------------------------------------------------------------+------------------------+-------+
+clk                                                                     | BUFGP                  | 125   |
+ent_detektionsmodul/ent_I2CV2/bufClock                                  | BUFG                   | 106   |
+ent_motorstyring/ent_hastighedsbestemmerTop/timeCounter_back/data_ready | BUFG                   | 70    |
+ent_motorstyring/ent_hastighedsbestemmerTop/timeCounter_front/data_ready| BUFG                   | 70    |
+ent_motorstyring/ent_hastighedsbestemmerTop/bufClock                    | BUFG                   | 76    |
+------------------------------------------------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
 ----------------------------------------
@@ -1109,10 +1154,10 @@ Timing Summary:
 ---------------
 Speed Grade: -2
 
-   Minimum period: 7.074ns (Maximum Frequency: 141.363MHz)
-   Minimum input arrival time before clock: 7.257ns
-   Maximum output required time after clock: 8.265ns
-   Maximum combinational path delay: 7.407ns
+   Minimum period: 6.696ns (Maximum Frequency: 149.343MHz)
+   Minimum input arrival time before clock: 7.375ns
+   Maximum output required time after clock: 34.202ns
+   Maximum combinational path delay: 7.191ns
 
 Timing Details:
 ---------------
@@ -1120,30 +1165,53 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 7.074ns (frequency: 141.363MHz)
-  Total number of paths / destination ports: 33298 / 500
+  Clock period: 6.567ns (frequency: 152.277MHz)
+  Total number of paths / destination ports: 3713 / 303
 -------------------------------------------------------------------------
-Delay:               7.074ns (Levels of Logic = 6)
-  Source:            ent_motorstyring/ent_hastighedsbestemmerTop/division_back/Result_7 (FF)
-  Destination:       ent_motorstyring/ent_absBrems/engPowerCopy_7 (FF)
+Delay:               6.567ns (Levels of Logic = 6)
+  Source:            ent_motorstyring/ent_Accelerator/motorkraftCopy_4 (FF)
+  Destination:       ent_motorstyring/ent_Accelerator/motorkraftCopy_7 (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: ent_motorstyring/ent_hastighedsbestemmerTop/division_back/Result_7 to ent_motorstyring/ent_absBrems/engPowerCopy_7
+  Data Path: ent_motorstyring/ent_Accelerator/motorkraftCopy_4 to ent_motorstyring/ent_Accelerator/motorkraftCopy_7
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q            16   0.525   1.410  ent_motorstyring/ent_hastighedsbestemmerTop/division_back/Result_7 (ent_motorstyring/ent_hastighedsbestemmerTop/division_back/Result_7)
-     LUT3:I0->O            1   0.235   0.682  ent_motorstyring/ent_absBrems/Mmult_rearSpeed[7]_PWR_14_o_MuLt_0_OUT_Madd1_xor<9>11 (ent_motorstyring/ent_absBrems/Mmult_rearSpeed[7]_PWR_14_o_MuLt_0_OUT_Madd_91)
-     LUT6:I5->O            1   0.254   0.000  ent_motorstyring/ent_absBrems/Mmult_rearSpeed[7]_PWR_14_o_MuLt_0_OUT_Madd2_lut<9> (ent_motorstyring/ent_absBrems/Mmult_rearSpeed[7]_PWR_14_o_MuLt_0_OUT_Madd2_lut<9>)
-     MUXCY:S->O            1   0.215   0.000  ent_motorstyring/ent_absBrems/Mmult_rearSpeed[7]_PWR_14_o_MuLt_0_OUT_Madd2_cy<9> (ent_motorstyring/ent_absBrems/Mmult_rearSpeed[7]_PWR_14_o_MuLt_0_OUT_Madd2_cy<9>)
-     XORCY:CI->O           1   0.206   0.790  ent_motorstyring/ent_absBrems/Mmult_rearSpeed[7]_PWR_14_o_MuLt_0_OUT_Madd2_xor<10> (ent_motorstyring/ent_absBrems/rearSpeed[7]_PWR_14_o_MuLt_0_OUT<10>)
-     LUT2:I0->O           10   0.250   1.008  ent_motorstyring/ent_absBrems/speedABS[15]_frontSpeed[7]_LessThan_4_o12 (ent_motorstyring/ent_absBrems/speedABS[15]_frontSpeed[7]_LessThan_4_o11)
-     LUT6:I5->O            8   0.254   0.943  ent_motorstyring/ent_absBrems/_n0035_inv (ent_motorstyring/ent_absBrems/_n0035_inv)
-     FDRE:CE                   0.302          ent_motorstyring/ent_absBrems/engPowerCopy_0
+     FDE:C->Q              5   0.525   1.296  ent_motorstyring/ent_Accelerator/motorkraftCopy_4 (ent_motorstyring/ent_Accelerator/motorkraftCopy_4)
+     LUT6:I0->O            1   0.254   0.682  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_GND_16_o_AND_83_o1 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_GND_16_o_AND_83_o)
+     LUT3:I2->O            8   0.254   0.944  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_GND_16_o_AND_83_o2 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_GND_16_o_AND_83_o1)
+     LUT6:I5->O            5   0.254   0.841  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_GND_16_o_AND_83_o3 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_GND_16_o_AND_83_o_inv_inv)
+     LUT2:I1->O            0   0.254   0.000  ent_motorstyring/ent_Accelerator/Mcount_motorkraftCopy_lut<7> (ent_motorstyring/ent_Accelerator/Mcount_motorkraftCopy_lut<7>)
+     XORCY:LI->O           1   0.149   0.790  ent_motorstyring/ent_Accelerator/Mcount_motorkraftCopy_xor<7> (ent_motorstyring/ent_Accelerator/Result<7>)
+     LUT3:I1->O            1   0.250   0.000  ent_motorstyring/ent_Accelerator/motorkraftCopy_7_dpot (ent_motorstyring/ent_Accelerator/motorkraftCopy_7_dpot)
+     FDE:D                     0.074          ent_motorstyring/ent_Accelerator/motorkraftCopy_7
     ----------------------------------------
-    Total                      7.074ns (2.241ns logic, 4.833ns route)
-                                       (31.7% logic, 68.3% route)
+    Total                      6.567ns (2.014ns logic, 4.553ns route)
+                                       (30.7% logic, 69.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ent_detektionsmodul/ent_I2CV2/bufClock'
+  Clock period: 6.696ns (frequency: 149.343MHz)
+  Total number of paths / destination ports: 1413 / 180
+-------------------------------------------------------------------------
+Delay:               3.348ns (Levels of Logic = 2)
+  Source:            ent_detektionsmodul/ent_I2CV2/sendByte2/done_outBuffer (FF)
+  Destination:       ent_detektionsmodul/ent_I2CV2/resetBuffer (FF)
+  Source Clock:      ent_detektionsmodul/ent_I2CV2/bufClock falling
+  Destination Clock: ent_detektionsmodul/ent_I2CV2/bufClock rising
+
+  Data Path: ent_detektionsmodul/ent_I2CV2/sendByte2/done_outBuffer to ent_detektionsmodul/ent_I2CV2/resetBuffer
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q            11   0.525   1.039  ent_detektionsmodul/ent_I2CV2/sendByte2/done_outBuffer (ent_detektionsmodul/ent_I2CV2/sendByte2/done_outBuffer)
+     LUT6:I5->O           13   0.254   1.206  ent_detektionsmodul/ent_I2CV2/doneBuffer_isTriggered_AND_148_o3 (ent_detektionsmodul/ent_I2CV2/doneBuffer_isTriggered_AND_148_o4)
+     LUT4:I2->O            1   0.250   0.000  ent_detektionsmodul/ent_I2CV2/statusCounter_0_rstpot (ent_detektionsmodul/ent_I2CV2/statusCounter_0_rstpot)
+     FD:D                      0.074          ent_detektionsmodul/ent_I2CV2/statusCounter_0
+    ----------------------------------------
+    Total                      3.348ns (1.103ns logic, 2.245ns route)
+                                       (32.9% logic, 67.1% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'ent_motorstyring/ent_hastighedsbestemmerTop/timeCounter_back/data_ready'
@@ -1213,33 +1281,10 @@ Delay:               5.226ns (Levels of Logic = 2)
                                        (28.6% logic, 71.4% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'ent_detektionsmodul/ent_I2CV2/bufClock'
-  Clock period: 6.692ns (frequency: 149.432MHz)
-  Total number of paths / destination ports: 989 / 127
--------------------------------------------------------------------------
-Delay:               3.346ns (Levels of Logic = 2)
-  Source:            ent_detektionsmodul/ent_I2CV2/sendByte2/done_outBuffer (FF)
-  Destination:       ent_detektionsmodul/ent_I2CV2/resetBuffer (FF)
-  Source Clock:      ent_detektionsmodul/ent_I2CV2/bufClock falling
-  Destination Clock: ent_detektionsmodul/ent_I2CV2/bufClock rising
-
-  Data Path: ent_detektionsmodul/ent_I2CV2/sendByte2/done_outBuffer to ent_detektionsmodul/ent_I2CV2/resetBuffer
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FD_1:C->Q            10   0.525   1.008  ent_detektionsmodul/ent_I2CV2/sendByte2/done_outBuffer (ent_detektionsmodul/ent_I2CV2/sendByte2/done_outBuffer)
-     LUT6:I5->O           14   0.254   1.235  ent_detektionsmodul/ent_I2CV2/doneBuffer_isTriggered_AND_148_o3 (ent_detektionsmodul/ent_I2CV2/doneBuffer_isTriggered_AND_148_o4)
-     LUT5:I3->O            1   0.250   0.000  ent_detektionsmodul/ent_I2CV2/statusCounter_0_rstpot11 (ent_detektionsmodul/ent_I2CV2/statusCounter_0_rstpot1)
-     FD:D                      0.074          ent_detektionsmodul/ent_I2CV2/statusCounter_0
-    ----------------------------------------
-    Total                      3.346ns (1.103ns logic, 2.243ns route)
-                                       (33.0% logic, 67.0% route)
-
-=========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 682 / 15
+  Total number of paths / destination ports: 814 / 8
 -------------------------------------------------------------------------
-Offset:              7.257ns (Levels of Logic = 5)
+Offset:              7.375ns (Levels of Logic = 7)
   Source:            test_speed<0> (PAD)
   Destination:       ent_motorstyring/ent_Accelerator/motorkraftCopy_7 (FF)
   Destination Clock: clk rising
@@ -1249,14 +1294,16 @@ Offset:              7.257ns (Levels of Logic = 5)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             3   1.328   1.221  test_speed_0_IBUF (test_speed_0_IBUF)
-     LUT6:I0->O            1   0.254   0.681  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o2 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o1)
-     MUXF7:S->O            2   0.185   0.834  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o1 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o2)
-     LUT6:I4->O           11   0.250   1.039  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_GND_16_o_AND_83_o3 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_GND_16_o_AND_83_o_inv_inv)
-     LUT6:I5->O            7   0.254   0.909  ent_motorstyring/ent_Accelerator/_n0040_inv3 (ent_motorstyring/ent_Accelerator/_n0040_inv)
-     FDE:CE                    0.302          ent_motorstyring/ent_Accelerator/motorkraftCopy_1
+     LUT6:I0->O            2   0.254   0.726  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o2 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o1)
+     LUT3:I2->O            6   0.254   0.984  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o11 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o11)
+     LUT6:I4->O            5   0.250   0.841  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_GND_16_o_AND_83_o3 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_GND_16_o_AND_83_o_inv_inv)
+     LUT2:I1->O            0   0.254   0.000  ent_motorstyring/ent_Accelerator/Mcount_motorkraftCopy_lut<7> (ent_motorstyring/ent_Accelerator/Mcount_motorkraftCopy_lut<7>)
+     XORCY:LI->O           1   0.149   0.790  ent_motorstyring/ent_Accelerator/Mcount_motorkraftCopy_xor<7> (ent_motorstyring/ent_Accelerator/Result<7>)
+     LUT3:I1->O            1   0.250   0.000  ent_motorstyring/ent_Accelerator/motorkraftCopy_7_dpot (ent_motorstyring/ent_Accelerator/motorkraftCopy_7_dpot)
+     FDE:D                     0.074          ent_motorstyring/ent_Accelerator/motorkraftCopy_7
     ----------------------------------------
-    Total                      7.257ns (2.573ns logic, 4.684ns route)
-                                       (35.5% logic, 64.5% route)
+    Total                      7.375ns (2.813ns logic, 4.562ns route)
+                                       (38.1% logic, 61.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'ent_motorstyring/ent_hastighedsbestemmerTop/bufClock'
@@ -1279,89 +1326,122 @@ Offset:              2.526ns (Levels of Logic = 2)
                                        (65.4% logic, 34.6% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'ent_detektionsmodul/ent_I2CV2/bufClock'
-  Total number of paths / destination ports: 55 / 2
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ent_detektionsmodul/ent_I2CV2/bufClock'
+  Total number of paths / destination ports: 10 / 10
 -------------------------------------------------------------------------
-Offset:              8.265ns (Levels of Logic = 5)
-  Source:            ent_detektionsmodul/ent_I2CV2/sendRestart0/clkCount_0 (FF)
-  Destination:       dist_SDA (PAD)
-  Source Clock:      ent_detektionsmodul/ent_I2CV2/bufClock falling
+Offset:              2.664ns (Levels of Logic = 2)
+  Source:            dist_SDA (PAD)
+  Destination:       ent_detektionsmodul/ent_I2CV2/recieveByte0/dataBuffer_7 (FF)
+  Destination Clock: ent_detektionsmodul/ent_I2CV2/bufClock rising
 
-  Data Path: ent_detektionsmodul/ent_I2CV2/sendRestart0/clkCount_0 to dist_SDA
+  Data Path: dist_SDA to ent_detektionsmodul/ent_I2CV2/recieveByte0/dataBuffer_7
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE_1:C->Q           6   0.525   1.104  ent_detektionsmodul/ent_I2CV2/sendRestart0/clkCount_0 (ent_detektionsmodul/ent_I2CV2/sendRestart0/clkCount_0)
-     LUT3:I0->O            1   0.235   0.682  ent_detektionsmodul/ent_I2CV2/SDABuffer1 (ent_detektionsmodul/ent_I2CV2/SDABuffer1)
-     LUT6:I5->O            1   0.254   0.682  ent_detektionsmodul/ent_I2CV2/SDABuffer2 (ent_detektionsmodul/ent_I2CV2/SDABuffer2)
-     LUT6:I5->O            1   0.254   0.682  ent_detektionsmodul/ent_I2CV2/SDABuffer4_SW0 (N145)
-     LUT6:I5->O            1   0.254   0.681  ent_detektionsmodul/ent_I2CV2/SDABuffer4 (ent_detektionsmodul/ent_I2CV2/SDABuffer)
-     OBUFT:I->O                2.912          dist_SDA_OBUFT (dist_SDA)
+     IOBUF:IO->O          10   1.328   1.008  dist_SDA_IOBUF (N10)
+     LUT5:I4->O            1   0.254   0.000  ent_detektionsmodul/ent_I2CV2/recieveByte0/Mmux_dataBuffer[7]_SDA_MUX_674_o11 (ent_detektionsmodul/ent_I2CV2/recieveByte0/dataBuffer[7]_SDA_MUX_674_o)
+     FDRE:D                    0.074          ent_detektionsmodul/ent_I2CV2/recieveByte0/dataBuffer_7
     ----------------------------------------
-    Total                      8.265ns (4.434ns logic, 3.831ns route)
-                                       (53.6% logic, 46.4% route)
+    Total                      2.664ns (1.656ns logic, 1.008ns route)
+                                       (62.2% logic, 37.8% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'ent_detektionsmodul/ent_Controlmodule/outputLatch'
-  Total number of paths / destination ports: 2 / 2
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ent_detektionsmodul/ent_I2CV2/bufClock'
+  Total number of paths / destination ports: 73 / 3
 -------------------------------------------------------------------------
-Offset:              6.980ns (Levels of Logic = 3)
-  Source:            ent_detektionsmodul/ent_Controlmodule/break (LATCH)
-  Destination:       motor_PWM (PAD)
-  Source Clock:      ent_detektionsmodul/ent_Controlmodule/outputLatch falling
+Offset:              9.122ns (Levels of Logic = 5)
+  Source:            ent_detektionsmodul/ent_I2CV2/Inst_I2C_sendNotAckStop/doneOutBuffer (FF)
+  Destination:       dist_SDA (PAD)
+  Source Clock:      ent_detektionsmodul/ent_I2CV2/bufClock rising
 
-  Data Path: ent_detektionsmodul/ent_Controlmodule/break to motor_PWM
+  Data Path: ent_detektionsmodul/ent_I2CV2/Inst_I2C_sendNotAckStop/doneOutBuffer to dist_SDA
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD:G->Q               7   0.581   1.340  ent_detektionsmodul/ent_Controlmodule/break (ent_detektionsmodul/ent_Controlmodule/break)
-     LUT5:I0->O            1   0.254   0.958  ent_motorstyring/ent_Motorbeskyttelse/PWM1 (ent_motorstyring/ent_Motorbeskyttelse/PWM)
-     LUT4:I0->O            1   0.254   0.681  ent_motorstyring/ent_Motorbeskyttelse/PWM3 (motor_PWM_OBUF)
-     OBUF:I->O                 2.912          motor_PWM_OBUF (motor_PWM)
+     FDR:C->Q             30   0.525   1.487  ent_detektionsmodul/ent_I2CV2/Inst_I2C_sendNotAckStop/doneOutBuffer (ent_detektionsmodul/ent_I2CV2/Inst_I2C_sendNotAckStop/doneOutBuffer)
+     LUT3:I2->O            1   0.254   1.137  ent_detektionsmodul/ent_I2CV2/SDABuffer1 (ent_detektionsmodul/ent_I2CV2/SDABuffer1)
+     LUT6:I0->O            1   0.254   0.682  ent_detektionsmodul/ent_I2CV2/SDABuffer2 (ent_detektionsmodul/ent_I2CV2/SDABuffer2)
+     LUT6:I5->O            1   0.254   0.682  ent_detektionsmodul/ent_I2CV2/SDABuffer4_SW0 (N117)
+     LUT6:I5->O            1   0.254   0.681  ent_detektionsmodul/ent_I2CV2/SDABuffer4 (ent_detektionsmodul/ent_I2CV2/SDABuffer)
+     IOBUF:I->IO               2.912          dist_SDA_IOBUF (dist_SDA)
     ----------------------------------------
-    Total                      6.980ns (4.001ns logic, 2.979ns route)
-                                       (57.3% logic, 42.7% route)
+    Total                      9.122ns (4.453ns logic, 4.669ns route)
+                                       (48.8% logic, 51.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 5 / 2
+  Total number of paths / destination ports: 280697052 / 2
 -------------------------------------------------------------------------
-Offset:              6.586ns (Levels of Logic = 3)
-  Source:            ent_motorstyring/ent_Motorbeskyttelse/enableABS (FF)
-  Destination:       motor_PWM (PAD)
+Offset:              34.202ns (Levels of Logic = 37)
+  Source:            ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_submult_0 (DSP)
+  Destination:       alarm_bit (PAD)
   Source Clock:      clk rising
 
-  Data Path: ent_motorstyring/ent_Motorbeskyttelse/enableABS to motor_PWM
+  Data Path: ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_submult_0 to alarm_bit
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               2   0.525   1.002  ent_motorstyring/ent_Motorbeskyttelse/enableABS (ent_motorstyring/ent_Motorbeskyttelse/enableABS)
-     LUT5:I1->O            1   0.254   0.958  ent_motorstyring/ent_Motorbeskyttelse/PWM1 (ent_motorstyring/ent_Motorbeskyttelse/PWM)
-     LUT4:I0->O            1   0.254   0.681  ent_motorstyring/ent_Motorbeskyttelse/PWM3 (motor_PWM_OBUF)
-     OBUF:I->O                 2.912          motor_PWM_OBUF (motor_PWM)
+     DSP48A1:CLK->M17      1   3.910   0.790  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_submult_0 (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_submult_0_17)
+     LUT2:I0->O            1   0.250   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_lut<17> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_lut<17>)
+     MUXCY:S->O            1   0.215   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_cy<17> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_cy<18> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_cy<19> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_cy<20> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_cy<21> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_cy<21>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_cy<22> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_cy<22>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_cy<23> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_cy<23>)
+     XORCY:CI->O           5   0.206   0.840  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation1_Madd_xor<24> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/equation1<24>)
+     DSP48A1:B16->M19     12   3.894   1.524  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_n0020_submult_0 (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_n0020_Madd_lut<19>)
+     LUT6:I0->O            7   0.254   1.138  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_n0020_Madd_cy<21>11 (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_n0020_Madd_cy<21>)
+     LUT5:I2->O            2   0.235   0.725  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_n0020_Madd_xor<24>11 (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/n0020<24>)
+     DSP48A1:B16->M17      1   3.894   0.682  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_submult_0 (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_submult_0_17)
+     LUT2:I1->O            1   0.254   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_lut<17> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_lut<17>)
+     MUXCY:S->O            1   0.215   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<17> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<18> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<19> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<20> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<21> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<21>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<22> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<22>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<23> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<23>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<24> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<24>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<25> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<25>)
+     MUXCY:CI->O           1   0.023   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<26> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_cy<26>)
+     XORCY:CI->O           4   0.206   1.259  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Mmult_equation3_Madd1_xor<27> (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/equation3<27>)
+     LUT6:I0->O            2   0.254   1.002  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Madd_breakdistance_cy<0>31 (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Madd_breakdistance_cy<0>2)
+     LUT5:I1->O            2   0.254   1.002  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Madd_breakdistance_cy<0>41 (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Madd_breakdistance_cy<0>3)
+     LUT5:I1->O            3   0.254   0.994  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Madd_breakdistance_cy<0>51 (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Madd_breakdistance_cy<0>4)
+     LUT6:I3->O            3   0.235   0.766  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Madd_breakdistance_cy<0>71 (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Madd_breakdistance_cy<0>6)
+     LUT2:I1->O            2   0.254   0.834  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Madd_breakdistance_xor<0>81 (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/breakdistance<7>)
+     LUT2:I0->O            1   0.250   0.682  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Madd_totaldistance_fix7 (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Madd_totaldistance_fix7)
+     LUT3:I2->O            1   0.254   0.000  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Madd_totaldistance_fix_lut<0>8 (ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Madd_totaldistance_fix_lut<0>8)
+     XORCY:LI->O           2   0.149   1.002  ent_detektionsmodul/ent_Controlmodule/Inst_distancecalculator/Madd_totaldistance_fix_xor<0>_7 (ent_detektionsmodul/ent_Controlmodule/alarmLength<7>)
+     LUT4:I0->O            0   0.254   0.000  ent_detektionsmodul/ent_Controlmodule/Mcompar_i2cData[9]_alarmLength[9]_LessThan_5_o_lutdi3 (ent_detektionsmodul/ent_Controlmodule/Mcompar_i2cData[9]_alarmLength[9]_LessThan_5_o_lutdi3)
+     MUXCY:DI->O           1   0.393   0.682  ent_detektionsmodul/ent_Controlmodule/Mcompar_i2cData[9]_alarmLength[9]_LessThan_5_o_cy<3> (ent_detektionsmodul/ent_Controlmodule/Mcompar_i2cData[9]_alarmLength[9]_LessThan_5_o_cy<3>)
+     LUT5:I4->O            1   0.254   0.681  ent_detektionsmodul/ent_Controlmodule/Mcompar_i2cData[9]_alarmLength[9]_LessThan_5_o_cy<4> (alarm_bit_OBUF)
+     OBUF:I->O                 2.912          alarm_bit_OBUF (alarm_bit)
     ----------------------------------------
-    Total                      6.586ns (3.945ns logic, 2.641ns route)
-                                       (59.9% logic, 40.1% route)
+    Total                     34.202ns (19.599ns logic, 14.603ns route)
+                                       (57.3% logic, 42.7% route)
 
 =========================================================================
 Timing constraint: Default path analysis
   Total number of paths / destination ports: 8 / 1
 -------------------------------------------------------------------------
-Delay:               7.407ns (Levels of Logic = 4)
-  Source:            test_speed<4> (PAD)
+Delay:               7.191ns (Levels of Logic = 4)
+  Source:            test_speed<3> (PAD)
   Destination:       motor_PWM (PAD)
 
-  Data Path: test_speed<4> to motor_PWM
+  Data Path: test_speed<3> to motor_PWM
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             5   1.328   1.296  test_speed_4_IBUF (test_speed_4_IBUF)
-     LUT6:I0->O            1   0.254   0.682  ent_motorstyring/ent_Motorbeskyttelse/PWM2 (ent_motorstyring/ent_Motorbeskyttelse/PWM1)
-     LUT4:I3->O            1   0.254   0.681  ent_motorstyring/ent_Motorbeskyttelse/PWM3 (motor_PWM_OBUF)
+     IBUF:I->O             4   1.328   1.080  test_speed_3_IBUF (test_speed_3_IBUF)
+     LUT4:I0->O            1   0.254   0.682  ent_motorstyring/ent_Motorbeskyttelse/PWM_SW0 (N2)
+     LUT6:I5->O            1   0.254   0.681  ent_motorstyring/ent_Motorbeskyttelse/PWM (motor_PWM_OBUF)
      OBUF:I->O                 2.912          motor_PWM_OBUF (motor_PWM)
     ----------------------------------------
-    Total                      7.407ns (4.748ns logic, 2.659ns route)
-                                       (64.1% logic, 35.9% route)
+    Total                      7.191ns (4.748ns logic, 2.443ns route)
+                                       (66.0% logic, 34.0% route)
 
 =========================================================================
 
@@ -1369,33 +1449,22 @@ Cross Clock Domains Report:
 --------------------------
 
 Clock to Setup on destination clock clk
-------------------------------------------------------------------------+---------+---------+---------+---------+
-                                                                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock                                                            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
-------------------------------------------------------------------------+---------+---------+---------+---------+
-clk                                                                     |    7.074|         |         |         |
-ent_detektionsmodul/ent_Controlmodule/outputLatch                       |         |    4.152|         |         |
-ent_detektionsmodul/ent_I2CV2/isTriggered                               |         |    1.723|         |         |
-ent_motorstyring/ent_hastighedsbestemmerTop/bufClock                    |    1.683|         |         |         |
-ent_motorstyring/ent_hastighedsbestemmerTop/timeCounter_back/data_ready |    7.758|         |         |         |
-ent_motorstyring/ent_hastighedsbestemmerTop/timeCounter_front/data_ready|    7.758|         |         |         |
-------------------------------------------------------------------------+---------+---------+---------+---------+
-
-Clock to Setup on destination clock ent_detektionsmodul/ent_Controlmodule/outputLatch
------------------------------------------+---------+---------+---------+---------+
-                                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock                             |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
------------------------------------------+---------+---------+---------+---------+
-ent_detektionsmodul/ent_I2CV2/isTriggered|         |         |    1.326|         |
------------------------------------------+---------+---------+---------+---------+
+-----------------------------------------------------------------------+---------+---------+---------+---------+
+                                                                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                                           |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------------------------------------------+---------+---------+---------+---------+
+clk                                                                    |    6.567|         |         |         |
+ent_motorstyring/ent_hastighedsbestemmerTop/bufClock                   |    1.683|         |         |         |
+ent_motorstyring/ent_hastighedsbestemmerTop/timeCounter_back/data_ready|    7.758|         |         |         |
+-----------------------------------------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock ent_detektionsmodul/ent_I2CV2/bufClock
 --------------------------------------+---------+---------+---------+---------+
                                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 --------------------------------------+---------+---------+---------+---------+
-clk                                   |    5.137|         |         |         |
-ent_detektionsmodul/ent_I2CV2/bufClock|    5.065|    3.346|    3.328|         |
+clk                                   |    5.202|         |         |         |
+ent_detektionsmodul/ent_I2CV2/bufClock|    5.298|    3.348|    3.330|         |
 --------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock ent_motorstyring/ent_hastighedsbestemmerTop/bufClock
@@ -1427,15 +1496,14 @@ ent_motorstyring/ent_hastighedsbestemmerTop/timeCounter_front/data_ready|    3.2
 =========================================================================
 
 
-Total REAL time to Xst completion: 50.00 secs
-Total CPU time to Xst completion: 44.60 secs
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 11.68 secs
  
 --> 
 
-
-Total memory usage is 510652 kilobytes
+Total memory usage is 4522016 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  116 (   0 filtered)
-Number of infos    :   27 (   0 filtered)
+Number of warnings :  201 (   0 filtered)
+Number of infos    :    7 (   0 filtered)
 
