@@ -18,6 +18,9 @@ boolean emergency = 0;
 
 void setup(){
 
+  pinMode(emergencyPin,OUTPUT);
+  digitalWrite(emergencyPin,HIGH);
+
   // Init pin modes
   for (int i = 0; i < 8; i++){
     pinMode(parPin[i], OUTPUT);
@@ -29,9 +32,6 @@ void setup(){
   status_led(false);
   
   pinMode(ledBuiltIn , OUTPUT);
-
-  pinMode(emergencyPin,OUTPUT);
-  digitalWrite(emergencyPin,LOW);
 
   // Init Serial3 for radio module
   Serial1.begin(9600);
