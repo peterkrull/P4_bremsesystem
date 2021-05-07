@@ -104,8 +104,10 @@ begin
 		end if;
 	end process;
 
-	Result_carry 	<= Q( 7 downto  0) when DenomiIn(16)='0' else		--Hvis inputer er for stort. output lig 0.
-							"00000000";
+	Result_carry 	<= 	"1111 1111" when Q(8) ='1' else
+				Q( 7 downto  0) when DenomiIn(16)='0' else
+				"00000000";
+							
 	
 	--led <= Q( 7 downto  0);			--Til test
 	--Rest   <= Q( 31 downto 16);		--Udkommenteret permannet
