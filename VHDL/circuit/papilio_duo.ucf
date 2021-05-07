@@ -48,13 +48,13 @@ NET test_speed(6)          LOC="P123" | IOSTANDARD=LVTTL;                       
 NET test_speed(7)          LOC="P124" | IOSTANDARD=LVTTL;                                # A7
 NET rotsens_rear          LOC="P126" | IOSTANDARD=LVTTL;                                # A8
 NET rotsens_front          LOC="P127" | IOSTANDARD=LVTTL;                                # A9
-NET emerg_stop_sig         LOC="P132" | IOSTANDARD=LVTTL;                                # A10
+#NET emerg_stop_sig         LOC="P132" | IOSTANDARD=LVTTL;                                # A10
 NET alarm_bit         LOC="P131" | IOSTANDARD=LVTTL;                                # A11
 NET motor_PWM         LOC="P133" | IOSTANDARD=LVTTL;                                # A12
 NET motor_select         LOC="P134" | IOSTANDARD=LVTTL;                                # A13
 
-NET dist_SCL          LOC="P115" | IOSTANDARD=LVTTL;                                # B0
-NET dist_SDA          LOC="P114" | IOSTANDARD=LVTTL;                                # B1
+NET dist_SDA          LOC="P115" | IOSTANDARD=LVTTL;                                # B0
+NET dist_SCL          LOC="P114" | IOSTANDARD=LVTTL;                                # B1
 NET Arduino_16          LOC="P112" | IOSTANDARD=LVTTL;                                # B2
 NET Arduino_17          LOC="P111" | IOSTANDARD=LVTTL;                                # B3
 NET Arduino_18          LOC="P105" | IOSTANDARD=LVTTL;                                # B4
