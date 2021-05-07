@@ -10,13 +10,16 @@ unsigned long radio_timer = 0;    // Previous radio check
 unsigned long lastMessage = 0;    // 0 Passive, 1 drive mode, 2 break mode
 float testSpeed = 0;               // Variable to hold test speed
 
-const float targetTestSpeed = 30;
+const float targetTestSpeed = 20;
 boolean connection = 0;
 boolean emergency = 0;
 
 #define printing
 
 void setup(){
+
+  pinMode(emergencyPin,OUTPUT);
+  digitalWrite(emergencyPin,HIGH);
 
   // Init pin modes
   for (int i = 0; i < 8; i++){
@@ -29,9 +32,6 @@ void setup(){
   status_led(false);
   
   pinMode(ledBuiltIn , OUTPUT);
-
-  pinMode(emergencyPin,OUTPUT);
-  digitalWrite(emergencyPin,LOW);
 
   // Init Serial3 for radio module
   Serial1.begin(9600);

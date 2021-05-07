@@ -4,6 +4,11 @@ File myFile;
 
 //#define printing
 
+// Only define one of these
+//#define led_loop_time
+//#define led_car_stop
+#define led_buffer_full
+
 // Invert behaviour of braking input
 boolean invert_braking_in = false;
 
@@ -12,9 +17,9 @@ const unsigned long slow_time = 30000;          // Lower bound for time between 
 const unsigned long stop_time_delay = 500000;   // half second
 
 // Pin assignments
-const int sens_driv_pin = 4;
-const int sens_roll_pin = 5;
-const int braking_pin_in = 3;
+const int sens_driv_pin = 2;
+const int sens_roll_pin = 3;
+const int braking_pin_in = 4;
 const int braking_pin_out = 9;
 const int led_int_pin = A5;
 
@@ -38,21 +43,36 @@ boolean first_print = false;
 boolean sd_closed = true;
 boolean stop_time_noted = false;
 
-int test_counter = 0;
-char file_str_buf[16];
-String cache = "cache.txt";
+int test_counter = 0;               // File number
+char file_str_buf[12];              // Length of string buffer
+String cache = "cache.txt";         // Cache file name
 
+// interrupt buffer vars
+const int SW_debounce_time = 100;   // Time in us before new change
+const int buffersize = 30;          // Buffer size pr sensor
+
+unsigned long last_ISR_drive, last_ISR_roll;
+unsigned long buffer_drive[buffersize];
+unsigned long buffer_roll[buffersize];
+
+unsigned int buffer_pointer_drive_ISR = 0;
+unsigned int buffer_pointer_roll_ISR = 0;
+unsigned int buffer_pointer_drive_get = 0;
+unsigned int buffer_pointer_roll_get = 0;
 
 void setup() {
 
   #ifdef printing
-  Serial.begin(1000000);
-  #endif
   Serial.begin(500000);
-  
-  // encoder pins
-  pinMode(sens_driv_pin , INPUT);
-  pinMode(sens_roll_pin , INPUT);
+  #endif
+  //Serial.begin(500000);
+
+  // empties the interrupt buffer
+  init_buffer();
+
+  // interrupt pin init
+  attachInterrupt(digitalPinToInterrupt(sens_driv_pin), ISR_drive, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(sens_roll_pin), ISR_roll, CHANGE);
 
   // pin that signals started brake
   pinMode(braking_pin_in , INPUT);
@@ -83,38 +103,42 @@ unsigned long loop_timer = 0;
 int counter_flush = 0;
 
 void loop(){
-  curr_sens_driv = digitalRead(sens_driv_pin);
-  curr_sens_roll = digitalRead(sens_roll_pin);
 
+  // Loop begin time
   prev_time = curr_time;
   curr_time = micros();
 
+  // pull oldest data from buffer
+  delta_time_driv = get_buffer_drive();
+  delta_time_roll = get_buffer_roll();
+
+  // Identify change in delta time
+  if (delta_time_driv > 0){
+    #ifdef printing
+    Serial.print("\ndriv: ");Serial.println(delta_time_driv);
+    #endif
+    driv_diff_found = true;
+  } else { driv_diff_found = false; }
+
+  if (delta_time_roll > 0){
+    #ifdef printing
+    Serial.print("roll: ");Serial.println(delta_time_roll);
+    #endif
+    roll_diff_found = true; 
+  } else { roll_diff_found = false; }
+
   // Detect long loop times by lighting up LED
-  if ( curr_time - prev_time > 1000 && loop_bool) {
+  if ( curr_time - prev_time > 600 && loop_bool) { // 0.6 milli
+    #ifdef led_loop_time
     digitalWrite(led_int_pin,HIGH);
+    #endif
     loop_timer = curr_time;
     loop_bool = false;
-  } else if (curr_time > loop_timer + 100e3) { 
+  } else if (curr_time > loop_timer + 100e3) { // 100 milli
+    #ifdef led_loop_time
     digitalWrite(led_int_pin,LOW);
+    #endif
     loop_bool = true;
-  }
-   
-  // calc delta time for ROLLING wheel
-  if (curr_sens_roll != prev_sens_roll){
-    curr_time_roll = curr_time;
-    prev_sens_roll = curr_sens_roll;
-    delta_time_roll = curr_time_roll - prev_time_roll;
-    prev_time_roll = curr_time_roll;
-    roll_diff_found = true;
-  }
-
-  // calc delta time for DRIVING wheel
-  if (curr_sens_driv != prev_sens_driv){
-    prev_sens_driv = curr_sens_driv;
-    curr_time_driv = curr_time;
-    delta_time_driv = curr_time_driv - prev_time_driv;
-    prev_time_driv = curr_time_driv;
-    driv_diff_found = true;
   }
 
   // char buffer for SD printing
@@ -129,7 +153,8 @@ void loop(){
       stop_timer = micros() + stop_time_delay;
       stop_time_noted = true;
       
-    } else if (delta_time_roll < slow_time * 0.8 && driving == false) { // time lower, drives faster 0.8
+    // time lower, drives faster 0.8
+    } else if (delta_time_roll < slow_time * 0.8 && driving == false) { 
       driving = true; 
       sd_init();
     } else {
@@ -178,11 +203,17 @@ void loop(){
     }
   }
 
-  // print wether car has stopped has been noted
+  // print/LED wether car is stopped
   if ( delta_time_roll > slow_time * 0.7 ) {
     digitalWrite(braking_pin_out,true);
+    #ifdef led_car_stop
+    digitalWrite(led_int_pin,HIGH);
+    #endif
   } else if ( delta_time_roll < slow_time * 0.5 ) {
     digitalWrite(braking_pin_out,false);
+    #ifdef led_car_stop
+    digitalWrite(led_int_pin,LOW);
+    #endif
   }  
 }
 
@@ -235,38 +266,105 @@ void sd_set_counter(){
   myFile.close();
 }
 
-const byte buff_size = 50;
-unsigned long time_ready = 0;
-byte temp_count = 0;
-byte buff_count = 0;
-String str_buffer = "";
+// -------------------- //
+// ISR stuff below here //
+// -------------------- //
 
-void sd_smart_buffer(String input_str){
-
-  input_str += "\n";
-
-  // If buffer is not full and time is past ready_time, print normally.
-  if (millis() > time_ready && buff_count < buff_size){
-    // If buffer was just emptied, print local buffer
-    if (temp_count > 0){
-      myFile.print(str_buffer);
-      buff_count += temp_count;
-      temp_count = 0; 
-    }
-    myFile.print(input_str);
-    buff_count++;
-
-  // If buffer is full, initiate local buffer
-  } else if (buff_count == buff_size){
-    SD.flush();
-    buff_count = 0;
-    str_buffer = "";
-    time_ready = millis() + 500;
-  } 
-  
-  // If buffer is still flushing, add to local buffer
-  if (millis() <= time_ready){
-    str_buffer += input_str;
-    temp_count++;
+void init_buffer() {
+  for (int i = 0; i < buffersize; i++) {
+    buffer_drive[i] = 0;
+    buffer_roll[i] = 0;
   }
+}
+
+void ISR_drive() {
+  //SW debounce 
+  //sei(); // Enables interrupts, for nested ISR
+  unsigned long curr_time_ISR = micros();
+  if ( curr_time_ISR < last_ISR_drive + SW_debounce_time) {
+    goto exit_drive;
+  }
+  //Serial.println("Drive interrupt");
+  write_buffer_drive(curr_time_ISR - last_ISR_drive);
+  last_ISR_drive = curr_time_ISR;
+  exit_drive:;
+}
+
+void ISR_roll() {
+  //SW debounce 
+  //sei(); // Enables interrupts, for nested ISR
+  unsigned long curr_time_ISR = micros();
+  if (curr_time_ISR < last_ISR_roll + SW_debounce_time) {
+    goto exit_roll;
+  }
+  //Serial.println("Roll interrupt");
+  write_buffer_roll(curr_time_ISR - last_ISR_roll);
+  last_ISR_roll = curr_time_ISR;
+  exit_roll:;
+}
+
+void write_buffer_drive(unsigned long delta_time) {
+  #ifdef led_buffer_full
+  if (buffer_drive[buffer_pointer_drive_ISR] != 0) {        //If buffer is full
+    digitalWrite(led_int_pin, HIGH);                     //Developer is stupid
+    //Serial.print("driv ");Serial.println(buffer_roll[buffer_pointer_drive_ISR]);
+  }
+  #endif
+  buffer_drive[buffer_pointer_drive_ISR] = delta_time;    //Write to buffer
+  buffer_pointer_drive_ISR ++;                            //Manage buffer pointer
+  if (buffer_pointer_drive_ISR == buffersize) {
+    buffer_pointer_drive_ISR = 0;
+  }
+}
+
+void write_buffer_roll(unsigned long delta_time) {
+  #ifdef led_buffer_full
+  if (buffer_roll[buffer_pointer_roll_ISR] != 0) {        //If buffer is full
+    digitalWrite(led_int_pin, HIGH);                     //Developer is stupid
+    //Serial.print("roll ");Serial.println(buffer_roll[buffer_pointer_roll_ISR]);
+  }
+  #endif 
+  buffer_roll[buffer_pointer_roll_ISR] = delta_time;    //Write to buffer
+  buffer_pointer_roll_ISR ++;                            //Manage buffer pointer
+  if (buffer_pointer_roll_ISR == buffersize) {
+    buffer_pointer_roll_ISR = 0;
+  }
+}
+
+// If either buffer is full, set led low
+void buffer_not_full(){
+  #ifdef led_buffer_full
+    if (buffer_roll[buffer_pointer_roll_ISR] == 0 ||
+        buffer_drive[buffer_pointer_drive_ISR] == 0) {
+    digitalWrite(led_int_pin, LOW);
+  }
+  #endif 
+}
+
+unsigned long get_buffer_drive() {
+  unsigned long buffer_value = 0;
+  if (buffer_drive[buffer_pointer_drive_get] != 0) {          //If new value aviable
+    buffer_value = buffer_drive[buffer_pointer_drive_get];    //Get buffer value
+    buffer_drive[buffer_pointer_drive_get] = 0;               //Rest buffer value
+
+    buffer_pointer_drive_get ++;                              //Manage buffer pointer
+    if ( buffer_pointer_drive_get == buffersize) {
+      buffer_pointer_drive_get = 0;
+    }
+  }
+  return buffer_value;
+}
+
+unsigned long get_buffer_roll() {
+  unsigned long buffer_value = 0;
+  if (buffer_roll[buffer_pointer_roll_get] != 0) {          //If new value aviable
+    buffer_value = buffer_roll[buffer_pointer_roll_get];    //Get buffer value
+    buffer_roll[buffer_pointer_roll_get] = 0;               //Rest buffer value
+
+    buffer_pointer_roll_get ++;                              //Manage buffer pointer
+    if ( buffer_pointer_roll_get == buffersize) {
+      buffer_pointer_roll_get = 0;
+    }
+  }
+  return buffer_value;
 }
