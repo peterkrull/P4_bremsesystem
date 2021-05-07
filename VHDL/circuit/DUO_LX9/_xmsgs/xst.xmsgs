@@ -5,628 +5,332 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="871" delta="old" >"C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd" Line 55: Using initial value <arg fmt="%s" index="1">&quot;1111111111111111&quot;</arg> for <arg fmt="%s" index="2">nomi</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/ise/vmShared/circuit/division.vhd" Line 55: Using initial value <arg fmt="%s" index="1">&quot;1111111111111111&quot;</arg> for <arg fmt="%s" index="2">nomi</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd" Line 83: <arg fmt="%s" index="1">start_falling</arg> should be on the sensitivity list of the process
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/ise/vmShared/circuit/division.vhd" Line 83: <arg fmt="%s" index="1">start_falling</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd" Line 84: <arg fmt="%s" index="1">nomi</arg> should be on the sensitivity list of the process
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/ise/vmShared/circuit/division.vhd" Line 84: <arg fmt="%s" index="1">nomi</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd" Line 98: <arg fmt="%s" index="1">start_falling</arg> should be on the sensitivity list of the process
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"/home/ise/vmShared/circuit/division.vhd" Line 98: <arg fmt="%s" index="1">start_falling</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd" Line 46: Using initial value <arg fmt="%s" index="1">&quot;110111110001011111&quot;</arg> for <arg fmt="%s" index="2">k1</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/ise/vmShared/circuit/distancecalculator.vhd" Line 46: Using initial value <arg fmt="%s" index="1">&quot;110111110001011111&quot;</arg> for <arg fmt="%s" index="2">k1</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd" Line 50: Using initial value <arg fmt="%s" index="1">&quot;000000000010000011&quot;</arg> for <arg fmt="%s" index="2">k2</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/ise/vmShared/circuit/distancecalculator.vhd" Line 50: Using initial value <arg fmt="%s" index="1">&quot;000000000010000011&quot;</arg> for <arg fmt="%s" index="2">k2</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd" Line 57: Using initial value <arg fmt="%s" index="1">&quot;000001100110011001&quot;</arg> for <arg fmt="%s" index="2">engineswitchtime</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/ise/vmShared/circuit/distancecalculator.vhd" Line 57: Using initial value <arg fmt="%s" index="1">&quot;000001100110011001&quot;</arg> for <arg fmt="%s" index="2">engineswitchtime</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="871" delta="new" >"C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd" Line 60: Using initial value <arg fmt="%s" index="1">&quot;010011001100110011&quot;</arg> for <arg fmt="%s" index="2">alarmtime</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/ise/vmShared/circuit/distancecalculator.vhd" Line 60: Using initial value <arg fmt="%s" index="1">&quot;010011001100110011&quot;</arg> for <arg fmt="%s" index="2">alarmtime</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Controlmodule.vhd" Line 32: Net &lt;<arg fmt="%s" index="1">brakeLength[9]</arg>&gt; does not have a driver.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/vmShared/circuit/detektionsmodul.vhd</arg>&quot; line <arg fmt="%s" index="2">67</arg>: Output port &lt;<arg fmt="%s" index="3">errorVector_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ent_I2CV2</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\detektionsmodul.vhd</arg>&quot; line <arg fmt="%s" index="2">67</arg>: Output port &lt;<arg fmt="%s" index="3">errorVector_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ent_I2CV2</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/vmShared/circuit/I2CV2.vhd</arg>&quot; line <arg fmt="%s" index="2">286</arg>: Output port &lt;<arg fmt="%s" index="3">clkstep_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">recieveByte0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd</arg>&quot; line <arg fmt="%s" index="2">286</arg>: Output port &lt;<arg fmt="%s" index="3">clkstep_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">recieveByte0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/vmShared/circuit/I2CV2.vhd</arg>&quot; line <arg fmt="%s" index="2">286</arg>: Output port &lt;<arg fmt="%s" index="3">bitCounter_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">recieveByte0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd</arg>&quot; line <arg fmt="%s" index="2">286</arg>: Output port &lt;<arg fmt="%s" index="3">bitCounter_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">recieveByte0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/vmShared/circuit/I2CV2.vhd</arg>&quot; line <arg fmt="%s" index="2">315</arg>: Output port &lt;<arg fmt="%s" index="3">clkstep_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">recieveByte1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd</arg>&quot; line <arg fmt="%s" index="2">315</arg>: Output port &lt;<arg fmt="%s" index="3">clkstep_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">recieveByte1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/ise/vmShared/circuit/I2CV2.vhd</arg>&quot; line <arg fmt="%s" index="2">315</arg>: Output port &lt;<arg fmt="%s" index="3">bitCounter_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">recieveByte1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd</arg>&quot; line <arg fmt="%s" index="2">315</arg>: Output port &lt;<arg fmt="%s" index="3">bitCounter_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">recieveByte1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">i2cReady</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">i2cReady</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">division_front</arg>&gt;.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Controlmodule.vhd</arg>&quot; line <arg fmt="%s" index="2">43</arg>: Output port &lt;<arg fmt="%s" index="3">breakdistance_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Inst_distancecalculator</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">division_back</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">brakeLength</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">dataOut_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ent_I2CV2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">error_out</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">ent_I2CV2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">dataOut_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ent_I2CV2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Q_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">division_front</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">dataOut_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ent_I2CV2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">Q_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">division_back</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">dataOut_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ent_I2CV2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dataOut_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ent_I2CV2</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">dataOut_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ent_I2CV2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dataOut_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ent_I2CV2</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">dataOut_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ent_I2CV2</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dataOut_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ent_I2CV2</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">division_back/Q_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hastighedsbestemmerTop</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dataOut_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ent_I2CV2</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">division_front/Q_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hastighedsbestemmerTop</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dataOut_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ent_I2CV2</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/dataOut_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dataOut_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ent_I2CV2</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/dataOut_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">division_back/Q_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hastighedsbestemmerTop</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/dataOut_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">division_front/Q_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hastighedsbestemmerTop</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/dataOut_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">error_out</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">I2CV2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/dataOut_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/dataOut_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/dataOut_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/dataOut_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/dataOut_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/dataOut_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/dataOut_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/dataOut_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">brakeOff</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Controlmodule</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">brakeOff</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Controlmodule</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/sendByte1/enableSDA</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/enableABS</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/retning_buffer</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/enableAccelerator</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveAcknowledge0/error</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveAcknowledge1/error</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveAcknowledge2/error</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/recieveByte1/dataBuffer_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1898" delta="new" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/sendByte1/enableSDA</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_17</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_17</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_10&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_0&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_1&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_2&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_3&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_4&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_5&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_6&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCountReact_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCountReact_7&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_0&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_1&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_2&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/counter_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_3&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/PWM_out</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_4&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Count_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_5&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Count_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_6&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Count_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_7&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Count_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_8&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Count_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator1/clkCount_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopModul</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ent_motorstyring/ent_Motorbeskyttelse/PWMGenerator2/clkCount_9&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
+<msg type="info" file="Xst" num="741" delta="old" >HDL ADVISOR - A <arg fmt="%d" index="1">8</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_15</arg>&gt; and currently occupies <arg fmt="%d" index="3">8</arg> logic cells (<arg fmt="%d" index="4">4</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Result_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Start_falling</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/division_front/Start_pipe</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_absBrems/engPowerCopy_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_absBrems/engPowerCopy_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_absBrems/engPowerCopy_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_absBrems/engPowerCopy_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_absBrems/engPowerCopy_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_absBrems/engPowerCopy_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_absBrems/engPowerCopy_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_absBrems/engPowerCopy_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopModul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_17</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_motorstyring/ent_hastighedsbestemmerTop/slowDownClock_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_31</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_30</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_29</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_28</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_27</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_26</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_25</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_24</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_18</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_17</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_13</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_12</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_11</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_10</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_7</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ent_detektionsmodul/ent_I2CV2/slowDownClock_6</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopModul</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="info" file="Xst" num="741" delta="new" >HDL ADVISOR - A <arg fmt="%d" index="1">8</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">ent_motorstyring/ent_hastighedsbestemmerTop/division_back/Q_15</arg>&gt; and currently occupies <arg fmt="%d" index="3">8</arg> logic cells (<arg fmt="%d" index="4">4</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+<msg type="info" file="Xst" num="741" delta="old" >HDL ADVISOR - A <arg fmt="%d" index="1">8</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">ent_motorstyring/ent_hastighedsbestemmerTop/division_back/Q_15</arg>&gt; and currently occupies <arg fmt="%d" index="3">8</arg> logic cells (<arg fmt="%d" index="4">4</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
 </msg>
 
 </messages>
+

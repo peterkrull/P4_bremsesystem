@@ -1,6 +1,6 @@
 -------------------------------------------------------
 --                     I2C									  --
---						  Søren Lang							  --
+--						  Sren Lang							  --
 --					  EIT P4 29/3 2021						  --
 -------------------------------------------------------
 --							  TODO								  --
@@ -9,7 +9,7 @@
 --																	  --
 --																	  --
 --																	  --
---	*Ville fungere mere sikkert hvis vi læser  		  --
+--	*Ville fungere mere sikkert hvis vi lser  		  --
 --  to byte til	(Signal amplitude(0x02 og 0x03))   --
 -------------------------------------------------------
 
@@ -372,7 +372,7 @@ begin
 	
 	
 	
-	--værdi = 160 giver en frekvens på 100 kHz
+	--vrdi = 160 giver en frekvens p 100 kHz
 	process (clk)
 		begin
 			if(clk'event and clk ='1') then
@@ -425,11 +425,11 @@ begin
 	
 	doneBuffer <= andorvectors(doneBits, statusCounter);
 	
-	--errorBuffer <= error(0) or error(1) or error(2);--kommenteres ind ved upload, kan ikke simulere fuld sekvens hvis denne linje er med 
-	errorBuffer <= '0';--Fjernes
+	errorBuffer <= error(0) or error(1) or error(2);--kommenteres ind ved upload, kan ikke simulere fuld sekvens hvis denne linje er med 
+	--errorBuffer <= '0';--Fjernes
 	
 	
-	-- fejlfindingsværktøjer, fjern når færdigt
+	-- fejlfindingsvrktjer, fjern nr frdigt
 --	doneOutSendBytes_out <= doneBits;
 --	statusCounter_out <= statusCounter;
 	errorVector_out <= error;
