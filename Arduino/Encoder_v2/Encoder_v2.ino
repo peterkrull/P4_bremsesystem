@@ -49,7 +49,7 @@ String cache = "cache.txt";         // Cache file name
 
 // interrupt buffer vars
 const int SW_debounce_time = 100;   // Time in us before new change
-const int buffersize = 10;          // Buffer size pr sensor
+const int buffersize = 30;          // Buffer size pr sensor
 
 unsigned long last_ISR_drive, last_ISR_roll;
 unsigned long buffer_drive[buffersize];
@@ -65,7 +65,7 @@ void setup() {
   #ifdef printing
   Serial.begin(500000);
   #endif
-  Serial.begin(500000);
+  //Serial.begin(500000);
 
   // empties the interrupt buffer
   init_buffer();
@@ -279,7 +279,7 @@ void init_buffer() {
 
 void ISR_drive() {
   //SW debounce 
-  sei(); // Enables interrupts, for nested ISR
+  //sei(); // Enables interrupts, for nested ISR
   unsigned long curr_time_ISR = micros();
   if ( curr_time_ISR < last_ISR_drive + SW_debounce_time) {
     goto exit_drive;
@@ -292,7 +292,7 @@ void ISR_drive() {
 
 void ISR_roll() {
   //SW debounce 
-  sei(); // Enables interrupts, for nested ISR
+  //sei(); // Enables interrupts, for nested ISR
   unsigned long curr_time_ISR = micros();
   if (curr_time_ISR < last_ISR_roll + SW_debounce_time) {
     goto exit_roll;
@@ -307,7 +307,7 @@ void write_buffer_drive(unsigned long delta_time) {
   #ifdef led_buffer_full
   if (buffer_drive[buffer_pointer_drive_ISR] != 0) {        //If buffer is full
     digitalWrite(led_int_pin, HIGH);                     //Developer is stupid
-    Serial.print("driv ");Serial.println(buffer_roll[buffer_pointer_drive_ISR]);
+    //Serial.print("driv ");Serial.println(buffer_roll[buffer_pointer_drive_ISR]);
   }
   #endif
   buffer_drive[buffer_pointer_drive_ISR] = delta_time;    //Write to buffer
@@ -321,7 +321,7 @@ void write_buffer_roll(unsigned long delta_time) {
   #ifdef led_buffer_full
   if (buffer_roll[buffer_pointer_roll_ISR] != 0) {        //If buffer is full
     digitalWrite(led_int_pin, HIGH);                     //Developer is stupid
-    Serial.print("roll ");Serial.println(buffer_roll[buffer_pointer_roll_ISR]);
+    //Serial.print("roll ");Serial.println(buffer_roll[buffer_pointer_roll_ISR]);
   }
   #endif 
   buffer_roll[buffer_pointer_roll_ISR] = delta_time;    //Write to buffer
