@@ -46,6 +46,7 @@ begin
 		totaldistance => alarmLength
 	);
 	
+	brakeLength <= '0' & brakeDistanceOut;
 	
 	process(clk) begin
 		if(clk'event and clk = '1') then
