@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/bosto/Documents/DeltMedVm/Projekt/I2CV2/circuit/DUO_LX9/testbench_I2CV2_isim_beh.exe" -prj "C:/Users/bosto/Documents/DeltMedVm/Projekt/I2CV2/circuit/DUO_LX9/testbench_I2CV2_beh.prj" "work.testbench_I2CV2" 

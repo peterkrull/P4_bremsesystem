@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\bosto\Documents\DeltMedVm\Projekt\I2CV2\circuit\DUO_LX9\I2CV2.ncd
+OUTFILE=C:\Users\bosto\Documents\DeltMedVm\Projekt\I2CV2\circuit\DUO_LX9\I2CV2.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Users\bosto\Documents\DeltMedVm\Projekt\I2CV2\circuit\DUO_LX9
+LICENSE=WebPack
+USER_INFO=212139708_0_0_476

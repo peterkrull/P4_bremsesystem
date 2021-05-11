@@ -1,0 +1,12 @@
+[Inputs]
+clk
+trigger
+[Outputs]
+SCL
+doneOut
+clk_out
+error_out
+=dataOut[7:0]=
+=statusCounterOut[10:0]=
+[BiDir]
+SDA

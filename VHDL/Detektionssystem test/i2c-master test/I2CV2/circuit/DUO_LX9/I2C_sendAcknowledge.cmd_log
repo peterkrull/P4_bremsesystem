@@ -1,0 +1,1 @@
+vhdtdtfi -prj PSL_Papilio_DUO_LX9 -o C:/Users/bosto/Documents/DeltMedVm/Projekt/I2CV2/circuit/DUO_LX9/I2C_sendAcknowledge.vhi -module I2C_sendAcknowledge -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../I2C_sendAcknowledge.vhd 

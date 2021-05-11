@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/bosto/Documents/DeltMedVm/Projekt/I2CV2/circuit/DUO_LX9/testbench_I2CV2_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="testbench_i2cv2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/testbench_i2cv2/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_i2cv2/trigger" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">trigger</obj_property>
+      <obj_property name="ObjectShortName">trigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_i2cv2/sda" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_i2cv2/scl" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_i2cv2/doneout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">doneout</obj_property>
+      <obj_property name="ObjectShortName">doneout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_i2cv2/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_i2cv2/error_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">error_out</obj_property>
+      <obj_property name="ObjectShortName">error_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_i2cv2/statuscounter_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">statuscounter_out[12:0]</obj_property>
+      <obj_property name="ObjectShortName">statuscounter_out[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_i2cv2/doneoutsendbytes_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">doneoutsendbytes_out[12:0]</obj_property>
+      <obj_property name="ObjectShortName">doneoutsendbytes_out[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_i2cv2/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>
