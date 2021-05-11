@@ -1,21 +1,18 @@
-Release 14.7 - xst P.20131013 (lin64)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> 
-Parameter TMPDIR set to xst/projnav.tmp
+--> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
---> 
-Parameter xsthdpdir set to xst
+--> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
---> 
-Reading design: TopModul.prj
+--> Reading design: TopModul.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -108,70 +105,70 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/ise/vmShared/circuit/timeCounter.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\timeCounter.vhd" into library work
 Parsing entity <timeCounter>.
 Parsing architecture <Behavioral> of entity <timecounter>.
-Parsing VHDL file "/home/ise/vmShared/circuit/ringbuffer.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\ringbuffer.vhd" into library work
 Parsing entity <ringbuffer>.
 Parsing architecture <Behavioral> of entity <ringbuffer>.
-Parsing VHDL file "/home/ise/vmShared/circuit/PWMGenerator.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\PWMGenerator.vhd" into library work
 Parsing entity <PWMGenerator>.
 Parsing architecture <Behavioral> of entity <pwmgenerator>.
-Parsing VHDL file "/home/ise/vmShared/circuit/I2C_sendStart.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendStart.vhd" into library work
 Parsing entity <I2C_sendStart>.
 Parsing architecture <Behavioral> of entity <i2c_sendstart>.
-Parsing VHDL file "/home/ise/vmShared/circuit/I2C_sendRestart.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendRestart.vhd" into library work
 Parsing entity <I2C_sendRestart>.
 Parsing architecture <Behavioral> of entity <i2c_sendrestart>.
-Parsing VHDL file "/home/ise/vmShared/circuit/I2C_SendOneByte.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_SendOneByte.vhd" into library work
 Parsing entity <I2C_SendOneByte>.
 Parsing architecture <Behavioral> of entity <i2c_sendonebyte>.
-Parsing VHDL file "/home/ise/vmShared/circuit/I2C_sendNotAckStop.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendNotAckStop.vhd" into library work
 Parsing entity <I2C_sendNotAckStop>.
 Parsing architecture <Behavioral> of entity <i2c_sendnotackstop>.
-Parsing VHDL file "/home/ise/vmShared/circuit/I2C_sendAcknowledge.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendAcknowledge.vhd" into library work
 Parsing entity <I2C_sendAcknowledge>.
 Parsing architecture <Behavioral> of entity <i2c_sendacknowledge>.
-Parsing VHDL file "/home/ise/vmShared/circuit/I2C_recieveAcknowledge.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_recieveAcknowledge.vhd" into library work
 Parsing entity <I2C_recieveAcknowledge>.
 Parsing architecture <Behavioral> of entity <i2c_recieveacknowledge>.
-Parsing VHDL file "/home/ise/vmShared/circuit/I2C-recieveByte.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C-recieveByte.vhd" into library work
 Parsing entity <I2C_recieveByte>.
 Parsing architecture <Behavioral> of entity <i2c_recievebyte>.
-Parsing VHDL file "/home/ise/vmShared/circuit/division.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd" into library work
 Parsing entity <division>.
 Parsing architecture <Behavioral> of entity <division>.
-Parsing VHDL file "/home/ise/vmShared/circuit/distancecalculator.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd" into library work
 Parsing entity <distancecalculator>.
 Parsing architecture <Behavioral> of entity <distancecalculator>.
-Parsing VHDL file "/home/ise/vmShared/circuit/Motorbeskyttelse.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Motorbeskyttelse.vhd" into library work
 Parsing entity <Motorbeskyttelse>.
 Parsing architecture <Behavioral> of entity <motorbeskyttelse>.
-Parsing VHDL file "/home/ise/vmShared/circuit/I2CV2.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd" into library work
 Parsing entity <I2CV2>.
 Parsing architecture <Behavioral> of entity <i2cv2>.
-Parsing VHDL file "/home/ise/vmShared/circuit/hastighedsbestemmerTop.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\hastighedsbestemmerTop.vhd" into library work
 Parsing entity <hastighedsbestemmerTop>.
 Parsing architecture <Behavioral> of entity <hastighedsbestemmertop>.
-Parsing VHDL file "/home/ise/vmShared/circuit/Controlmodule.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Controlmodule.vhd" into library work
 Parsing entity <Controlmodule>.
 Parsing architecture <Behavioral> of entity <controlmodule>.
-Parsing VHDL file "/home/ise/vmShared/circuit/Accelerator.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Accelerator.vhd" into library work
 Parsing entity <Accelerator>.
 Parsing architecture <Behavioral> of entity <accelerator>.
-Parsing VHDL file "/home/ise/vmShared/circuit/absBremse.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\absBremse.vhd" into library work
 Parsing entity <absBrems>.
 Parsing architecture <Behavioral> of entity <absbrems>.
-Parsing VHDL file "/home/ise/vmShared/circuit/motorstyring.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\motorstyring.vhd" into library work
 Parsing entity <motorstyring>.
 Parsing architecture <motorstyringBehavioral> of entity <motorstyring>.
-Parsing VHDL file "/home/ise/vmShared/circuit/detektionsmodul.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\detektionsmodul.vhd" into library work
 Parsing entity <detektionsmodul>.
 Parsing architecture <detektionsmodulBehavioral> of entity <detektionsmodul>.
-Parsing VHDL file "/home/ise/vmShared/circuit/TopModul.vhd" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\TopModul.vhd" into library work
 Parsing entity <TopModul>.
 Parsing architecture <topmodule> of entity <topmodul>.
-Parsing VHDL file "/home/ise/vmShared/circuit/DUO_LX9/Papilio_DUO_LX9.vhf" into library work
+Parsing VHDL file "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\DUO_LX9\Papilio_DUO_LX9.vhf" into library work
 Parsing entity <Papilio_DUO_LX9>.
 Parsing architecture <BEHAVIORAL> of entity <papilio_duo_lx9>.
 
@@ -190,10 +187,10 @@ Elaborating entity <timeCounter> (architecture <Behavioral>) from library <work>
 Elaborating entity <ringbuffer> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <division> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/ise/vmShared/circuit/division.vhd" Line 55: Using initial value "1111111111111111" for nomi since it is never assigned
-WARNING:HDLCompiler:92 - "/home/ise/vmShared/circuit/division.vhd" Line 83: start_falling should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/ise/vmShared/circuit/division.vhd" Line 84: nomi should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/ise/vmShared/circuit/division.vhd" Line 98: start_falling should be on the sensitivity list of the process
+WARNING:HDLCompiler:871 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd" Line 55: Using initial value "1111111111111111" for nomi since it is never assigned
+WARNING:HDLCompiler:92 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd" Line 83: start_falling should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd" Line 84: nomi should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd" Line 98: start_falling should be on the sensitivity list of the process
 
 Elaborating entity <absBrems> (architecture <Behavioral>) from library <work>.
 
@@ -212,12 +209,12 @@ Elaborating entity <I2C_sendStart> (architecture <Behavioral>) from library <wor
 Elaborating entity <I2C_sendRestart> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <I2C_SendOneByte> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/ise/vmShared/circuit/I2C_SendOneByte.vhd" Line 82. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_SendOneByte.vhd" Line 82. Case statement is complete. others clause is never selected
 
 Elaborating entity <I2C_recieveAcknowledge> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <I2C_recieveByte> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/ise/vmShared/circuit/I2C-recieveByte.vhd" Line 74. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C-recieveByte.vhd" Line 74. Case statement is complete. others clause is never selected
 
 Elaborating entity <I2C_sendAcknowledge> (architecture <Behavioral>) from library <work>.
 
@@ -226,29 +223,29 @@ Elaborating entity <I2C_sendNotAckStop> (architecture <Behavioral>) from library
 Elaborating entity <Controlmodule> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <distancecalculator> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:871 - "/home/ise/vmShared/circuit/distancecalculator.vhd" Line 46: Using initial value "110111110001011111" for k1 since it is never assigned
-WARNING:HDLCompiler:871 - "/home/ise/vmShared/circuit/distancecalculator.vhd" Line 50: Using initial value "000000000010000011" for k2 since it is never assigned
-WARNING:HDLCompiler:871 - "/home/ise/vmShared/circuit/distancecalculator.vhd" Line 57: Using initial value "000001100110011001" for engineswitchtime since it is never assigned
-WARNING:HDLCompiler:871 - "/home/ise/vmShared/circuit/distancecalculator.vhd" Line 60: Using initial value "010011001100110011" for alarmtime since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd" Line 46: Using initial value "110111110001011111" for k1 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd" Line 50: Using initial value "000000000010000011" for k2 since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd" Line 57: Using initial value "000001100110011001" for engineswitchtime since it is never assigned
+WARNING:HDLCompiler:871 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd" Line 60: Using initial value "010011001100110011" for alarmtime since it is never assigned
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <TopModul>.
-    Related source file is "/home/ise/vmShared/circuit/TopModul.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\TopModul.vhd".
     Summary:
 	no macro.
 Unit <TopModul> synthesized.
 
 Synthesizing Unit <motorstyring>.
-    Related source file is "/home/ise/vmShared/circuit/motorstyring.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\motorstyring.vhd".
     Summary:
 	no macro.
 Unit <motorstyring> synthesized.
 
 Synthesizing Unit <hastighedsbestemmerTop>.
-    Related source file is "/home/ise/vmShared/circuit/hastighedsbestemmerTop.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\hastighedsbestemmerTop.vhd".
     Found 1-bit register for signal <bufClock>.
     Found 32-bit register for signal <slowDownClock>.
     Found 32-bit adder for signal <slowDownClock[31]_GND_5_o_add_1_OUT> created at line 142.
@@ -260,7 +257,7 @@ Synthesizing Unit <hastighedsbestemmerTop>.
 Unit <hastighedsbestemmerTop> synthesized.
 
 Synthesizing Unit <timeCounter>.
-    Related source file is "/home/ise/vmShared/circuit/timeCounter.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\timeCounter.vhd".
     Found 1-bit register for signal <sensor_falling>.
     Found 1-bit register for signal <sensor_pipe>.
     Found 17-bit register for signal <timePassed_int>.
@@ -274,7 +271,7 @@ Synthesizing Unit <timeCounter>.
 Unit <timeCounter> synthesized.
 
 Synthesizing Unit <ringbuffer>.
-    Related source file is "/home/ise/vmShared/circuit/ringbuffer.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\ringbuffer.vhd".
     Found 17-bit register for signal <buf_file<2>>.
     Found 17-bit register for signal <buf_file<1>>.
     Found 17-bit register for signal <buf_file<0>>.
@@ -290,7 +287,7 @@ Synthesizing Unit <ringbuffer>.
 Unit <ringbuffer> synthesized.
 
 Synthesizing Unit <division>.
-    Related source file is "/home/ise/vmShared/circuit/division.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\division.vhd".
     Found 5-bit register for signal <Count>.
     Found 32-bit register for signal <Q>.
     Found 1-bit register for signal <Start_pipe>.
@@ -305,7 +302,7 @@ Synthesizing Unit <division>.
 Unit <division> synthesized.
 
 Synthesizing Unit <absBrems>.
-    Related source file is "/home/ise/vmShared/circuit/absBremse.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\absBremse.vhd".
     Found 8-bit register for signal <engPowerCopy>.
     Found 8-bit adder for signal <engPowerCopy[7]_GND_13_o_add_5_OUT> created at line 53.
     Found 8-bit subtractor for signal <GND_13_o_GND_13_o_sub_9_OUT<7:0>> created at line 55.
@@ -363,7 +360,7 @@ Synthesizing Unit <div_16u_7u>.
 Unit <div_16u_7u> synthesized.
 
 Synthesizing Unit <Accelerator>.
-    Related source file is "/home/ise/vmShared/circuit/Accelerator.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Accelerator.vhd".
     Found 1-bit register for signal <mode>.
     Found 8-bit register for signal <motorkraftCopy>.
     Found 11-bit register for signal <clkCounter1>.
@@ -386,7 +383,7 @@ Synthesizing Unit <Accelerator>.
 Unit <Accelerator> synthesized.
 
 Synthesizing Unit <Motorbeskyttelse>.
-    Related source file is "/home/ise/vmShared/circuit/Motorbeskyttelse.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Motorbeskyttelse.vhd".
     Found 1-bit register for signal <retning_buffer>.
     Found 32-bit register for signal <counter>.
     Found 1-bit register for signal <enableABS>.
@@ -398,7 +395,7 @@ Synthesizing Unit <Motorbeskyttelse>.
 Unit <Motorbeskyttelse> synthesized.
 
 Synthesizing Unit <PWMGenerator>.
-    Related source file is "/home/ise/vmShared/circuit/PWMGenerator.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\PWMGenerator.vhd".
     Found 1-bit register for signal <PWM_out>.
     Found 8-bit register for signal <clkCountReact>.
     Found 11-bit register for signal <clkCount>.
@@ -412,18 +409,18 @@ Synthesizing Unit <PWMGenerator>.
 Unit <PWMGenerator> synthesized.
 
 Synthesizing Unit <detektionsmodul>.
-    Related source file is "/home/ise/vmShared/circuit/detektionsmodul.vhd".
-INFO:Xst:3210 - "/home/ise/vmShared/circuit/detektionsmodul.vhd" line 67: Output port <errorVector_out> of the instance <ent_I2CV2> is unconnected or connected to loadless signal.
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\detektionsmodul.vhd".
+INFO:Xst:3210 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\detektionsmodul.vhd" line 67: Output port <errorVector_out> of the instance <ent_I2CV2> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <detektionsmodul> synthesized.
 
 Synthesizing Unit <I2CV2>.
-    Related source file is "/home/ise/vmShared/circuit/I2CV2.vhd".
-INFO:Xst:3210 - "/home/ise/vmShared/circuit/I2CV2.vhd" line 286: Output port <clkstep_out> of the instance <recieveByte0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/vmShared/circuit/I2CV2.vhd" line 286: Output port <bitCounter_out> of the instance <recieveByte0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/vmShared/circuit/I2CV2.vhd" line 315: Output port <clkstep_out> of the instance <recieveByte1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ise/vmShared/circuit/I2CV2.vhd" line 315: Output port <bitCounter_out> of the instance <recieveByte1> is unconnected or connected to loadless signal.
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd".
+INFO:Xst:3210 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd" line 286: Output port <clkstep_out> of the instance <recieveByte0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd" line 286: Output port <bitCounter_out> of the instance <recieveByte0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd" line 315: Output port <clkstep_out> of the instance <recieveByte1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2CV2.vhd" line 315: Output port <bitCounter_out> of the instance <recieveByte1> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <isTriggered>.
     Found 1-bit register for signal <triggerGoneFromHighToLow>.
     Found 1-bit register for signal <resetBuffer>.
@@ -444,7 +441,7 @@ INFO:Xst:3210 - "/home/ise/vmShared/circuit/I2CV2.vhd" line 315: Output port <bi
 Unit <I2CV2> synthesized.
 
 Synthesizing Unit <I2C_sendStart>.
-    Related source file is "/home/ise/vmShared/circuit/I2C_sendStart.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendStart.vhd".
     Found 1-bit register for signal <clk_out>.
     Found 1-bit register for signal <done_outBuffer>.
     Found 1-bit register for signal <triggerBuf>.
@@ -453,7 +450,7 @@ Synthesizing Unit <I2C_sendStart>.
 Unit <I2C_sendStart> synthesized.
 
 Synthesizing Unit <I2C_sendRestart>.
-    Related source file is "/home/ise/vmShared/circuit/I2C_sendRestart.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendRestart.vhd".
     Found 2-bit register for signal <clkCount>.
     Found 1-bit register for signal <done_outBuffer>.
     Found 1-bit register for signal <triggerBuf>.
@@ -465,7 +462,7 @@ Synthesizing Unit <I2C_sendRestart>.
 Unit <I2C_sendRestart> synthesized.
 
 Synthesizing Unit <I2C_SendOneByte>.
-    Related source file is "/home/ise/vmShared/circuit/I2C_SendOneByte.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_SendOneByte.vhd".
     Found 3-bit register for signal <bitCount>.
     Found 1-bit register for signal <enableSDA>.
     Found 2-bit register for signal <clkCount>.
@@ -495,7 +492,7 @@ Synthesizing Unit <I2C_SendOneByte>.
 Unit <I2C_SendOneByte> synthesized.
 
 Synthesizing Unit <I2C_recieveAcknowledge>.
-    Related source file is "/home/ise/vmShared/circuit/I2C_recieveAcknowledge.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_recieveAcknowledge.vhd".
     Found 1-bit register for signal <clk_out>.
     Found 1-bit register for signal <isListening>.
     Found 1-bit register for signal <error>.
@@ -506,7 +503,7 @@ Synthesizing Unit <I2C_recieveAcknowledge>.
 Unit <I2C_recieveAcknowledge> synthesized.
 
 Synthesizing Unit <I2C_recieveByte>.
-    Related source file is "/home/ise/vmShared/circuit/I2C-recieveByte.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C-recieveByte.vhd".
     Found 8-bit register for signal <dataBuffer>.
     Found 3-bit register for signal <bitCounter>.
     Found 1-bit register for signal <doneOutBuf>.
@@ -533,7 +530,7 @@ Synthesizing Unit <I2C_recieveByte>.
 Unit <I2C_recieveByte> synthesized.
 
 Synthesizing Unit <I2C_sendAcknowledge>.
-    Related source file is "/home/ise/vmShared/circuit/I2C_sendAcknowledge.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendAcknowledge.vhd".
     Found 1-bit register for signal <clkCount>.
     Found 1-bit register for signal <done_outBuffer>.
     Found 1-bit register for signal <triggerBuf>.
@@ -542,7 +539,7 @@ Synthesizing Unit <I2C_sendAcknowledge>.
 Unit <I2C_sendAcknowledge> synthesized.
 
 Synthesizing Unit <I2C_sendNotAckStop>.
-    Related source file is "/home/ise/vmShared/circuit/I2C_sendNotAckStop.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\I2C_sendNotAckStop.vhd".
     Found 1-bit register for signal <SDA>.
     Found 1-bit register for signal <SCL>.
     Found 1-bit register for signal <doneOutBuffer>.
@@ -556,7 +553,7 @@ Synthesizing Unit <I2C_sendNotAckStop>.
 Unit <I2C_sendNotAckStop> synthesized.
 
 Synthesizing Unit <Controlmodule>.
-    Related source file is "/home/ise/vmShared/circuit/Controlmodule.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\Controlmodule.vhd".
 WARNING:Xst:647 - Input <i2cReady> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 1-bit register for signal <triggerBuf>.
     Found 1-bit register for signal <brakeOff>.
@@ -574,7 +571,7 @@ WARNING:Xst:647 - Input <i2cReady> is never used. This port will be preserved an
 Unit <Controlmodule> synthesized.
 
 Synthesizing Unit <distancecalculator>.
-    Related source file is "/home/ise/vmShared/circuit/distancecalculator.vhd".
+    Related source file is "C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\distancecalculator.vhd".
     Found 10-bit adder for signal <n0038> created at line 84.
     Found 10-bit adder for signal <breakdistance> created at line 1241.
     Found 11-bit adder for signal <n0043> created at line 95.
@@ -1432,13 +1429,12 @@ ent_motorstyring/ent_hastighedsbestemmerTop/timeCounter_front/data_ready|    3.2
 =========================================================================
 
 
-Total REAL time to Xst completion: 51.00 secs
-Total CPU time to Xst completion: 46.78 secs
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.13 secs
  
 --> 
 
-
-Total memory usage is 510544 kilobytes
+Total memory usage is 4539332 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   83 (   0 filtered)
