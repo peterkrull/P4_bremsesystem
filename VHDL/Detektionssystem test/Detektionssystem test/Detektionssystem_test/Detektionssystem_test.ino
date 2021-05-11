@@ -4,10 +4,6 @@ int speedSignal = 239; //km/h
 void setup() {
   Serial.begin(115200);
 
-  for( int i = 23; i<54; i=i+2)
-  {
-    pinMode(i, INPUT);
-  }
 
   for(int i = 38; i< 53; i+=2){
     pinMode(i, OUTPUT);
