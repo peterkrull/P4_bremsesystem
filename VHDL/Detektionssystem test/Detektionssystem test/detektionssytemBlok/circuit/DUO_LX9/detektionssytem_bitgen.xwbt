@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\bosto\Documents\EIT\P4\Projekt\Detektionssystem\detektionssytemBlok\circuit\DUO_LX9\detektionssytem.ncd
+OUTFILE=C:\Users\bosto\Documents\EIT\P4\Projekt\Detektionssystem\detektionssytemBlok\circuit\DUO_LX9\detektionssytem.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Users\bosto\Documents\EIT\P4\Projekt\Detektionssystem\detektionssytemBlok\circuit\DUO_LX9
+LICENSE=WebPack
+USER_INFO=212139708_0_0_476

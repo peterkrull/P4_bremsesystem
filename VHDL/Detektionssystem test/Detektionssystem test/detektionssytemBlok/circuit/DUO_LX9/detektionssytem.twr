@@ -1,0 +1,91 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml detektionssytem.twx detektionssytem.ncd -o
+detektionssytem.twr detektionssytem.pcf
+
+Design file:              detektionssytem.ncd
+Physical constraint file: detektionssytem.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+speed_in<0> |   35.286(R)|      SLOW  |   -0.994(R)|      FAST  |clk_BUFGP         |   0.000|
+speed_in<1> |   35.664(R)|      SLOW  |   -1.050(R)|      FAST  |clk_BUFGP         |   0.000|
+speed_in<2> |   35.597(R)|      SLOW  |   -1.011(R)|      FAST  |clk_BUFGP         |   0.000|
+speed_in<3> |   34.991(R)|      SLOW  |   -1.239(R)|      FAST  |clk_BUFGP         |   0.000|
+speed_in<4> |   34.912(R)|      SLOW  |   -1.056(R)|      FAST  |clk_BUFGP         |   0.000|
+speed_in<5> |   35.210(R)|      SLOW  |   -0.476(R)|      FAST  |clk_BUFGP         |   0.000|
+speed_in<6> |   34.455(R)|      SLOW  |   -0.262(R)|      FAST  |clk_BUFGP         |   0.000|
+speed_in<7> |   34.630(R)|      SLOW  |   -0.422(R)|      SLOW  |clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+bremsePin   |         9.974(R)|      SLOW  |         4.395(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.989|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+speed_in<0>    |alarm          |   44.945|
+speed_in<1>    |alarm          |   45.323|
+speed_in<2>    |alarm          |   45.256|
+speed_in<3>    |alarm          |   44.650|
+speed_in<4>    |alarm          |   44.571|
+speed_in<5>    |alarm          |   44.869|
+speed_in<6>    |alarm          |   44.114|
+speed_in<7>    |alarm          |   44.289|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Apr 28 14:42:22 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4572 MB
+
+
+

@@ -1,0 +1,1 @@
+vhdtdtfi -prj PSL_Papilio_DUO_LX9 -o C:/Users/bosto/Documents/EIT/P4/Projekt/Detektionssystem/detektionssytemBlok/circuit/DUO_LX9/kontrolModul3.vhi -module kontrolModul3 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../distancecalculator.vhd -lib work ../kontrolModul3.vhd 

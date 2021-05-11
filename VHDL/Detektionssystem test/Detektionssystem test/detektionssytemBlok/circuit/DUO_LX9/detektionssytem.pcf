@@ -1,0 +1,33 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Apr 28 14:42:10 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+PROHIBIT = SITE "P144";
+PROHIBIT = SITE "P69";
+PROHIBIT = SITE "P60";
+COMP "SDA" LOCATE = SITE "P133" LEVEL 1;
+COMP "SCL" LOCATE = SITE "P134" LEVEL 1;
+COMP "clk" LOCATE = SITE "P94" LEVEL 1;
+COMP "bremsePin" LOCATE = SITE "P127" LEVEL 1;
+COMP "alarm" LOCATE = SITE "P131" LEVEL 1;
+COMP "speed_in<0>" LOCATE = SITE "P116" LEVEL 1;
+COMP "speed_in<1>" LOCATE = SITE "P117" LEVEL 1;
+COMP "speed_in<2>" LOCATE = SITE "P118" LEVEL 1;
+COMP "speed_in<3>" LOCATE = SITE "P119" LEVEL 1;
+COMP "speed_in<4>" LOCATE = SITE "P120" LEVEL 1;
+COMP "speed_in<5>" LOCATE = SITE "P121" LEVEL 1;
+COMP "speed_in<6>" LOCATE = SITE "P123" LEVEL 1;
+COMP "speed_in<7>" LOCATE = SITE "P124" LEVEL 1;
+COMP "i2cDataOut<0>" LOCATE = SITE "P98" LEVEL 1;
+COMP "i2cDataOut<1>" LOCATE = SITE "P95" LEVEL 1;
+COMP "i2cDataOut<2>" LOCATE = SITE "P92" LEVEL 1;
+COMP "i2cDataOut<3>" LOCATE = SITE "P87" LEVEL 1;
+COMP "i2cDataOut<4>" LOCATE = SITE "P84" LEVEL 1;
+COMP "i2cDataOut<5>" LOCATE = SITE "P82" LEVEL 1;
+COMP "i2cDataOut<6>" LOCATE = SITE "P80" LEVEL 1;
+COMP "i2cDataOut<7>" LOCATE = SITE "P78" LEVEL 1;
+COMP "i2cDataOut<8>" LOCATE = SITE "P74" LEVEL 1;
+COMP "i2cDataOut<9>" LOCATE = SITE "P66" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\bosto\Documents\EIT\P4\Projekt\Detektionssystem\detektionssytemBlok\circuit\detektionssytem.vhd</arg>&quot; line <arg fmt="%s" index="2">80</arg>: Output port &lt;<arg fmt="%s" index="3">ready</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">I2C</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\bosto\Documents\EIT\P4\Projekt\Detektionssystem\detektionssytemBlok\circuit\detektionssytem.vhd</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">brakeLength_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">kontrolModul</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\bosto\Documents\EIT\P4\Projekt\Detektionssystem\detektionssytemBlok\circuit\detektionssytem.vhd</arg>&quot; line <arg fmt="%s" index="2">90</arg>: Output port &lt;<arg fmt="%s" index="3">initiateBraking_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">kontrolModul</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\bosto\Documents\EIT\P4\Projekt\Detektionssystem\detektionssytemBlok\circuit\I2CV2.vhd</arg>&quot; line <arg fmt="%s" index="2">287</arg>: Output port &lt;<arg fmt="%s" index="3">clkstep_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">recieveByte0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\bosto\Documents\EIT\P4\Projekt\Detektionssystem\detektionssytemBlok\circuit\I2CV2.vhd</arg>&quot; line <arg fmt="%s" index="2">287</arg>: Output port &lt;<arg fmt="%s" index="3">bitCounter_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">recieveByte0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\bosto\Documents\EIT\P4\Projekt\Detektionssystem\detektionssytemBlok\circuit\I2CV2.vhd</arg>&quot; line <arg fmt="%s" index="2">316</arg>: Output port &lt;<arg fmt="%s" index="3">clkstep_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">recieveByte1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\bosto\Documents\EIT\P4\Projekt\Detektionssystem\detektionssytemBlok\circuit\I2CV2.vhd</arg>&quot; line <arg fmt="%s" index="2">316</arg>: Output port &lt;<arg fmt="%s" index="3">bitCounter_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">recieveByte1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">I2C/sendByte1/enableSDA</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">detektionssytem</arg>&gt;.
+</msg>
+
+</messages>
