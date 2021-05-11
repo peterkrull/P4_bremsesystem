@@ -50,9 +50,9 @@ process(clk) begin
 	if(clk'event and clk = '1') then
 		if(rearSpeed > "00101000")then
 			if(frontSpeed > speedABS and engPowerCopy < "11111111") then
-			engPowerCopy <= std_logic_vector(unsigned(engPowerCopy) + "00000001");
+			engPowerCopy <= "11111111";
 			elsif(frontSpeed < speedABS and engPowerCopy > "00000000") then
-			engPowerCopy <= std_logic_vector(unsigned(engPowerCopy) - "00000001");
+			engPowerCopy <= "00000000";
 			end if;
 		else
 			engPowerCopy <= "00000000";

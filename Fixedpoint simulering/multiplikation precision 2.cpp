@@ -181,7 +181,7 @@ void multiplicationProcess(uint8_t speedByte) {
    printf("\ttrin 6 = Q%d,%d\n", trin6FixedPoint.Q1, trin6FixedPoint.Q2);
 
 
-   //motornedkølingskonstant
+   //motornedkÃ¸lingskonstant
    
 
    struct fixedPointNumbers k3FixedPoint;
@@ -193,7 +193,7 @@ void multiplicationProcess(uint8_t speedByte) {
    printf("\tk3 (floating point) = %f\n", k3FloatingPoint);
 
 
-   //længde bilen har kørt før motoren begynder en hård opbremsning
+   //lÃ¦ngde bilen har kÃ¸rt fÃ¸r motoren begynder en hÃ¥rd opbremsning
    double trin7FloatingPoint = trin3FloatingPoint * k3FloatingPoint;
 
    struct fixedPointNumbers trin7FixedPoint;
@@ -206,7 +206,7 @@ void multiplicationProcess(uint8_t speedByte) {
 
    printf("\ttrin 7 = Q%d,%d\n", trin7FixedPoint.Q1, trin7FixedPoint.Q2);
 
-   //summere bremselængde (trin6) og motornedkølingslængden (trin7)
+   //summere bremselÃ¦ngde (trin6) og motornedkÃ¸lingslÃ¦ngden (trin7)
    double trin8FloatingPoint = trin7FloatingPoint + trin6FloatingPoint;
    struct fixedPointNumbers trin8FixedPoint;
    trin8FixedPoint.Q1 = 10;
@@ -226,13 +226,13 @@ void multiplicationProcess(uint8_t speedByte) {
    printf("\ttrin 8 = Q%d,%d\n", trin8FixedPoint.Q1, trin8FixedPoint.Q2);
 
 
-   printf("\n\tBremselængde uden buffer = %f cm\n", bremselaengdeUdenBuffer);
+   printf("\n\tBremselÃ¦ngde uden buffer = %f cm\n", bremselaengdeUdenBuffer);
 
    double distanceFrabilTilvaegFixedPoint = fix2float(trin8FixedPoint) - bremselaengdeUdenBuffer;
-   printf("\tAfstand til væg ved stop = %f cm\n", distanceFrabilTilvaegFixedPoint);
+   printf("\tAfstand til vÃ¦g ved stop = %f cm\n", distanceFrabilTilvaegFixedPoint);
 
    double afstandProcentAfBremselaengde = 100 * distanceFrabilTilvaegFixedPoint / bremselaengdeUdenBuffer;
-   printf("\tAfstand fra væg som procent af bremselængde = %f %%\n\n", afstandProcentAfBremselaengde);
+   printf("\tAfstand fra vÃ¦g som procent af bremselÃ¦ngde = %f %%\n\n", afstandProcentAfBremselaengde);
 
    struct fixedPointNumbers alarmLaengdeFixedPoint;
    alarmLaengdeFixedPoint.Q1 = 9;
@@ -241,10 +241,10 @@ void multiplicationProcess(uint8_t speedByte) {
 
    double alarmLaengdeFloatingPoint = trin3FloatingPoint * alarmTidFloatingPoint;
 
-   printf("\n\tAlarmLængde (fixed point)    = %f cm\n", fix2float(alarmLaengdeFixedPoint));
-   printf("\talarmLængde (floating point) = %f cm\n", alarmLaengdeFloatingPoint);
+   printf("\n\tAlarmLÃ¦ngde (fixed point)    = %f cm\n", fix2float(alarmLaengdeFixedPoint));
+   printf("\talarmLÃ¦ngde (floating point) = %f cm\n", alarmLaengdeFloatingPoint);
 
-   printf("\tAlarm længde = Q%d,%d\n", alarmLaengdeFixedPoint.Q1, alarmLaengdeFixedPoint.Q2);
+   printf("\tAlarm lÃ¦ngde = Q%d,%d\n", alarmLaengdeFixedPoint.Q1, alarmLaengdeFixedPoint.Q2);
 
    struct fixedPointNumbers totalLengthFixedPoint;
    totalLengthFixedPoint.Q1 = 18;
@@ -253,10 +253,10 @@ void multiplicationProcess(uint8_t speedByte) {
 
    double totalLengthFloatingPoint = alarmLaengdeFloatingPoint + trin8FloatingPoint;
 
-   printf("\n\tLængde når alarmen går igang (fixed point)    = %f cm\n", fix2float(totalLengthFixedPoint));
-   printf("\tLængde når alarmen går igang (floating point) = %f cm\n", totalLengthFloatingPoint);
+   printf("\n\tLÃ¦ngde nÃ¥r alarmen gÃ¥r igang (fixed point)    = %f cm\n", fix2float(totalLengthFixedPoint));
+   printf("\tLÃ¦ngde nÃ¥r alarmen gÃ¥r igang (floating point) = %f cm\n", totalLengthFloatingPoint);
    printf("\tDifference  = %f cm\n", fix2float(totalLengthFixedPoint) - totalLengthFloatingPoint);
-   printf("\ttotalLængde = Q%d,%d\n", totalLengthFixedPoint.Q1, totalLengthFixedPoint.Q2);
+   printf("\ttotalLÃ¦ngde = Q%d,%d\n", totalLengthFixedPoint.Q1, totalLengthFixedPoint.Q2);
 
 
 }
@@ -264,7 +264,7 @@ void multiplicationProcess(uint8_t speedByte) {
 
 void main(void)
 {
-   //gør at man kan skrive æøå
+   //gÃ¸r at man kan skrive Ã¦Ã¸Ã¥
    setlocale(LC_ALL, "");
  /*
    printf("Byte = 39\n");
@@ -298,7 +298,7 @@ void main(void)
    multiplicationProcess(239);
 
    printf("byte = 240\n");
-   multiplicationProcess(239);
+   multiplicationProcess(240);
 
    _getch();
 }
