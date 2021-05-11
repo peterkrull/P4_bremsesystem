@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2021-05-11T10:15:00</DateModified>
+  <DateModified>2021-05-11T10:57:08</DateModified>
   <ModuleName>TopModul</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/bosto/Desktop/vmShared/circuit/iseconfig/TopModul.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/bosto/Desktop/vmShared/circuit/DUO_LX9\</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/vmShared/circuit/iseconfig/TopModul.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/vmShared/circuit/DUO_LX9/</ImplementationReportsDirectory>
   <DateInitialized>2021-04-28T13:44:22</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -69,7 +69,7 @@ architecture motorstyringBehavioral of motorstyring is
     component Accelerator port (
 		clk	:	in	std_logic;
 		oensketHastighed	:	in	std_logic_vector(7 downto 0);
-		baghjulHastighed	:	in	std_logic_vector(7 downto 0);
+		forhjulHastighed	:	in	std_logic_vector(7 downto 0);
 		motorkraft	: out std_logic_vector(7 downto 0)
     );
     end component;
@@ -109,7 +109,7 @@ begin
     -- Accelerator
     ent_Accelerator: Accelerator port map (
         clk => clk,
-        baghjulHastighed => rear_speed_sig,
+        forhjulHastighed => rear_speed_sig,
         oensketHastighed => test_speed,
         motorkraft => front_power_sig
     );

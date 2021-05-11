@@ -10,7 +10,7 @@ unsigned long radio_timer = 0;    // Previous radio check
 unsigned long lastMessage = 0;    // 0 Passive, 1 drive mode, 2 break mode
 float testSpeed = 0;               // Variable to hold test speed
 
-const float targetTestSpeed = 5;
+const float targetTestSpeed = 20;
 boolean connection = 0;
 boolean emergency = 0;
 
