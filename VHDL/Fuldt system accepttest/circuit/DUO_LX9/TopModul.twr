@@ -36,14 +36,14 @@ Setup/Hold to clock clk
              |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source       | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 -------------+------------+------------+------------+------------+------------------+--------+
-test_speed<0>|    7.597(R)|      SLOW  |   -2.587(R)|      FAST  |clk_BUFGP         |   0.000|
-test_speed<1>|    7.781(R)|      SLOW  |   -2.540(R)|      FAST  |clk_BUFGP         |   0.000|
-test_speed<2>|    7.957(R)|      SLOW  |   -2.765(R)|      FAST  |clk_BUFGP         |   0.000|
-test_speed<3>|    7.292(R)|      SLOW  |   -2.300(R)|      FAST  |clk_BUFGP         |   0.000|
-test_speed<4>|    4.699(R)|      SLOW  |   -0.835(R)|      FAST  |clk_BUFGP         |   0.000|
-test_speed<5>|    4.750(R)|      SLOW  |   -1.085(R)|      FAST  |clk_BUFGP         |   0.000|
-test_speed<6>|    4.248(R)|      SLOW  |   -0.860(R)|      FAST  |clk_BUFGP         |   0.000|
-test_speed<7>|    4.634(R)|      SLOW  |   -0.817(R)|      FAST  |clk_BUFGP         |   0.000|
+test_speed<0>|    8.550(R)|      SLOW  |   -2.633(R)|      FAST  |clk_BUFGP         |   0.000|
+test_speed<1>|    8.588(R)|      SLOW  |   -2.859(R)|      FAST  |clk_BUFGP         |   0.000|
+test_speed<2>|    8.472(R)|      SLOW  |   -2.835(R)|      FAST  |clk_BUFGP         |   0.000|
+test_speed<3>|    7.509(R)|      SLOW  |   -2.440(R)|      FAST  |clk_BUFGP         |   0.000|
+test_speed<4>|    6.146(R)|      SLOW  |   -1.013(R)|      FAST  |clk_BUFGP         |   0.000|
+test_speed<5>|    6.290(R)|      SLOW  |   -0.965(R)|      FAST  |clk_BUFGP         |   0.000|
+test_speed<6>|    6.212(R)|      SLOW  |   -1.067(R)|      FAST  |clk_BUFGP         |   0.000|
+test_speed<7>|    6.036(R)|      SLOW  |   -1.019(R)|      FAST  |clk_BUFGP         |   0.000|
 -------------+------------+------------+------------+------------+------------------+--------+
 
 Clock clk to Pad
@@ -51,10 +51,10 @@ Clock clk to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-alarm_bit   |        40.225(R)|      SLOW  |         7.727(R)|      FAST  |clk_BUFGP         |   0.000|
-brems_bit   |        10.934(R)|      SLOW  |         4.889(R)|      FAST  |clk_BUFGP         |   0.000|
-motor_PWM   |        13.391(R)|      SLOW  |         5.720(R)|      FAST  |clk_BUFGP         |   0.000|
-motor_select|        10.647(R)|      SLOW  |         4.851(R)|      FAST  |clk_BUFGP         |   0.000|
+alarm_bit   |        38.399(R)|      SLOW  |         7.645(R)|      FAST  |clk_BUFGP         |   0.000|
+brems_bit   |        10.855(R)|      SLOW  |         4.984(R)|      FAST  |clk_BUFGP         |   0.000|
+motor_PWM   |        12.505(R)|      SLOW  |         5.181(R)|      FAST  |clk_BUFGP         |   0.000|
+motor_select|        10.412(R)|      SLOW  |         4.727(R)|      FAST  |clk_BUFGP         |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clk
@@ -62,25 +62,25 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |   24.722|         |         |         |
+clk            |   24.261|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-test_speed<0>  |motor_PWM      |   10.777|
-test_speed<1>  |motor_PWM      |   10.785|
-test_speed<2>  |motor_PWM      |   10.866|
-test_speed<3>  |motor_PWM      |   10.749|
-test_speed<4>  |motor_PWM      |   10.240|
-test_speed<5>  |motor_PWM      |   10.710|
-test_speed<6>  |motor_PWM      |   10.032|
-test_speed<7>  |motor_PWM      |   10.090|
+test_speed<0>  |motor_PWM      |   10.830|
+test_speed<1>  |motor_PWM      |   10.592|
+test_speed<2>  |motor_PWM      |   10.298|
+test_speed<3>  |motor_PWM      |   10.511|
+test_speed<4>  |motor_PWM      |   10.674|
+test_speed<5>  |motor_PWM      |   10.542|
+test_speed<6>  |motor_PWM      |    9.845|
+test_speed<7>  |motor_PWM      |    9.592|
 ---------------+---------------+---------+
 
 
-Analysis completed Tue May 11 11:31:57 2021 
+Analysis completed Mon May 17 12:11:13 2021 
 --------------------------------------------------------------------------------
 
 Trace Settings:

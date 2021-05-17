@@ -4,14 +4,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.18 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.18 secs
  
 --> 
@@ -379,9 +379,9 @@ Synthesizing Unit <Accelerator>.
     Found 18-bit register for signal <clkCounter>.
     Found 18-bit adder for signal <clkCounter[17]_GND_16_o_add_0_OUT> created at line 51.
     Found 8-bit adder for signal <motorkraftCopy[7]_GND_16_o_add_6_OUT> created at line 56.
-    Found 8-bit comparator greater for signal <oensketHastighed[7]_forhjulHastighed[7]_LessThan_3_o> created at line 53
+    Found 8-bit comparator greater for signal <oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o> created at line 53
     Found 8-bit comparator greater for signal <GND_16_o_motorkraftCopy[7]_LessThan_4_o> created at line 53
-    Found 8-bit comparator greater for signal <forhjulHastighed[7]_oensketHastighed[7]_LessThan_5_o> created at line 55
+    Found 8-bit comparator greater for signal <baghjulHastighed[7]_oensketHastighed[7]_LessThan_5_o> created at line 55
     Found 8-bit comparator greater for signal <motorkraftCopy[7]_PWR_16_o_LessThan_6_o> created at line 55
     Found 8-bit comparator greater for signal <GND_16_o_motorkraftCopy1[7]_LessThan_17_o> created at line 69
     Found 8-bit comparator greater for signal <motorkraftCopy1[7]_PWR_16_o_LessThan_19_o> created at line 71
@@ -1237,10 +1237,10 @@ Offset:              9.985ns (Levels of Logic = 7)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             3   1.328   1.196  test_speed_2_IBUF (test_speed_2_IBUF)
-     LUT6:I1->O            1   0.254   0.910  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_forhjulHastighed[7]_LessThan_3_o3 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_forhjulHastighed[7]_LessThan_3_o1)
-     LUT3:I0->O            1   0.235   0.682  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_forhjulHastighed[7]_LessThan_3_o11 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_forhjulHastighed[7]_LessThan_3_o11)
-     LUT5:I4->O            1   0.254   0.790  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_forhjulHastighed[7]_LessThan_3_o12 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_forhjulHastighed[7]_LessThan_3_o2)
-     LUT5:I3->O            3   0.250   1.221  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_forhjulHastighed[7]_LessThan_3_o21 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_forhjulHastighed[7]_LessThan_3_o)
+     LUT6:I1->O            1   0.254   0.910  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o3 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o1)
+     LUT3:I0->O            1   0.235   0.682  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o11 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o11)
+     LUT5:I4->O            1   0.254   0.790  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o12 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o2)
+     LUT5:I3->O            3   0.250   1.221  ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o21 (ent_motorstyring/ent_Accelerator/oensketHastighed[7]_baghjulHastighed[7]_LessThan_3_o)
      LUT6:I0->O            1   0.254   1.112  ent_motorstyring/ent_Accelerator/_n0066_inv3 (ent_motorstyring/ent_Accelerator/_n0066_inv3)
      LUT5:I0->O            8   0.254   0.943  ent_motorstyring/ent_Accelerator/_n0066_inv4 (ent_motorstyring/ent_Accelerator/_n0066_inv)
      FDRE:CE                   0.302          ent_motorstyring/ent_Accelerator/motorkraftCopy_0
@@ -1438,13 +1438,13 @@ ent_motorstyring/ent_hastighedsbestemmerTop/timeCounter_front/data_ready|    3.2
 =========================================================================
 
 
-Total REAL time to Xst completion: 49.00 secs
-Total CPU time to Xst completion: 45.14 secs
+Total REAL time to Xst completion: 47.00 secs
+Total CPU time to Xst completion: 43.86 secs
  
 --> 
 
 
-Total memory usage is 510428 kilobytes
+Total memory usage is 413424 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   83 (   0 filtered)
