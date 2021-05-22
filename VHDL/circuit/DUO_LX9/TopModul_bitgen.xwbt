@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\DUO_LX9\TopModul.ncd
-OUTFILE=C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\DUO_LX9\TopModul.bit
-FAMILY=Spartan6
-PART=xc6slx9-2tqg144
-WORKINGDIR=C:\Users\bosto\Documents\GitHub\P4_bremsesystem\VHDL\circuit\DUO_LX9
-LICENSE=WebPack
-USER_INFO=212139708_0_0_476

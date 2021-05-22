@@ -1,4 +1,0 @@
-xst -intstyle ise -ifn "C:/Users/peter/Documents/GitHub/P4/P4_bremsesystem/VHDL/Bremsesystem_Papilio_DUO/circuit/DUO_LX9/Papilio_DUO_LX9.xst" -ofn "C:/Users/peter/Documents/GitHub/P4/P4_bremsesystem/VHDL/Bremsesystem_Papilio_DUO/circuit/DUO_LX9/Papilio_DUO_LX9.syr" 
-ngdbuild -intstyle ise -dd _ngo -aul -nt timestamp -i -p xc6slx9-tqg144-2 Papilio_DUO_LX9.ngc Papilio_DUO_LX9.ngd  
-map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Papilio_DUO_LX9_map.ncd Papilio_DUO_LX9.ngd Papilio_DUO_LX9.pcf 
-map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Papilio_DUO_LX9_map.ncd Papilio_DUO_LX9.ngd Papilio_DUO_LX9.pcf 
