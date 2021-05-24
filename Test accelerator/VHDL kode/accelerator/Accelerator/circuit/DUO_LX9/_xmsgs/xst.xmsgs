@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">motorkraftCopy1_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Accelerator</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;motorkraftCopy1_1&gt; &lt;motorkraftCopy1_2&gt; &lt;motorkraftCopy1_3&gt; &lt;motorkraftCopy1_4&gt; &lt;motorkraftCopy1_5&gt; &lt;motorkraftCopy1_6&gt; &lt;motorkraftCopy1_7&gt; </arg>
+</msg>
+
+</messages>
+
