@@ -1,0 +1,2 @@
+vhdl isim_temp "../Accelerator.vhd"
+vhdl isim_temp "../AcceleratorTest.vhd"

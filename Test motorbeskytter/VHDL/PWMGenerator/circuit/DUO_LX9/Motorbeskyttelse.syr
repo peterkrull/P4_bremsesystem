@@ -1,0 +1,452 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: Motorbeskyttelse.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Motorbeskyttelse.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Motorbeskyttelse"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-tqg144
+
+---- Source Options
+Top Module Name                    : Motorbeskyttelse
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"../gatesoftware1/DesignLab-1.0.8/libraries/Benchy" "../gatesoftware1/DesignLab-1.0.8/libraries/BitCoin_Miner" "../gatesoftware1/DesignLab-1.0.8/libraries/Building_Blocks" "../gatesoftware1/DesignLab-1.0.8/libraries/Clocks" "../gatesoftware1/DesignLab-1.0.8/libraries/Gameduino" "../gatesoftware1/DesignLab-1.0.8/libraries/HQVGA" "../gatesoftware1/DesignLab-1.0.8/libraries/Papilio_Hardware" "../gatesoftware1/DesignLab-1.0.8/libraries/RGB_Matrix" "../gatesoftware1/DesignLab-1.0.8/libraries/Robot_Control_Library" "../gatesoftware1/DesignLab-1.0.8/libraries/VGA_ZPUino" "../gatesoftware1/DesignLab-1.0.8/libraries/VGA_ZXSpectrum" "../gatesoftware1/DesignLab-1.0.8/libraries/ZPUino_2" "../gatesoftware1/DesignLab-1.0.8/libraries/ZPUino_Wishbone_Peripherals"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/SharedVMFolder/PWMGenerator/circuit/PWMGenerator.vhd" into library work
+Parsing entity <PWMGenerator>.
+Parsing architecture <Behavioral> of entity <pwmgenerator>.
+Parsing VHDL file "/home/ise/SharedVMFolder/Motorbeskyttelse/circuit/Motorbeskyttelse.vhd" into library work
+Parsing entity <Motorbeskyttelse>.
+Parsing architecture <Behavioral> of entity <motorbeskyttelse>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Motorbeskyttelse> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <PWMGenerator> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Motorbeskyttelse>.
+    Related source file is "/home/ise/SharedVMFolder/Motorbeskyttelse/circuit/Motorbeskyttelse.vhd".
+    Summary:
+	no macro.
+Unit <Motorbeskyttelse> synthesized.
+
+Synthesizing Unit <PWMGenerator>.
+    Related source file is "/home/ise/SharedVMFolder/PWMGenerator/circuit/PWMGenerator.vhd".
+    Found 1-bit register for signal <PWM_out>.
+    Found 8-bit register for signal <clkCountReact>.
+    Found 11-bit register for signal <clkCount>.
+    Found 11-bit adder for signal <clkCount[10]_GND_5_o_add_0_OUT> created at line 47.
+    Found 8-bit adder for signal <clkCountReact[7]_GND_5_o_add_4_OUT> created at line 55.
+    Found 8-bit comparator greater for signal <clkCountReact[7]_speed[7]_LessThan_2_o> created at line 48
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <PWMGenerator> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 11-bit adder                                          : 2
+ 8-bit adder                                           : 2
+# Registers                                            : 6
+ 1-bit register                                        : 2
+ 11-bit register                                       : 2
+ 8-bit register                                        : 2
+# Comparators                                          : 2
+ 8-bit comparator greater                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <PWMGenerator>.
+The following registers are absorbed into counter <clkCount>: 1 register on signal <clkCount>.
+The following registers are absorbed into counter <clkCountReact>: 1 register on signal <clkCountReact>.
+Unit <PWMGenerator> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 4
+ 11-bit up counter                                     : 2
+ 8-bit up counter                                      : 2
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+# Comparators                                          : 2
+ 8-bit comparator greater                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Motorbeskyttelse> ...
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCountReact_0> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCountReact_0> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCountReact_1> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCountReact_1> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCountReact_2> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCountReact_2> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCountReact_3> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCountReact_3> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCountReact_4> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCountReact_4> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCountReact_5> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCountReact_5> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCount_10> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCount_10> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCountReact_6> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCountReact_6> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCountReact_7> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCountReact_7> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCount_0> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCount_0> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCount_1> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCount_1> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCount_2> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCount_2> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCount_3> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCount_3> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCount_4> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCount_4> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCount_5> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCount_5> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCount_6> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCount_6> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCount_7> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCount_7> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCount_8> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCount_8> 
+INFO:Xst:2261 - The FF/Latch <PWMGenerator2/clkCount_9> in Unit <Motorbeskyttelse> is equivalent to the following FF/Latch, which will be removed : <PWMGenerator1/clkCount_9> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Motorbeskyttelse, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 21
+ Flip-Flops                                            : 21
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Motorbeskyttelse.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 118
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 17
+#      LUT2                        : 11
+#      LUT3                        : 9
+#      LUT4                        : 16
+#      LUT5                        : 7
+#      LUT6                        : 16
+#      MUXCY                       : 17
+#      MUXF7                       : 2
+#      VCC                         : 1
+#      XORCY                       : 19
+# FlipFlops/Latches                : 21
+#      FD                          : 21
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 27
+#      IBUF                        : 25
+#      OBUF                        : 2
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              21  out of  11440     0%  
+ Number of Slice LUTs:                   78  out of   5720     1%  
+    Number used as Logic:                78  out of   5720     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     78
+   Number with an unused Flip Flop:      57  out of     78    73%  
+   Number with an unused LUT:             0  out of     78     0%  
+   Number of fully used LUT-FF pairs:    21  out of     78    26%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          28
+ Number of bonded IOBs:                  28  out of    102    27%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clkMot                             | BUFGP                  | 21    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 4.541ns (Maximum Frequency: 220.216MHz)
+   Minimum input arrival time before clock: 5.139ns
+   Maximum output required time after clock: 5.553ns
+   Maximum combinational path delay: 7.267ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clkMot'
+  Clock period: 4.541ns (frequency: 220.216MHz)
+  Total number of paths / destination ports: 445 / 21
+-------------------------------------------------------------------------
+Delay:               4.541ns (Levels of Logic = 3)
+  Source:            PWMGenerator2/clkCountReact_3 (FF)
+  Destination:       PWMGenerator2/clkCountReact_0 (FF)
+  Source Clock:      clkMot rising
+  Destination Clock: clkMot rising
+
+  Data Path: PWMGenerator2/clkCountReact_3 to PWMGenerator2/clkCountReact_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              12   0.525   1.297  PWMGenerator2/clkCountReact_3 (PWMGenerator2/clkCountReact_3)
+     LUT3:I0->O            1   0.235   0.682  PWMGenerator2/PWR_5_o_clkCountReact[7]_equal_8_o<7>_SW0 (N6)
+     LUT6:I5->O            8   0.254   1.220  PWMGenerator2/PWR_5_o_clkCountReact[7]_equal_8_o<7> (PWMGenerator2/PWR_5_o_clkCountReact[7]_equal_8_o)
+     LUT4:I0->O            1   0.254   0.000  PWMGenerator2/clkCountReact_0_rstpot (PWMGenerator2/clkCountReact_0_rstpot)
+     FD:D                      0.074          PWMGenerator2/clkCountReact_0
+    ----------------------------------------
+    Total                      4.541ns (1.342ns logic, 3.199ns route)
+                                       (29.6% logic, 70.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clkMot'
+  Total number of paths / destination ports: 52 / 2
+-------------------------------------------------------------------------
+Offset:              5.139ns (Levels of Logic = 4)
+  Source:            speed2<0> (PAD)
+  Destination:       PWMGenerator2/PWM_out (FF)
+  Destination Clock: clkMot rising
+
+  Data Path: speed2<0> to PWMGenerator2/PWM_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   1.137  speed2_0_IBUF (speed2_0_IBUF)
+     LUT6:I0->O            2   0.254   1.156  PWMGenerator2/clkCountReact[7]_speed[7]_LessThan_2_o2 (PWMGenerator2/clkCountReact[7]_speed[7]_LessThan_2_o1)
+     LUT5:I0->O            1   0.254   0.682  PWMGenerator2/clkCountReact[7]_speed[7]_LessThan_2_o21 (PWMGenerator2/clkCountReact[7]_speed[7]_LessThan_2_o)
+     LUT5:I4->O            1   0.254   0.000  PWMGenerator2/PWM_out_rstpot (PWMGenerator2/PWM_out_rstpot)
+     FD:D                      0.074          PWMGenerator2/PWM_out
+    ----------------------------------------
+    Total                      5.139ns (2.164ns logic, 2.975ns route)
+                                       (42.1% logic, 57.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clkMot'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              5.553ns (Levels of Logic = 2)
+  Source:            PWMGenerator1/PWM_out (FF)
+  Destination:       PWM1 (PAD)
+  Source Clock:      clkMot rising
+
+  Data Path: PWMGenerator1/PWM_out to PWM1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.525   1.181  PWMGenerator1/PWM_out (PWMGenerator1/PWM_out)
+     LUT6:I0->O            1   0.254   0.681  PWM1 (PWM1_OBUF)
+     OBUF:I->O                 2.912          PWM1_OBUF (PWM1)
+    ----------------------------------------
+    Total                      5.553ns (3.691ns logic, 1.862ns route)
+                                       (66.5% logic, 33.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 18 / 2
+-------------------------------------------------------------------------
+Delay:               7.267ns (Levels of Logic = 4)
+  Source:            oensketHastighed<4> (PAD)
+  Destination:       PWM1 (PAD)
+
+  Data Path: oensketHastighed<4> to PWM1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.328   1.156  oensketHastighed_4_IBUF (oensketHastighed_4_IBUF)
+     LUT5:I0->O            1   0.254   0.682  PWM2_SW0 (N20)
+     LUT6:I5->O            1   0.254   0.681  PWM2 (PWM2_OBUF)
+     OBUF:I->O                 2.912          PWM2_OBUF (PWM2)
+    ----------------------------------------
+    Total                      7.267ns (4.748ns logic, 2.519ns route)
+                                       (65.3% logic, 34.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clkMot
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clkMot         |    4.541|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.91 secs
+ 
+--> 
+
+
+Total memory usage is 484540 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :   19 (   0 filtered)
+

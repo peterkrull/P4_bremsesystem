@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/vm_delt_mappe/Done motorbeskyttelse/Motorbeskyttelse/circuit/DUO_LX9/Motorbeskyttelse_Simon_V2_isim_beh.exe" -prj "/home/ise/vm_delt_mappe/Done motorbeskyttelse/Motorbeskyttelse/circuit/DUO_LX9/Motorbeskyttelse_Simon_V2_beh.prj" "work.Motorbeskyttelse_Simon_V2" 

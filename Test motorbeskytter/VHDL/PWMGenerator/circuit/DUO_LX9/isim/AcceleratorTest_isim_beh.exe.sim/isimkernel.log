@@ -1,0 +1,28 @@
+Command line:
+   AcceleratorTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57371
+
+Sat Mar 27 16:16:37 2021
+
+
+ Elaboration Time: 0.05 sec
+
+ Current Memory Usage: 198.726 Meg
+
+ Total Signals          : 10
+ Total Nets             : 51
+ Total Signal Drivers   : 4
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 4
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 535
+
+ Total Simulation Time: 211.14 sec
+
+ Current Memory Usage: 276.324 Meg
+
+Sat Mar 27 16:21:33 2021
+

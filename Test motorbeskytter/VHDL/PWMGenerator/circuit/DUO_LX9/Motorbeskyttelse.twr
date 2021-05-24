@@ -1,0 +1,110 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml Motorbeskyttelse.twx Motorbeskyttelse.ncd -o
+Motorbeskyttelse.twr Motorbeskyttelse.pcf
+
+Design file:              Motorbeskyttelse.ncd
+Physical constraint file: Motorbeskyttelse.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clkMot
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+speed1<0>   |    5.842(R)|      SLOW  |   -2.478(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed1<1>   |    5.199(R)|      SLOW  |   -2.118(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed1<2>   |    5.517(R)|      SLOW  |   -2.290(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed1<3>   |    5.480(R)|      SLOW  |   -2.045(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed1<4>   |    5.514(R)|      SLOW  |   -2.187(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed1<5>   |    5.386(R)|      SLOW  |   -2.118(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed1<6>   |    5.267(R)|      SLOW  |   -1.871(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed1<7>   |    4.887(R)|      SLOW  |   -1.929(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed2<0>   |    5.568(R)|      SLOW  |   -2.109(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed2<1>   |    5.151(R)|      SLOW  |   -1.916(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed2<2>   |    5.327(R)|      SLOW  |   -1.995(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed2<3>   |    4.936(R)|      SLOW  |   -1.905(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed2<4>   |    4.973(R)|      SLOW  |   -1.870(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed2<5>   |    5.711(R)|      SLOW  |   -1.948(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed2<6>   |    5.841(R)|      SLOW  |   -2.066(R)|      FAST  |clkMot_BUFGP      |   0.000|
+speed2<7>   |    5.566(R)|      SLOW  |   -1.606(R)|      FAST  |clkMot_BUFGP      |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clkMot to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+PWM1        |        12.125(R)|      SLOW  |         5.465(R)|      FAST  |clkMot_BUFGP      |   0.000|
+PWM2        |        12.660(R)|      SLOW  |         5.796(R)|      FAST  |clkMot_BUFGP      |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clkMot
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clkMot         |    4.101|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+-------------------+---------------+---------+
+Source Pad         |Destination Pad|  Delay  |
+-------------------+---------------+---------+
+noedbrems          |PWM1           |   11.991|
+noedbrems          |PWM2           |   11.936|
+oensketHastighed<0>|PWM1           |   14.480|
+oensketHastighed<0>|PWM2           |   13.593|
+oensketHastighed<1>|PWM1           |   14.270|
+oensketHastighed<1>|PWM2           |   13.383|
+oensketHastighed<2>|PWM1           |   14.324|
+oensketHastighed<2>|PWM2           |   13.437|
+oensketHastighed<3>|PWM1           |   14.112|
+oensketHastighed<3>|PWM2           |   13.225|
+oensketHastighed<4>|PWM1           |   14.757|
+oensketHastighed<4>|PWM2           |   13.870|
+oensketHastighed<5>|PWM1           |   13.261|
+oensketHastighed<5>|PWM2           |   13.271|
+oensketHastighed<6>|PWM1           |   13.526|
+oensketHastighed<6>|PWM2           |   13.201|
+oensketHastighed<7>|PWM1           |   13.582|
+oensketHastighed<7>|PWM2           |   13.431|
+-------------------+---------------+---------+
+
+
+Analysis completed Thu Mar 25 11:34:30 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 383 MB
+
+
+

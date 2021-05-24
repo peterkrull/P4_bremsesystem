@@ -1,0 +1,1 @@
+vhdtdtfi -prj PSL_Papilio_DUO_LX9 -o /home/ise/SharedVMFolder/Motorbeskyttelse/circuit/DUO_LX9/PWMGenerator.vhi -module PWMGenerator -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../../../PWMGenerator/circuit/PWMGenerator.vhd 

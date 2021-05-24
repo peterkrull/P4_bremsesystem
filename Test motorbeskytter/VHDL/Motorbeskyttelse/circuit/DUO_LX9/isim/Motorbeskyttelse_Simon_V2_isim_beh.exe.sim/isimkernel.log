@@ -1,0 +1,10 @@
+Command line:
+   Motorbeskyttelse_Simon_V2_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57431
+
+Fri Apr 23 12:25:07 2021
+
+
+ Elaboration Time: 0.08 sec

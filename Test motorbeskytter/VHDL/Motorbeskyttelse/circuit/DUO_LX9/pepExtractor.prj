@@ -1,0 +1,2 @@
+work	"../../../PWMGenerator/circuit/PWMGenerator.vhd"
+work	"../Motorbeskyttelse.vhd"

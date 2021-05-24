@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/SharedVMFolder/PWMGenerator/circuit/DUO_LX9/AcceleratorTest_isim_beh.exe" -prj "/home/ise/SharedVMFolder/PWMGenerator/circuit/DUO_LX9/AcceleratorTest_beh.prj" "work.AcceleratorTest" 

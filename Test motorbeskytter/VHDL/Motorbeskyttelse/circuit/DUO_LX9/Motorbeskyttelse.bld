@@ -1,0 +1,2584 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -sd ../gatesoftware1/DesignLab-1.0.8/libraries/Benchy -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/BitCoin_Miner -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/Building_Blocks -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/Clocks -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/Gameduino -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/HQVGA -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/Papilio_Hardware -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/RGB_Matrix -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/Robot_Control_Library -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/VGA_ZPUino -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/VGA_ZXSpectrum -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/ZPUino_2 -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/ZPUino_Wishbone_Peripherals -aul -nt
+timestamp -uc /home/ise/vm_delt_mappe/Done
+motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf -p xc6slx9-tqg144-2
+Motorbeskyttelse.ngc Motorbeskyttelse.ngd
+
+Reading NGO file "/home/ise/vm_delt_mappe/Done
+motorbeskyttelse/Motorbeskyttelse/circuit/DUO_LX9/Motorbeskyttelse.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "/home/ise/vm_delt_mappe/Done
+motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_Period_1 = PERIOD "CLK"
+   31.25 ns HIGH 50%;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(32)]: Unable to find an
+   active 'TNM' or 'TimeGrp' constraint named 'CLK'.
+
+INFO:ConstraintSystem:59 - Constraint <NET TXD       LOC="P141" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(33)]: NET "TXD" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET TXD       LOC="P141" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(33)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(33)]: NET "TXD" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(33)]: NET "TXD" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(33)]: NET "TXD" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET RXD       LOC="P46" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(34)]: NET "RXD" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET RXD       LOC="P46" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(34)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(34)]: NET "RXD" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(34)]: NET "RXD" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(34)]: NET "RXD" not found. 
+   Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Ardunio_12345           
+   				LOC="P116" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(36)]: NET "Ardunio_12345"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Ardunio_12345            				LOC="P116" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(36)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(36)]: NET "Ardunio_12345"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Ardunio_1          				LOC="P117" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(37)]: NET "Ardunio_1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Ardunio_1          				LOC="P117" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(37)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(37)]: NET "Ardunio_1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_0          LOC="P120" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(40)]: NET "Arduino_0" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_0          LOC="P120" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(40)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(40)]: NET "Arduino_0" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_22          LOC="P99"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(60)]: NET "Arduino_22" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_22          LOC="P99"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(60)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(60)]: NET "Arduino_22" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_24          LOC="P97"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(61)]: NET "Arduino_24" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_24          LOC="P97"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(61)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(61)]: NET "Arduino_24" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_26          LOC="P93"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(62)]: NET "Arduino_26" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_26          LOC="P93"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(62)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(62)]: NET "Arduino_26" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_28          LOC="P88"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(63)]: NET "Arduino_28" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_28          LOC="P88"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(63)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(63)]: NET "Arduino_28" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_30          LOC="P85"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(64)]: NET "Arduino_30" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_30          LOC="P85"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(64)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(64)]: NET "Arduino_30" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_32          LOC="P83"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(65)]: NET "Arduino_32" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_32          LOC="P83"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(65)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(65)]: NET "Arduino_32" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_34          LOC="P81"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(66)]: NET "Arduino_34" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_34          LOC="P81"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(66)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(66)]: NET "Arduino_34" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_36          LOC="P79"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(67)]: NET "Arduino_36" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_36          LOC="P79"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(67)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(67)]: NET "Arduino_36" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_38          LOC="P75"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(68)]: NET "Arduino_38" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_38          LOC="P75"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(68)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(68)]: NET "Arduino_38" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_40          LOC="P67"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(69)]: NET "Arduino_40" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_40          LOC="P67"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(69)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(69)]: NET "Arduino_40" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_42         LOC="P62"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(70)]: NET "Arduino_42" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_42         LOC="P62"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(70)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(70)]: NET "Arduino_42" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_44         LOC="P59"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(71)]: NET "Arduino_44" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_44         LOC="P59"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(71)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(71)]: NET "Arduino_44" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_46         LOC="P57"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(72)]: NET "Arduino_46" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_46         LOC="P57"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(72)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(72)]: NET "Arduino_46" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_48         LOC="P55"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(73)]: NET "Arduino_48" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_48         LOC="P55"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(73)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(73)]: NET "Arduino_48" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_50         LOC="P50"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(74)]: NET "Arduino_50" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_50         LOC="P50"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(74)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(74)]: NET "Arduino_50" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_52         LOC="P47"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(75)]: NET "Arduino_52" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_52         LOC="P47"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(75)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(75)]: NET "Arduino_52" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_23     LOC="P98"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(77)]: NET "Arduino_23" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_23     LOC="P98"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(77)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(77)]: NET "Arduino_23" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_25     LOC="P95" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(78)]: NET "Arduino_25" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_25     LOC="P95" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(78)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(78)]: NET "Arduino_25" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_27     LOC="P92"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(79)]: NET "Arduino_27" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_27     LOC="P92"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(79)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(79)]: NET "Arduino_27" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_29     LOC="P87"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(80)]: NET "Arduino_29" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_29     LOC="P87"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(80)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(80)]: NET "Arduino_29" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_31     LOC="P84"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(81)]: NET "Arduino_31" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_31     LOC="P84"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(81)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(81)]: NET "Arduino_31" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_33     LOC="P82"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(82)]: NET "Arduino_33" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_33     LOC="P82"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(82)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(82)]: NET "Arduino_33" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_35     LOC="P80"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(83)]: NET "Arduino_35" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_35     LOC="P80"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(83)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(83)]: NET "Arduino_35" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_37     LOC="P78"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(84)]: NET "Arduino_37" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_37     LOC="P78"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(84)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(84)]: NET "Arduino_37" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_39     LOC="P74"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(85)]: NET "Arduino_39" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_39     LOC="P74"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(85)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(85)]: NET "Arduino_39" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_41     LOC="P66"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(86)]: NET "Arduino_41" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_41     LOC="P66"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(86)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(86)]: NET "Arduino_41" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_43     LOC="P61"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(87)]: NET "Arduino_43" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_43     LOC="P61"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(87)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(87)]: NET "Arduino_43" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_45     LOC="P58"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(88)]: NET "Arduino_45" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_45     LOC="P58"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(88)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(88)]: NET "Arduino_45" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_47     LOC="P56"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(89)]: NET "Arduino_47" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_47     LOC="P56"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(89)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(89)]: NET "Arduino_47" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_49     LOC="P51"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(90)]: NET "Arduino_49" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_49     LOC="P51"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(90)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(90)]: NET "Arduino_49" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_51     LOC="P48"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(91)]: NET "Arduino_51" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_51     LOC="P48"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(91)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(91)]: NET "Arduino_51" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET Arduino_53     LOC="P39"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(92)]: NET "Arduino_53" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET Arduino_53     LOC="P39"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(92)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(92)]: NET "Arduino_53" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<0>" LOC = "P7" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(96)]: NET "sram_addr<0>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<0>" LOC = "P7" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(96)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(96)]: NET "sram_addr<0>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(96)]: NET "sram_addr<0>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<1>" LOC = "P8" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(97)]: NET "sram_addr<1>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<1>" LOC = "P8" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(97)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(97)]: NET "sram_addr<1>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(97)]: NET "sram_addr<1>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<2>" LOC = "P9" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(98)]: NET "sram_addr<2>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<2>" LOC = "P9" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(98)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(98)]: NET "sram_addr<2>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(98)]: NET "sram_addr<2>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<3>" LOC = "P10" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(99)]: NET "sram_addr<3>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<3>" LOC = "P10" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(99)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(99)]: NET "sram_addr<3>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(99)]: NET "sram_addr<3>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<4>" LOC = "P11" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(100)]: NET "sram_addr<4>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<4>" LOC = "P11" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(100)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(100)]: NET "sram_addr<4>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(100)]: NET "sram_addr<4>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<5>" LOC = "P5" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(101)]: NET "sram_addr<5>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<5>" LOC = "P5" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(101)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(101)]: NET "sram_addr<5>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(101)]: NET "sram_addr<5>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<6>" LOC = "P2" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(102)]: NET "sram_addr<6>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<6>" LOC = "P2" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(102)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(102)]: NET "sram_addr<6>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(102)]: NET "sram_addr<6>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<7>" LOC = "P1" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(103)]: NET "sram_addr<7>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<7>" LOC = "P1" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(103)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(103)]: NET "sram_addr<7>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(103)]: NET "sram_addr<7>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<8>" LOC = "P143" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(104)]: NET "sram_addr<8>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<8>" LOC = "P143" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(104)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(104)]: NET "sram_addr<8>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(104)]: NET "sram_addr<8>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<9>" LOC = "P142" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(105)]: NET "sram_addr<9>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<9>" LOC = "P142" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(105)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(105)]: NET "sram_addr<9>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(105)]: NET "sram_addr<9>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<10>" LOC = "P43" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(106)]: NET "sram_addr<10>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<10>" LOC = "P43" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(106)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(106)]: NET "sram_addr<10>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(106)]: NET "sram_addr<10>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<11>" LOC = "P41" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(107)]: NET "sram_addr<11>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<11>" LOC = "P41" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(107)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(107)]: NET "sram_addr<11>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(107)]: NET "sram_addr<11>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<12>" LOC = "P40" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(108)]: NET "sram_addr<12>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<12>" LOC = "P40" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(108)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(108)]: NET "sram_addr<12>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(108)]: NET "sram_addr<12>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<13>" LOC = "P35" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(109)]: NET "sram_addr<13>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<13>" LOC = "P35" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(109)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(109)]: NET "sram_addr<13>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(109)]: NET "sram_addr<13>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<14>" LOC = "P34" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(110)]: NET "sram_addr<14>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<14>" LOC = "P34" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(110)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(110)]: NET "sram_addr<14>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(110)]: NET "sram_addr<14>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<15>" LOC = "P27" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(111)]: NET "sram_addr<15>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<15>" LOC = "P27" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(111)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(111)]: NET "sram_addr<15>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(111)]: NET "sram_addr<15>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<16>" LOC = "P29" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(112)]: NET "sram_addr<16>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<16>" LOC = "P29" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(112)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(112)]: NET "sram_addr<16>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(112)]: NET "sram_addr<16>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<17>" LOC = "P33" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(113)]: NET "sram_addr<17>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<17>" LOC = "P33" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(113)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(113)]: NET "sram_addr<17>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(113)]: NET "sram_addr<17>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_addr<18>" LOC = "P32" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(114)]: NET "sram_addr<18>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_addr<18>" LOC = "P32" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(114)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(114)]: NET "sram_addr<18>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(114)]: NET "sram_addr<18>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<0>" LOC = "P14" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(119)]: NET "sram_data<0>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<0>" LOC = "P14" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(119)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(119)]: NET "sram_data<0>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(119)]: NET "sram_data<0>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<1>" LOC = "P15" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(120)]: NET "sram_data<1>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<1>" LOC = "P15" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(120)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(120)]: NET "sram_data<1>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(120)]: NET "sram_data<1>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<2>" LOC = "P16" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(121)]: NET "sram_data<2>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<2>" LOC = "P16" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(121)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(121)]: NET "sram_data<2>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(121)]: NET "sram_data<2>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<3>" LOC = "P17" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(122)]: NET "sram_data<3>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<3>" LOC = "P17" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(122)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(122)]: NET "sram_data<3>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(122)]: NET "sram_data<3>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<4>" LOC = "P21" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(123)]: NET "sram_data<4>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<4>" LOC = "P21" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(123)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(123)]: NET "sram_data<4>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(123)]: NET "sram_data<4>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<5>" LOC = "P22" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(124)]: NET "sram_data<5>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<5>" LOC = "P22" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(124)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(124)]: NET "sram_data<5>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(124)]: NET "sram_data<5>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<6>" LOC = "P23" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(125)]: NET "sram_data<6>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<6>" LOC = "P23" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(125)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(125)]: NET "sram_data<6>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(125)]: NET "sram_data<6>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_data<7>" LOC = "P24" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(126)]: NET "sram_data<7>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_data<7>" LOC = "P24" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(126)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(126)]: NET "sram_data<7>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(126)]: NET "sram_data<7>"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_ce" LOC = "P12" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(129)]: NET "sram_ce" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_ce" LOC = "P12" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(129)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(129)]: NET "sram_ce" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(129)]: NET "sram_ce" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_we" LOC = "P6" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(130)]: NET "sram_we" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_we" LOC = "P6" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(130)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(130)]: NET "sram_we" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST ;>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(130)]: NET "sram_we" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET "sram_oe" LOC = "P26" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(131)]: NET "sram_oe" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "sram_oe" LOC = "P26" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(131)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(131)]: NET "sram_oe" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(131)]: NET "sram_oe" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SPI_CS      LOC="P38"   |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(133)]: NET "SPI_CS" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SPI_CS      LOC="P38"   |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(133)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(133)]: NET "SPI_CS" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(133)]: NET "SPI_CS" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(133)]: NET "SPI_CS" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SPI_SCK     LOC="P70"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(134)]: NET "SPI_SCK" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SPI_SCK     LOC="P70"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(134)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(134)]: NET "SPI_SCK" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(134)]: NET "SPI_SCK" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(134)]: NET "SPI_SCK" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SPI_MOSI    LOC="P64"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(135)]: NET "SPI_MOSI" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SPI_MOSI    LOC="P64"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(135)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(135)]: NET "SPI_MOSI" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(135)]: NET "SPI_MOSI" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(135)]: NET "SPI_MOSI" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET SPI_MISO    LOC="P65"  |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(136)]: NET "SPI_MISO" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET SPI_MISO    LOC="P65"  |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(136)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(136)]: NET "SPI_MISO" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(136)]: NET "SPI_MISO" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=FAST;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(136)]: NET "SPI_MISO" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET BD0_MPSSE_TCK LOC="P46" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(139)]: NET "BD0_MPSSE_TCK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET BD0_MPSSE_TCK LOC="P46" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(139)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(139)]: NET "BD0_MPSSE_TCK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(139)]: NET "BD0_MPSSE_TCK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(139)]: NET "BD0_MPSSE_TCK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET BD1_MPSSE_TDI LOC="P141" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(140)]: NET "BD1_MPSSE_TDI"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET BD1_MPSSE_TDI LOC="P141" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(140)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(140)]: NET "BD1_MPSSE_TDI"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(140)]: NET "BD1_MPSSE_TDI"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(140)]: NET "BD1_MPSSE_TDI"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET BD2_MPSSE_TDO LOC="P140" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(141)]: NET "BD2_MPSSE_TDO"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET BD2_MPSSE_TDO LOC="P140" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(141)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(141)]: NET "BD2_MPSSE_TDO"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(141)]: NET "BD2_MPSSE_TDO"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(141)]: NET "BD2_MPSSE_TDO"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET BD3_MPSSE_TMS LOC="P138" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(142)]: NET "BD3_MPSSE_TMS"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET BD3_MPSSE_TMS LOC="P138" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(142)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(142)]: NET "BD3_MPSSE_TMS"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(142)]: NET "BD3_MPSSE_TMS"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(142)]: NET "BD3_MPSSE_TMS"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET BD4_MPSSE_DTR LOC="P137" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(143)]: NET "BD4_MPSSE_DTR"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET BD4_MPSSE_DTR LOC="P137" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(143)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(143)]: NET "BD4_MPSSE_DTR"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(143)]: NET "BD4_MPSSE_DTR"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(143)]: NET "BD4_MPSSE_DTR"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_JTAG_TDI LOC="P88" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(146)]: NET "ARD_JTAG_TDI"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_JTAG_TDI LOC="P88" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(146)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(146)]: NET "ARD_JTAG_TDI"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(146)]: NET "ARD_JTAG_TDI"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(146)]: NET "ARD_JTAG_TDI"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_JTAG_TDO LOC="P85" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(147)]: NET "ARD_JTAG_TDO"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_JTAG_TDO LOC="P85" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(147)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(147)]: NET "ARD_JTAG_TDO"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(147)]: NET "ARD_JTAG_TDO"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(147)]: NET "ARD_JTAG_TDO"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_JTAG_TMS LOC="P83" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(148)]: NET "ARD_JTAG_TMS"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_JTAG_TMS LOC="P83" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(148)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(148)]: NET "ARD_JTAG_TMS"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(148)]: NET "ARD_JTAG_TMS"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(148)]: NET "ARD_JTAG_TMS"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_JTAG_TCK LOC="P81" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(149)]: NET "ARD_JTAG_TCK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_JTAG_TCK LOC="P81" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(149)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(149)]: NET "ARD_JTAG_TCK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(149)]: NET "ARD_JTAG_TCK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(149)]: NET "ARD_JTAG_TCK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_SPI_MISO LOC="P133" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(152)]: NET "ARD_SPI_MISO"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_SPI_MISO LOC="P133" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(152)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(152)]: NET "ARD_SPI_MISO"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(152)]: NET "ARD_SPI_MISO"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(152)]: NET "ARD_SPI_MISO"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_SPI_MOSI LOC="P132" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(153)]: NET "ARD_SPI_MOSI"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_SPI_MOSI LOC="P132" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(153)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(153)]: NET "ARD_SPI_MOSI"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(153)]: NET "ARD_SPI_MOSI"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(153)]: NET "ARD_SPI_MOSI"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_SPI_SCLK LOC="P134" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(154)]: NET "ARD_SPI_SCLK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_SPI_SCLK LOC="P134" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(154)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(154)]: NET "ARD_SPI_SCLK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(154)]: NET "ARD_SPI_SCLK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(154)]: NET "ARD_SPI_SCLK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_SPI_GND 	LOC="P78" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(157)]: NET "DRAGON_SPI_GND"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_SPI_GND 	LOC="P78" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(157)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(157)]: NET "DRAGON_SPI_GND"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(157)]: NET "DRAGON_SPI_GND"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(157)]: NET "DRAGON_SPI_GND"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_SPI_RESET LOC="P79" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(158)]: NET
+   "DRAGON_SPI_RESET" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_SPI_RESET LOC="P79" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(158)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(158)]: NET
+   "DRAGON_SPI_RESET" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(158)]: NET
+   "DRAGON_SPI_RESET" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(158)]: NET
+   "DRAGON_SPI_RESET" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_SPI_MOSI	LOC="P74" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(160)]: NET
+   "DRAGON_SPI_MOSI" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_SPI_MOSI	LOC="P74" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(160)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(160)]: NET
+   "DRAGON_SPI_MOSI" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(160)]: NET
+   "DRAGON_SPI_MOSI" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(160)]: NET
+   "DRAGON_SPI_MOSI" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_SPI_SCK	LOC="P75" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(161)]: NET "DRAGON_SPI_SCK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_SPI_SCK	LOC="P75" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(161)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(161)]: NET "DRAGON_SPI_SCK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(161)]: NET "DRAGON_SPI_SCK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(161)]: NET "DRAGON_SPI_SCK"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_SPI_VTG	LOC="P66" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(162)]: NET "DRAGON_SPI_VTG"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_SPI_VTG	LOC="P66" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(162)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(162)]: NET "DRAGON_SPI_VTG"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=24 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(162)]: NET "DRAGON_SPI_VTG"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(162)]: NET "DRAGON_SPI_VTG"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_SPI_MISO	LOC="P67" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(163)]: NET
+   "DRAGON_SPI_MISO" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_SPI_MISO	LOC="P67" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(163)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(163)]: NET
+   "DRAGON_SPI_MISO" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(163)]: NET
+   "DRAGON_SPI_MISO" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(163)]: NET
+   "DRAGON_SPI_MISO" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_TCK 		LOC="P47" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(166)]: NET
+   "DRAGON_JTAG_TCK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_TCK 		LOC="P47" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(166)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(166)]: NET
+   "DRAGON_JTAG_TCK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(166)]: NET
+   "DRAGON_JTAG_TCK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(166)]: NET
+   "DRAGON_JTAG_TCK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_GND 		LOC="P39" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(167)]: NET
+   "DRAGON_JTAG_GND" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_GND 		LOC="P39" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(167)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(167)]: NET
+   "DRAGON_JTAG_GND" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(167)]: NET
+   "DRAGON_JTAG_GND" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(167)]: NET
+   "DRAGON_JTAG_GND" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_TDO		LOC="P50" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(168)]: NET
+   "DRAGON_JTAG_TDO" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_TDO		LOC="P50" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(168)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(168)]: NET
+   "DRAGON_JTAG_TDO" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(168)]: NET
+   "DRAGON_JTAG_TDO" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(168)]: NET
+   "DRAGON_JTAG_TDO" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_VTG		LOC="P48" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(169)]: NET
+   "DRAGON_JTAG_VTG" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_VTG		LOC="P48" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(169)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(169)]: NET
+   "DRAGON_JTAG_VTG" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=24 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(169)]: NET
+   "DRAGON_JTAG_VTG" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(169)]: NET
+   "DRAGON_JTAG_VTG" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_TMS 		LOC="P55" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(170)]: NET
+   "DRAGON_JTAG_TMS" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_TMS 		LOC="P55" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(170)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(170)]: NET
+   "DRAGON_JTAG_TMS" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(170)]: NET
+   "DRAGON_JTAG_TMS" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(170)]: NET
+   "DRAGON_JTAG_TMS" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_RESET 	LOC="P51" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(171)]: NET
+   "DRAGON_JTAG_RESET" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_RESET 	LOC="P51" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(171)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(171)]: NET
+   "DRAGON_JTAG_RESET" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(171)]: NET
+   "DRAGON_JTAG_RESET" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(171)]: NET
+   "DRAGON_JTAG_RESET" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_TDI 		LOC="P59" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(173)]: NET
+   "DRAGON_JTAG_TDI" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_TDI 		LOC="P59" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(173)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(173)]: NET
+   "DRAGON_JTAG_TDI" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(173)]: NET
+   "DRAGON_JTAG_TDI" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(173)]: NET
+   "DRAGON_JTAG_TDI" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DRAGON_JTAG_GND2		LOC="P58" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(174)]: NET
+   "DRAGON_JTAG_GND2" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DRAGON_JTAG_GND2		LOC="P58" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(174)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(174)]: NET
+   "DRAGON_JTAG_GND2" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(174)]: NET
+   "DRAGON_JTAG_GND2" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(174)]: NET
+   "DRAGON_JTAG_GND2" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DUO_SW1		LOC="P104" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(177)]: NET "DUO_SW1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DUO_SW1		LOC="P104" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(177)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(177)]: NET "DUO_SW1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(177)]: NET "DUO_SW1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(177)]: NET "DUO_SW1" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET ARD_RESET 	LOC="P139" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(178)]: NET "ARD_RESET" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET ARD_RESET 	LOC="P139" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(178)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(178)]: NET "ARD_RESET" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(178)]: NET "ARD_RESET" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(178)]: NET "ARD_RESET" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <NET DUO_LED					LOC="P134" |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(179)]: NET "DUO_LED" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET DUO_LED					LOC="P134" |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(179)]' could not be found
+   and so the Locate constraint will be removed.
+
+INFO:ConstraintSystem:59 - Constraint <IOSTANDARD=LVTTL |>
+   [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(179)]: NET "DUO_LED" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <DRIVE=8 |> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(179)]: NET "DUO_LED" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem:59 - Constraint <SLEW=SLOW;> [/home/ise/vm_delt_mappe/Done
+   motorbeskyttelse/Motorbeskyttelse/papilio_duo.ucf(179)]: NET "DUO_LED" not
+   found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 101
+
+Total memory usage is 501636 kilobytes
+
+Writing NGD file "Motorbeskyttelse.ngd" ...
+Total REAL time to NGDBUILD completion:  11 sec
+Total CPU time to NGDBUILD completion:   10 sec
+
+Writing NGDBUILD log file "Motorbeskyttelse.bld"...

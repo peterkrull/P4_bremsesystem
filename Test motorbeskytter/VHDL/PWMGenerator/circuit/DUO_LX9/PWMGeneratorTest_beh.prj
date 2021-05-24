@@ -1,0 +1,2 @@
+vhdl work "../PWMGenerator.vhd"
+vhdl work "../PWMGeneratorTest.vhd"

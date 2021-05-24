@@ -1,0 +1,3 @@
+vhdl isim_temp "../../../PWMGenerator/circuit/PWMGenerator.vhd"
+vhdl isim_temp "../Motorbeskyttelse.vhd"
+vhdl isim_temp "../MotorbeskyttelseTest.vhd"

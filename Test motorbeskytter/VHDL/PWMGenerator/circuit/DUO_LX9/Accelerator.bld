@@ -1,0 +1,48 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -sd ../gatesoftware1/DesignLab-1.0.8/libraries/Benchy -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/BitCoin_Miner -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/Building_Blocks -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/Clocks -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/Gameduino -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/HQVGA -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/Papilio_Hardware -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/RGB_Matrix -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/Robot_Control_Library -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/VGA_ZPUino -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/VGA_ZXSpectrum -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/ZPUino_2 -sd
+../gatesoftware1/DesignLab-1.0.8/libraries/ZPUino_Wishbone_Peripherals -aul -nt
+timestamp -i -p xc6slx9-tqg144-2 Accelerator.ngc Accelerator.ngd
+
+Reading NGO file
+"/home/ise/SharedVMFolder/PWMGenerator/circuit/DUO_LX9/Accelerator.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 498624 kilobytes
+
+Writing NGD file "Accelerator.ngd" ...
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+Writing NGDBUILD log file "Accelerator.bld"...
