@@ -1,0 +1,115 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml absSpeed.twx absSpeed.ncd -o absSpeed.twr absSpeed.pcf
+
+Design file:              absSpeed.ncd
+Physical constraint file: absSpeed.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+backSpeed<0>   |frontSpeed<0>  |   33.410|
+backSpeed<0>   |frontSpeed<1>  |   33.486|
+backSpeed<0>   |frontSpeed<2>  |   33.784|
+backSpeed<0>   |frontSpeed<3>  |   33.339|
+backSpeed<0>   |frontSpeed<4>  |   33.362|
+backSpeed<0>   |frontSpeed<5>  |   33.400|
+backSpeed<0>   |frontSpeed<6>  |   33.369|
+backSpeed<0>   |frontSpeed<7>  |   33.134|
+backSpeed<1>   |frontSpeed<0>  |   33.366|
+backSpeed<1>   |frontSpeed<1>  |   33.442|
+backSpeed<1>   |frontSpeed<2>  |   33.740|
+backSpeed<1>   |frontSpeed<3>  |   33.295|
+backSpeed<1>   |frontSpeed<4>  |   33.318|
+backSpeed<1>   |frontSpeed<5>  |   33.356|
+backSpeed<1>   |frontSpeed<6>  |   33.325|
+backSpeed<1>   |frontSpeed<7>  |   33.090|
+backSpeed<2>   |frontSpeed<0>  |   33.295|
+backSpeed<2>   |frontSpeed<1>  |   33.371|
+backSpeed<2>   |frontSpeed<2>  |   33.669|
+backSpeed<2>   |frontSpeed<3>  |   33.224|
+backSpeed<2>   |frontSpeed<4>  |   33.247|
+backSpeed<2>   |frontSpeed<5>  |   33.285|
+backSpeed<2>   |frontSpeed<6>  |   33.254|
+backSpeed<2>   |frontSpeed<7>  |   33.019|
+backSpeed<3>   |frontSpeed<0>  |   31.132|
+backSpeed<3>   |frontSpeed<1>  |   31.208|
+backSpeed<3>   |frontSpeed<2>  |   31.506|
+backSpeed<3>   |frontSpeed<3>  |   31.061|
+backSpeed<3>   |frontSpeed<4>  |   31.084|
+backSpeed<3>   |frontSpeed<5>  |   31.122|
+backSpeed<3>   |frontSpeed<6>  |   31.091|
+backSpeed<3>   |frontSpeed<7>  |   30.856|
+backSpeed<4>   |frontSpeed<0>  |   32.806|
+backSpeed<4>   |frontSpeed<1>  |   32.882|
+backSpeed<4>   |frontSpeed<2>  |   33.180|
+backSpeed<4>   |frontSpeed<3>  |   32.735|
+backSpeed<4>   |frontSpeed<4>  |   32.758|
+backSpeed<4>   |frontSpeed<5>  |   32.796|
+backSpeed<4>   |frontSpeed<6>  |   32.765|
+backSpeed<4>   |frontSpeed<7>  |   32.530|
+backSpeed<5>   |frontSpeed<0>  |   32.776|
+backSpeed<5>   |frontSpeed<1>  |   32.852|
+backSpeed<5>   |frontSpeed<2>  |   33.150|
+backSpeed<5>   |frontSpeed<3>  |   32.705|
+backSpeed<5>   |frontSpeed<4>  |   32.728|
+backSpeed<5>   |frontSpeed<5>  |   32.766|
+backSpeed<5>   |frontSpeed<6>  |   32.735|
+backSpeed<5>   |frontSpeed<7>  |   32.500|
+backSpeed<6>   |frontSpeed<0>  |   32.541|
+backSpeed<6>   |frontSpeed<1>  |   32.617|
+backSpeed<6>   |frontSpeed<2>  |   32.915|
+backSpeed<6>   |frontSpeed<3>  |   32.470|
+backSpeed<6>   |frontSpeed<4>  |   32.493|
+backSpeed<6>   |frontSpeed<5>  |   32.531|
+backSpeed<6>   |frontSpeed<6>  |   32.500|
+backSpeed<6>   |frontSpeed<7>  |   32.265|
+backSpeed<7>   |frontSpeed<0>  |   31.475|
+backSpeed<7>   |frontSpeed<1>  |   31.551|
+backSpeed<7>   |frontSpeed<2>  |   31.849|
+backSpeed<7>   |frontSpeed<3>  |   31.404|
+backSpeed<7>   |frontSpeed<4>  |   31.427|
+backSpeed<7>   |frontSpeed<5>  |   31.465|
+backSpeed<7>   |frontSpeed<6>  |   31.434|
+backSpeed<7>   |frontSpeed<7>  |   31.199|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Apr 20 13:36:33 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 383 MB
+
+
+
